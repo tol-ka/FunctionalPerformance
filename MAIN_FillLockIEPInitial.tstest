@@ -834,51 +834,6 @@
             "QcVersionStamp": 0,
             "Version": 200
           }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "540d2aea-651d-4d21-b8bf-82f189daf9cf",
-            "Description": "Navigate to : 'http://miami.acceliqc.com/IEP/Students/ViewStudent?CommonStudentId=4787406&studentViewType=Events&programType=Miami504'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
-              "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "http://miami.acceliqc.com/IEP/Students/ViewStudent?CommonStudentId=4787406&studentViewType=Events&programType=Miami504",
-                "BaseUrl": "",
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 14,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "MAIN_FillLockIEPInitialzhnownob.iqb",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
         }
       ]
     },
