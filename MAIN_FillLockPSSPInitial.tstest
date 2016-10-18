@@ -346,7 +346,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f87835ec-0858-410c-babc-b0bb618bb0cd",
-            "Description": "Execute test 'CreateInitialMeeting'",
+            "Description": "Execute test 'CreateInitialMeetingPSSP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -354,8 +354,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "CreateInitialMeeting",
-                "TestPath": "Methods\\CreateInitialMeeting.tstest",
+                "TestName": "CreateInitialMeetingPSSP",
+                "TestPath": "Methods\\CreateInitialMeetingPSSP.tstest",
                 "TestUniqueId": "4487d383-29f6-46b2-8373-3b7bcd9e1953",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
