@@ -206,8 +206,8 @@
       "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
       "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
-    "ScheduleServerUrl": "http://test22:8009/",
-    "IsScheduleServerRemote": true,
+    "ScheduleServerUrl": "http://localhost:8009/",
+    "IsScheduleServerRemote": false,
     "ProjectVersion": "2016.3.919.0",
     "Namespace": "PerformanceTesting",
     "AssemblyName": "PerformanceTesting",
