@@ -191,7 +191,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.OpenSaveCount",
+    "TestClass": "PerformanceTesting.OpenSaveCountPSSP",
     "IsManual": false,
     "ResourceFilePath": "OpenSaveCountPSSP.resx",
     "HasCodeBehind": true,
