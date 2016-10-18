@@ -97,7 +97,7 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
           [CodedStep(@"SetPlantoIEP")]
         public void SetPlantoieP()
         {
-         Utility.plan = "iep";
+         Utility.plan = @"'iep'";
         }
     }
 }
