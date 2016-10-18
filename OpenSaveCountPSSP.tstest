@@ -202,7 +202,7 @@
         "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "'30232_qc_1007$'",
+        "DataTableName": "PSSP$",
         "DataProvider": "PerformanceTestData1007.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,

@@ -19,7 +19,7 @@
           "__value": {
             "Runtime ID": "bb6555f4-ff1d-46d1-90bb-2fdcd2f70c5a",
             "Description": "Execute test 'OpenFormAndCount'",
-            "CustomDescription": null,
+            "CustomDescription": "Execute test 'OpenFormAndCount'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -200,9 +200,9 @@
       "__value": {
         "ConnectionString": "",
         "DefaultToGrid": false,
-        "DataRange": "",
+        "DataRange": "28:28",
         "LoadRecordsCount": null,
-        "DataTableName": "'30232_qc_1007$'",
+        "DataTableName": "IEP$",
         "DataProvider": "PerformanceTestData1007.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,

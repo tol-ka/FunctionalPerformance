@@ -270,7 +270,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "             var todayDate = DateTime.Now.ToString(\"MMDD\"); \r\nstring dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\PerformanceTestData1007.xls\";\r\n            var buildnum = Utility.currentBuild;\r\nvar filename = todayDate+\"_PerformanceTestData1007.xls\";\r\nString myPath = \"C:\\\\MatrixTestReport\\\\\"+filename;\r\n            Utility.filepath = myPath;\r\nvar column = Utility.column;\r\nvar row = Utility.row;            \r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\n            \r\n        todayDate = DateTime.Now.ToString(\"MMdd\");\r\n var sheetName = buildnum+\"_\"+Utility.currentDomain+\"_\"+todayDate;           \r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\nworkbook.Sheets.Copy(Before: workbook.Sheets[1]); \r\nMicrosoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];\r\nxlWorksheet.Name = sheetName;\r\n            \r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);",
+                "Code": "             var todayDate = DateTime.Now.ToString(\"MMDD\"); \r\nstring dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\PerformanceTestData1007.xls\";\r\n            var buildnum = Utility.currentBuild;\r\nvar filename = todayDate+\"_PerformanceTestData1007.xls\";\r\nString myPath = \"C:\\\\MatrixTestReport\\\\\"+filename;\r\n            Utility.filepath = myPath;\r\nvar column = Utility.column;\r\nvar row = Utility.row;            \r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\n            \r\n        todayDate = DateTime.Now.ToString(\"MMdd\");\r\n\r\n    var sheetName = +Utility.plan+\"_\"+buildnum+\"_\"+Utility.currentDomain+\"_\"+todayDate;           \r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\nworkbook.Sheets[Utility.plan].Copy(Before: workbook.Sheets[1]); \r\nMicrosoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];\r\nxlWorksheet.Name = sheetName;\r\n            \r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -495,6 +495,267 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "b18b4307-aa31-4353-9d1d-65fc4754a480",
+            "Description": "Click 'PSSPNoticeLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyEDGARABADA"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "WfpJE852ubK7ybO6QYo1DP0xn3w=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PSSPNoticeLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/PLAN/Events/ViewEvent?eventId=70ebbb53-8398-413f-9954-a6a3005fa57b"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockPSSPInitial2xnq5hsd.i5p",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ee83c5a2-e1a4-4a31-9673-3c7d7ea2a93f",
+            "Description": "Click 'NoticeOfSpan'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "uLROUmvjcouSUXQ5gkAmYLibw6I=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "NoticeOfSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Notice Of Meeti"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/span[1]/a[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockPSSPInitialqm4a2pvc.ka3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "387742c3-5afb-4f75-9739-abfa35a29626",
+            "Description": "Comment: ToDo - fill NoM distribute and lock",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
+              "__value": {
+                "Comment": "ToDo - fill NoM distribute and lock",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockPSSPInitial5awihqfg.mjj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "2148785c-5520-479e-a207-8dac9cf68c18",
             "Description": "Execute test 'FillNoticeOfMeeting'",
             "CustomDescription": null,
@@ -523,7 +784,7 @@
               }
             },
             "Enabled": false,
-            "Order": 9,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -564,7 +825,7 @@
               }
             },
             "Enabled": false,
-            "Order": 10,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -675,7 +936,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -784,7 +1045,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -797,8 +1058,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "aaea6528-60d7-49e1-8dc9-3a132f3847d5",
-            "Description": "Execute test 'OpenSaveCount'",
+            "Runtime ID": "42dd4482-0fc8-4b07-82a6-0d9583e60801",
+            "Description": "Execute test 'OpenSaveCountPSSP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -806,9 +1067,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenSaveCount",
-                "TestPath": "OpenSaveCount.tstest",
-                "TestUniqueId": "1850864b-f892-4bbb-b861-73202ce88ed8",
+                "TestName": "OpenSaveCountPSSP",
+                "TestPath": "OpenSaveCountPSSP.tstest",
+                "TestUniqueId": "62c98e25-351e-43aa-a705-96da8621e5be",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -825,11 +1086,11 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialwjifki01.gvv",
+            "StepImageKey": "MAIN_FillLockPSSPInitialjdig2vz5.sco",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

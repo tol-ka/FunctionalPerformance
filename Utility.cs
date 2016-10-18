@@ -26,6 +26,8 @@ namespace PerformanceTesting
         //may be normal, nosaveNoOther, nosaveButOther
         public static String saveflag = "normal";
         public static String comment = "save";
+        //may be pssp, iep, ifsp
+        public static String plan = "not defined";
         public static String checkbox = "non defined";
         public static String currentDomain = "non defined";
         public static String checkbox2 = "non defined";

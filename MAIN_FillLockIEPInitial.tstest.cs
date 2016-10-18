@@ -93,5 +93,11 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
             String build = new String(_build.Where(Char.IsDigit).ToArray());
                                     Utility.currentBuild = build;
         }
+        
+          [CodedStep(@"SetPlantoIEP")]
+        public void SetPlantoieP()
+        {
+         Utility.plan = "iep";
+        }
     }
 }
