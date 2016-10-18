@@ -69,8 +69,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6eb74d68-d7cb-41e1-a538-d6f080153235",
-            "Description": "Execute test 'GoTo10YStIEP'",
+            "Runtime ID": "8f86fa14-6fb7-44d2-b0f6-6d2b4084e89f",
+            "Description": "Execute test 'GoTo10YStPSSP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -78,9 +78,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "GoTo10YStIEP",
-                "TestPath": "Methods\\GoTo10YStIEP.tstest",
-                "TestUniqueId": "49d922d2-ae02-421c-b832-6bb651c7b75f",
+                "TestName": "GoTo10YStPSSP",
+                "TestPath": "Methods\\GoTo10YStPSSP.tstest",
+                "TestUniqueId": "52d71098-82fb-48b3-aa13-b338cfec9006",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -101,7 +101,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialhfvfzhe4.2t2",
+            "StepImageKey": "MAIN_FillLockPSSPInitialhejmg2ct.02k",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -376,7 +376,7 @@
             "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitial3j2s1f1x.io4",
             "QcId": 0,
             "QcVersionStamp": 0,
