@@ -5703,7 +5703,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillNoticeOfMeeting",
+    "TestClass": "PerformanceTesting.FillNoticeOfMeeting2",
     "IsManual": false,
     "ResourceFilePath": "temp\\FillNoticeOfMeeting.resx",
     "HasCodeBehind": true,

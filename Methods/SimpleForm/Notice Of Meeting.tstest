@@ -5705,8 +5705,8 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.FillNoticeOfMeeting",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\FillNoticeOfMeeting.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\SimpleForm\\Notice Of Meeting.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -5735,9 +5735,9 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "FillNoticeOfMeeting",
+    "Name": "Notice Of Meeting",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\FillNoticeOfMeeting.tstest",
+    "Path": "Methods\\SimpleForm\\Notice Of Meeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "8b4013dc-643f-4b41-98f5-3a6c4a7969ca",

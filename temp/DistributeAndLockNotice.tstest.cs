@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class DistributeAndLockNotice : BaseWebAiiTest
+    public class DistributeAndLockNotice2 : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
