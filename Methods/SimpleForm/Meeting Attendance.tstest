@@ -1535,6 +1535,47 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "bb3fef78-72c4-4f81-97f4-b4b0b0dccc58",
+            "Description": "Execute test 'SaveFormAndCount'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "SaveFormAndCount",
+                "TestPath": "verify\\SaveFormAndCount.tstest",
+                "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Meeting Attendanceopt00lkm.j3w",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "616f6549-3258-4143-8a09-3c5fc2a00947",
             "Description": "Click 'BtnUpdateFormLink'",
             "CustomDescription": null,
@@ -1631,7 +1672,7 @@
               }
             },
             "Enabled": false,
-            "Order": 15,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1740,7 +1781,7 @@
               }
             },
             "Enabled": false,
-            "Order": 16,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1855,7 +1896,7 @@
               }
             },
             "Enabled": false,
-            "Order": 17,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1967,7 +2008,7 @@
               }
             },
             "Enabled": false,
-            "Order": 18,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
