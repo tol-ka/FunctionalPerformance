@@ -186,14 +186,14 @@
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                             "__value": {
                               "Path": "/Plan/Students/ViewStudent",
-                              "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                              "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
                               "BaseUrl": "https://dade-pilot.acceliplan.com",
                               "EquivalentUrls": [],
                               "Fragment": "",
-                              "Title": "Accelify - DEMI AARON",
+                              "Title": "Accelify - EDGAR ABADA",
                               "CompareMode": 4,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AccelifyDEMIAARON0"
+                              "FriendlyName": "AccelifyEDGARABADA"
                             }
                           },
                           "Frame": null,
@@ -350,14 +350,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
                           "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - DEMI AARON",
+                          "Title": "Accelify - EDGAR ABADA",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyDEMIAARON0"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
@@ -2324,7 +2324,7 @@
               "uniqueKey": "3ZnQrD6ook6wEN0NB/oid1oVec4=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "BtnAddLink",
+              "Name": "BtnAddLink1",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -2383,7 +2383,7 @@
               "uniqueKey": "gDd1bLFmx4R0Trco2o6V9HVW7iA=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "BtnAddLink0",
+              "Name": "BtnAddLink00",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -2442,7 +2442,7 @@
               "uniqueKey": "fnSdCv5cmm7H6qn60jgjwP7r3LI=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "BtnAddLink1",
+              "Name": "BtnAddLink10",
               "FindExpressions": [
                 {
                   "Key": 1,
