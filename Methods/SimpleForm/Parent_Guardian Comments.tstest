@@ -627,7 +627,7 @@
             "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Fill PSSP Parent_Guardian Commentsl4imbipc.n4n",
             "QcId": 0,
             "QcVersionStamp": 0,
