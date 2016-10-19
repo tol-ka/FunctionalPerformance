@@ -76,6 +76,12 @@ namespace PerformanceTesting
                     studentID = "720838";
                    
                 }
+                else if (bbaseUrl.Contains("dadematrix.acceliplan.com"))
+                {
+                    Utility.currentDomain = "dade_matrix";
+                    studentID = "38090";
+                   
+                }
                 
                 String address = "/Plan/Students/ViewStudent?CommonStudentId="+studentID+"&studentViewType=Events&programType=MiamiPSSP";
                  ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
