@@ -264,17 +264,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5934f1d5-8319-41e7-a76c-387afc72e84f",
-            "Description": "CreateNewSheet",
+            "Runtime ID": "01b29886-4583-4a1f-8add-aff901cef072",
+            "Description": "Execute test 'CreateNewSheet'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "Code": "             var todayDate = DateTime.Now.ToString(\"MMDD\"); \r\nstring dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\PerformanceTestData1007.xls\";\r\n            var buildnum = Utility.currentBuild;\r\nvar filename = todayDate+\"_PerformanceTestData1007.xls\";\r\nString myPath = \"C:\\\\MatrixTestReport\\\\\"+filename;\r\n            Utility.filepath = myPath;\r\nvar column = Utility.column;\r\nvar row = Utility.row;            \r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\n            \r\n        todayDate = DateTime.Now.ToString(\"MMdd\");\r\n\r\n    var sheetName = Utility.plan+\"_\"+buildnum+\"_\"+Utility.currentDomain+\"_\"+todayDate;           \r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\nvar plan = Utility.plan;\r\nif(plan==\"iep\")\r\n{\r\nworkbook.Sheets(\"IEP\").Copy(Before: workbook.Sheets[1]);\r\n}\r\n\r\nif(plan==\"pssp\")\r\n{\r\nworkbook.Sheets(\"PSSP\").Copy(Before: workbook.Sheets[1]);\r\n}\r\n\r\n\r\nMicrosoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];\r\nxlWorksheet.Name = sheetName;\r\n            \r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "CreateNewSheet",
+                "TestPath": "verify\\CreateNewSheet.tstest",
+                "TestUniqueId": "0a0426bc-5de9-436a-958c-886d38f04e13",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -292,10 +293,10 @@
             },
             "Enabled": true,
             "Order": 5,
-            "Id": "CreateNewSheet",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialusl3p2cr.uvo",
+            "StepImageKey": "MAIN_FillLockPSSPInitial3oxmkvh0.du5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

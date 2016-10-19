@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class MAIN_FillLockPSSPInitial : BaseWebAiiTest
+    public class CreateNewSheet : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,8 +46,9 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"CreateNewSheet")]
-        public void CreateNewSheet()
+    
+              [CodedStep(@"Create New Sheet")]
+        public void Create_New_Sheet()
         {
              var todayDate = DateTime.Now.ToString("MMDD"); 
 string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestData1007.xls";
@@ -97,16 +98,6 @@ excelApp.Quit();
 GC.Collect();
 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
         }
-    
-        [CodedStep(@"SaveCurrentBuild")]
-        public void SaveCurrentBuild1()
-        {
-                                    object myData = GetExtractedValue("currentBuild");
-            var _build = myData.ToString();
-            //removing all but numbers in build
-           // String build = Regex.Replace(_build, @"\D+", String.Empty);
-            String build = new String(_build.Where(Char.IsDigit).ToArray());
-                                    Utility.currentBuild = build;
         }
-    }
+
 }
