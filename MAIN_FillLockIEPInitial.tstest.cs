@@ -45,7 +45,11 @@ namespace PerformanceTesting
         #endregion
         
         // Add your test methods here...
-    
+      [CodedStep(@"SetPlantoIEP")]
+        public void SetPlantoieP()
+        {
+         Utility.plan = @"IEP";
+        }
         [CodedStep(@"CreateNewSheet")]
         public void CreateNewSheet()
         {
@@ -94,10 +98,6 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
                                     Utility.currentBuild = build;
         }
         
-          [CodedStep(@"SetPlantoIEP")]
-        public void SetPlantoieP()
-        {
-         Utility.plan = @"'iep'";
-        }
+        
     }
 }

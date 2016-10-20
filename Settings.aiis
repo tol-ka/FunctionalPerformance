@@ -156,7 +156,7 @@
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 0,
-    "QuickExecutionElementWaitTimeout": 25000,
+    "QuickExecutionElementWaitTimeout": 35000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
     "QcUserName": "",

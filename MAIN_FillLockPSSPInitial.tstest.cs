@@ -45,7 +45,11 @@ namespace PerformanceTesting
         #endregion
         
         // Add your test methods here...
-    
+      [CodedStep(@"SetPlantoPSSP")]
+        public void SetPlantoPSSP()
+        {
+         Utility.plan = @"PSSP";
+        }
         [CodedStep(@"CreateNewSheet")]
         public void CreateNewSheet()
         {

@@ -110,6 +110,46 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "c5b6bbe7-958a-4fd6-b73d-85735b832fa7",
+            "Description": "SetPlantoIEP",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "         Utility.plan = @\"IEP\";",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "SetPlantoieP",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockIEPInitialfmimknyo.cyy",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "8c4ec6d8-3996-4c2d-8971-d058b44912ec",
             "Description": "Extract 'TextContent' on 'Version' into DataBindVariable $(currentBuild)",
             "CustomDescription": null,
@@ -211,7 +251,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -251,7 +291,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "SaveCurrentBuild1",
             "StepState": 1,
             "ContinueOnFailure": true,
@@ -292,51 +332,11 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialnfxrmdyv.wz0",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "c5b6bbe7-958a-4fd6-b73d-85735b832fa7",
-            "Description": "SetPlantoIEP",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "         Utility.plan = @\"'iep'\";",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 6,
-            "Id": "SetPlantoieP",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialfmimknyo.cyy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
