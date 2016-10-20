@@ -593,7 +593,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 9,
             "Id": "",
             "StepState": 0,
@@ -704,7 +704,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 10,
             "Id": "",
             "StepState": 0,
@@ -784,7 +784,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 12,
             "Id": "",
             "StepState": 0,
@@ -825,7 +825,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 13,
             "Id": "",
             "StepState": 0,
@@ -839,8 +839,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "29f2abbe-e864-4412-80ad-378fc344ac41",
-            "Description": "Click 'IEPInitialLink3'",
+            "Runtime ID": "54cdb842-76c6-4e31-b96d-9797da11a3e7",
+            "Description": "Click 'PSSPInitialLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -888,10 +888,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "p+jekn4OWpH3zAjHpU3Xmdb470M=",
+                          "uniqueKey": "CrMG+Fg5f84ZTkAuYeOpmWJU678=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IEPInitialLink3",
+                          "Name": "PSSPInitialLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -902,23 +902,31 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
+                                        "Clause": "id=pnlEventList"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
                                         "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=IEP Initial Meeting"
+                                        "Clause": "TextContent=PSSP Initial Meeting"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -941,7 +949,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialdt5ijh2r.l0e",
+            "StepImageKey": "MAIN_FillLockPSSPInitial5ofuci45.dfo",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

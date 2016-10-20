@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class FillNoticeOfMeeting2 : BaseWebAiiTest
+    public class FillNoticeOfMeeting23 : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 

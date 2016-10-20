@@ -4680,7 +4680,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "eba5c543-6d91-474a-a3a3-1853aa3856d2",
-            "Description": "Execute test 'SaveFormAndCount.tstest'",
+            "Description": "Execute test 'SaveFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -4688,7 +4688,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "SaveFormAndCount.tstest",
+                "TestName": "SaveFormAndCount",
                 "TestPath": "verify\\SaveFormAndCount.tstest",
                 "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
                 "Pause": 0,
@@ -5703,7 +5703,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillNoticeOfMeeting2",
+    "TestClass": "PerformanceTesting.FillNoticeOfMeeting23",
     "IsManual": false,
     "ResourceFilePath": "temp\\FillNoticeOfMeeting.resx",
     "HasCodeBehind": true,

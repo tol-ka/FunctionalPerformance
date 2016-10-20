@@ -125,7 +125,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 3,
             "Id": "OpenSaveCount_ChooseAction",
             "StepState": 1,
@@ -166,7 +166,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 4,
             "Id": "",
             "StepState": 0,
