@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\ESE Center.resx",
+    "ResourceFilePath": "Methods\\Non-Discouragement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "ESE Center",
+    "Name": "Non-Discouragement",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\ESE Center.tstest",
+    "Path": "Methods\\Non-Discouragement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "864eea0d-f1f6-43f5-b6a0-50283e481de4",
-    "Id": "864eea0d-f1f6-43f5-b6a0-50283e481de4",
+    "UniqueId": "9dbf3387-08c6-4bde-af6c-9833695f0a87",
+    "Id": "9dbf3387-08c6-4bde-af6c-9833695f0a87",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

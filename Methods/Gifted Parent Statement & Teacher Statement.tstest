@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\ESY.resx",
+    "ResourceFilePath": "Methods\\Gifted Parent Statement & Teacher Statement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "ESY",
+    "Name": "Gifted Parent Statement & Teacher Statement",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\ESY.tstest",
+    "Path": "Methods\\Gifted Parent Statement & Teacher Statement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "68d3f69b-847d-4152-a573-4bd8120bae44",
-    "Id": "68d3f69b-847d-4152-a573-4bd8120bae44",
+    "UniqueId": "91ecc713-b9fc-47ac-b19e-06df0f834998",
+    "Id": "91ecc713-b9fc-47ac-b19e-06df0f834998",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

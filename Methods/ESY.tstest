@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Consent for Initial Placement.resx",
+    "ResourceFilePath": "Methods\\ESY.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Consent for Initial Placement",
+    "Name": "ESY",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Consent for Initial Placement.tstest",
+    "Path": "Methods\\ESY.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "8010f2df-0676-46ce-917c-ff93b7fa4d8c",
-    "Id": "8010f2df-0676-46ce-917c-ff93b7fa4d8c",
+    "UniqueId": "68d3f69b-847d-4152-a573-4bd8120bae44",
+    "Id": "68d3f69b-847d-4152-a573-4bd8120bae44",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

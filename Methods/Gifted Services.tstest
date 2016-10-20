@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\IEP Meeting Attendance.resx",
+    "ResourceFilePath": "Methods\\Gifted Services.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "IEP Meeting Attendance",
+    "Name": "Gifted Services",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\IEP Meeting Attendance.tstest",
+    "Path": "Methods\\Gifted Services.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "fdba9d9e-f188-4e09-9f86-9e779925a495",
-    "Id": "fdba9d9e-f188-4e09-9f86-9e779925a495",
+    "UniqueId": "6ebafb07-a792-4a8c-8f33-3357479fa81f",
+    "Id": "6ebafb07-a792-4a8c-8f33-3357479fa81f",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

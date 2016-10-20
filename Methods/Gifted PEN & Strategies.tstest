@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\LRE Considerations.resx",
+    "ResourceFilePath": "Methods\\Gifted PEN & Strategies.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "LRE Considerations",
+    "Name": "Gifted PEN & Strategies",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\LRE Considerations.tstest",
+    "Path": "Methods\\Gifted PEN & Strategies.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "6b36ea3a-4249-4391-bd90-5f4a93c0dd35",
-    "Id": "6b36ea3a-4249-4391-bd90-5f4a93c0dd35",
+    "UniqueId": "9445483d-224f-42d8-aaed-1c97a6567fc7",
+    "Id": "9445483d-224f-42d8-aaed-1c97a6567fc7",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

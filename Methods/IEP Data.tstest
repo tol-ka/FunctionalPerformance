@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Curriculum Decisions.resx",
+    "ResourceFilePath": "Methods\\IEP Data.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Curriculum Decisions",
+    "Name": "IEP Data",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Curriculum Decisions.tstest",
+    "Path": "Methods\\IEP Data.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "e2bf12bb-e095-4139-aa81-d083783ecdf6",
-    "Id": "e2bf12bb-e095-4139-aa81-d083783ecdf6",
+    "UniqueId": "b1eeb5a0-267a-40e3-b70b-e67d6da7a922",
+    "Id": "b1eeb5a0-267a-40e3-b70b-e67d6da7a922",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Non-Discouragement.resx",
+    "ResourceFilePath": "Methods\\Curriculum Decisions.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Non-Discouragement",
+    "Name": "Curriculum Decisions",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Non-Discouragement.tstest",
+    "Path": "Methods\\Curriculum Decisions.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "9dbf3387-08c6-4bde-af6c-9833695f0a87",
-    "Id": "9dbf3387-08c6-4bde-af6c-9833695f0a87",
+    "UniqueId": "e2bf12bb-e095-4139-aa81-d083783ecdf6",
+    "Id": "e2bf12bb-e095-4139-aa81-d083783ecdf6",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

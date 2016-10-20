@@ -978,7 +978,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.FillAssurance",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Assurances.resx",
+    "ResourceFilePath": "Methods\\Assurances.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1010,7 +1010,7 @@
     "Description": "",
     "Name": "Assurances",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Assurances.tstest",
+    "Path": "Methods\\Assurances.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "0bc37587-6e3a-498f-a796-d9408b99b738",

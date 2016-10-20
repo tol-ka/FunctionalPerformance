@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\IEP Data.resx",
+    "ResourceFilePath": "Methods\\ESE Center.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "IEP Data",
+    "Name": "ESE Center",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\IEP Data.tstest",
+    "Path": "Methods\\ESE Center.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "b1eeb5a0-267a-40e3-b70b-e67d6da7a922",
-    "Id": "b1eeb5a0-267a-40e3-b70b-e67d6da7a922",
+    "UniqueId": "864eea0d-f1f6-43f5-b6a0-50283e481de4",
+    "Id": "864eea0d-f1f6-43f5-b6a0-50283e481de4",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

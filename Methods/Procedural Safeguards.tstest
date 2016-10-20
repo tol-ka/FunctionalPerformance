@@ -81,7 +81,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.Procedural_Safeguards",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Procedural Safeguards.resx",
+    "ResourceFilePath": "Methods\\Procedural Safeguards.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -113,7 +113,7 @@
     "Description": "",
     "Name": "Procedural Safeguards",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Procedural Safeguards.tstest",
+    "Path": "Methods\\Procedural Safeguards.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a856c902-59e1-4081-98e3-cc1a8ac7d6c9",

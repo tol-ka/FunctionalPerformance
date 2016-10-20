@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Gifted Parent Statement & Teacher Statement.resx",
+    "ResourceFilePath": "Methods\\LRE Considerations.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Gifted Parent Statement & Teacher Statement",
+    "Name": "LRE Considerations",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Gifted Parent Statement & Teacher Statement.tstest",
+    "Path": "Methods\\LRE Considerations.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "91ecc713-b9fc-47ac-b19e-06df0f834998",
-    "Id": "91ecc713-b9fc-47ac-b19e-06df0f834998",
+    "UniqueId": "6b36ea3a-4249-4391-bd90-5f4a93c0dd35",
+    "Id": "6b36ea3a-4249-4391-bd90-5f4a93c0dd35",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

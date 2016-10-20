@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Parental Consent for Access Point Curriculum.resx",
+    "ResourceFilePath": "Methods\\IEP Meeting Attendance.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Parental Consent for Access Point Curriculum",
+    "Name": "IEP Meeting Attendance",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Parental Consent for Access Point Curriculum.tstest",
+    "Path": "Methods\\IEP Meeting Attendance.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "291e84c9-0e24-4f81-8bd0-15c131289b4f",
-    "Id": "291e84c9-0e24-4f81-8bd0-15c131289b4f",
+    "UniqueId": "fdba9d9e-f188-4e09-9f86-9e779925a495",
+    "Id": "fdba9d9e-f188-4e09-9f86-9e779925a495",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

@@ -143,7 +143,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.FillTransportation1",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Transportation.resx",
+    "ResourceFilePath": "Methods\\Transportation.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -175,7 +175,7 @@
     "Description": "",
     "Name": "Transportation",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Transportation.tstest",
+    "Path": "Methods\\Transportation.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "f2a7603c-23a7-44a0-9088-f82837defd84",

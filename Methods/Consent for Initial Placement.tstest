@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Gifted PEN & Strategies.resx",
+    "ResourceFilePath": "Methods\\Consent for Initial Placement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -59,13 +59,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Gifted PEN & Strategies",
+    "Name": "Consent for Initial Placement",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Gifted PEN & Strategies.tstest",
+    "Path": "Methods\\Consent for Initial Placement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "9445483d-224f-42d8-aaed-1c97a6567fc7",
-    "Id": "9445483d-224f-42d8-aaed-1c97a6567fc7",
+    "UniqueId": "8010f2df-0676-46ce-917c-ff93b7fa4d8c",
+    "Id": "8010f2df-0676-46ce-917c-ff93b7fa4d8c",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

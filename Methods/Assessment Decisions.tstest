@@ -17,8 +17,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c093616d-3c2b-4fec-9390-ae3f74fa63c4",
-            "Description": "Click 'YesSpan'",
+            "Runtime ID": "3e56d91c-d6d0-4aa4-8ab1-1c494b15a38e",
+            "Description": "Click 'FSAAndOtherLabelTag'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -64,12 +64,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "OQqeedpelvZ0UviTZqTw/W1gGKc=",
+                          "uniqueKey": "ag3QXqbJFAyMVYl7rvnlmYpgbQs=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "YesSpan11",
+                          "Name": "FSAAndOtherLabelTag",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -80,29 +80,27 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmFormDetails"
+                                        "Clause": "tagname=label"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:2"
+                                        "Clause": "TextContent=FSA and Other District Assessments"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/span[1]/span[1]/label[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/span[1]/span[1]/label[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -121,7 +119,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialb54dvgq2.34z",
+            "StepImageKey": "Assessment Decisionsu2m4ukig.cyc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -130,8 +128,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "013fc65f-a6d2-427c-b8cf-fbd58184ea24",
-            "Description": "Click 'YesSpan'",
+            "Runtime ID": "5c0c5969-4246-40b5-becc-34ed9abe3bda",
+            "Description": "Click 'InformedLabelTag'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -177,12 +175,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "lLMjwHBET3Vn+YjRdw76V3PzweQ=",
+                          "uniqueKey": "sKBrQYIKZ72yEmCkQHZ91X/dI6U=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "YesSpan12",
+                          "Name": "InformedLabelTag",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -199,7 +197,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:8"
+                                        "Clause": "TextContent=Informed"
                                       }
                                     }
                                   ],
@@ -211,11 +209,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[2]/div[4]/div[2]/span[1]/span[1]/label[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[3]/div[1]/div[4]/div[1]/div[1]/span[1]/span[1]/label[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -234,7 +232,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialk4bmmfz0.hbv",
+            "StepImageKey": "Assessment Decisionsubtrfdrp.rr5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -254,10 +252,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillParentGuardian",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\SimpleForm\\Parent Guardian  Agreement & Comments.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\Assessment Decisions.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -286,13 +284,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Parent Guardian  Agreement & Comments",
+    "Name": "Assessment Decisions",
     "Owner": "",
-    "Path": "Methods\\SimpleForm\\Parent Guardian  Agreement & Comments.tstest",
+    "Path": "Methods\\Assessment Decisions.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "45116d24-a347-4e89-9184-931f05c6f015",
-    "Id": "45116d24-a347-4e89-9184-931f05c6f015",
+    "UniqueId": "614078bd-07b4-433e-b951-28a0862ace3b",
+    "Id": "614078bd-07b4-433e-b951-28a0862ace3b",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }
