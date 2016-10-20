@@ -141,7 +141,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillTransportation1",
+    "TestClass": "PerformanceFunctionalTesting.FillTransportation1",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Transportation.resx",
     "HasCodeBehind": true,
