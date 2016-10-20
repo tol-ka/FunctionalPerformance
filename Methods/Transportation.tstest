@@ -144,7 +144,7 @@
     "TestClass": "PerformanceFunctionalTesting.FillTransportation1",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Transportation.resx",
-    "HasCodeBehind": true,
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {

@@ -69,7 +69,7 @@ System.Threading.Thread.Sleep(1000);
 ActiveBrowser.RefreshDomTree();
  
     xlWorksheet.Cells[row , column] = Utility.opentime;
-            if (Utility.opentime > 10000) {
+            if (Utility.opentime > 17000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
         
             if (Utility.saveflag == "normal")

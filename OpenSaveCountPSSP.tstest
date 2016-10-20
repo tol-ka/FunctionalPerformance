@@ -203,7 +203,7 @@
         "DataRange": "",
         "LoadRecordsCount": null,
         "DataTableName": "PSSP$",
-        "DataProvider": "PerformanceTestData1007.xls",
+        "DataProvider": "PerformanceTestDataPSSP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
         "DataType": 5,

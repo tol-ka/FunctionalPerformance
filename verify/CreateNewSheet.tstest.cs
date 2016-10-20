@@ -51,9 +51,14 @@ namespace PerformanceTesting
         public void Create_New_Sheet()
         {
              var todayDate = DateTime.Now.ToString("MMDD"); 
-string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestData1007.xls";
+            string dataSourcePath = "";
+            if(Utility.plan == "IEP")
+            {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIEP.xls";}
+if(Utility.plan == "PSSP")
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataPSSP.xls";}
+
             var buildnum = Utility.currentBuild;
-var filename = todayDate+"_PerformanceTestData1007.xls";
+var filename = todayDate+"_PerformanceTestDataIEP.xls";
 String myPath = "C:\\MatrixTestReport\\"+filename;
             Utility.filepath = myPath;
 var column = Utility.column;
@@ -70,20 +75,7 @@ if (!System.IO.File.Exists(myPath))
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 var plan = Utility.plan;
- Microsoft.Office.Interop.Excel._Worksheet xlWorksheet2 =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
-if(plan == "iep")
-{
-   xlWorksheet2 =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
 
-}
-
-else if(plan=="pssp")
-{
-    xlWorksheet2 =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[2];
-
-}
-
-xlWorksheet2.Copy(Before: workbook.Sheets[1]);
 Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
 xlWorksheet.Name = sheetName;
             
