@@ -75,7 +75,7 @@ if (!System.IO.File.Exists(myPath))
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 var plan = Utility.plan;
-
+workbook.Sheets.Copy(Before: workbook.Sheets[1]); 
 Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
 xlWorksheet.Name = sheetName;
             
