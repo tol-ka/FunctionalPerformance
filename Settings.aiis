@@ -34,6 +34,14 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
+                    "AttributeName": "aria-owns"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
                     "AttributeName": "id"
                   }
                 },

@@ -169,7 +169,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "54b420ef-4c5d-4c20-895b-5081532df5d3",
-            "Description": "Execute test 'OpenFormAndCount.tstest'",
+            "Description": "Execute test 'OpenFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -177,7 +177,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenFormAndCount.tstest",
+                "TestName": "OpenFormAndCount",
                 "TestPath": "verify\\OpenFormAndCount.tstest",
                 "TestUniqueId": "8040a0ed-1e24-4242-9481-4ea8ff8a4536",
                 "Pause": 0,
@@ -607,7 +607,7 @@
                           "uniqueKey": "ntx5Wej4zNdpVLSeyxb3YFMe+QY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span40",
+                          "Name": "GoalBankId_listboxBad",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1591,7 +1591,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "5c1cf87f-c676-4c2b-a69d-68c8736ae1c1",
-            "Description": "Execute test 'SaveFormAndCount.tstest'",
+            "Description": "Execute test 'SaveFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -1599,7 +1599,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "SaveFormAndCount.tstest",
+                "TestName": "SaveFormAndCount",
                 "TestPath": "verify\\SaveFormAndCount.tstest",
                 "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
                 "Pause": 0,
@@ -1797,7 +1797,7 @@
                           "uniqueKey": "YahchYRpaYouA5rgj7Dzi0WsRws=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PnlFormConfirmDiv",
+                          "Name": "PnlFormConfirmDiv0",
                           "FindExpressions": [
                             {
                               "Key": 1,

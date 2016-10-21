@@ -187,12 +187,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "3SpWLUWTJ5FRtF2+ktZzmPGqEn8=",
+                          "uniqueKey": "xuRjEgEiHtGCzpKiyjUeQoX9O/U=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span8",
+                          "Name": "DomainId_listbox",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -215,7 +215,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=1"
+                                        "Clause": "aria-owns=DomainId_listbox"
                                       }
                                     }
                                   ],
@@ -225,7 +225,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[267]/div[2]/form[1]/div[1]/div[2]/div[2]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/form[1]/div[1]/div[2]/div[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -421,10 +421,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "p/a7L+/fk2D66OW/HDzy25gq+oY=",
+                          "uniqueKey": "qzUpJcYnIuVSfeaSRG8E2Wn1AcU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span39",
+                          "Name": "DomainPenId_listbox",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -447,7 +447,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=2"
+                                        "Clause": "aria-owns=DomainPenId_listbox"
                                       }
                                     }
                                   ],
@@ -457,7 +457,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[267]/div[2]/form[1]/div[1]/div[3]/div[2]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/form[1]/div[1]/div[3]/div[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -653,10 +653,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "ntx5Wej4zNdpVLSeyxb3YFMe+QY=",
+                          "uniqueKey": "mo9h+SWv0tImuLmZt8U8XaGxIXo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span40",
+                          "Name": "GoalBankId_listbox",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -679,7 +679,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=3"
+                                        "Clause": "aria-owns=GoalBankId_listbox"
                                       }
                                     }
                                   ],
@@ -689,7 +689,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[267]/div[2]/form[1]/div[1]/div[4]/div[2]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/form[1]/div[1]/div[4]/div[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -836,7 +836,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "588c007c-8045-4206-8ba1-db8da96c1bdd",
-            "Description": "Enter text 'yyy' in 'Text'",
+            "Description": "Enter text 'yyy' in 'GoalDefinitionIds_taglist'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -895,12 +895,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2qfeGAG7+DAs2Mwfo7sIQD7/+Hs=",
+                          "uniqueKey": "5aj76vkWidTKWxuIAqfdAQJGo0g=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Text1",
+                          "Name": "GoalDefinitionIds_taglist",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -917,7 +917,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:4"
+                                        "Clause": "aria-owns=GoalDefinitionIds_taglist GoalDefinitionIds_listbox"
                                       }
                                     }
                                   ],
@@ -929,7 +929,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[267]/div[2]/form[1]/div[1]/div[6]/div[2]/div[1]/div[1]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/form[1]/div[1]/div[6]/div[2]/div[1]/div[1]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -2174,7 +2174,7 @@
                           "uniqueKey": "p/a7L+/fk2D66OW/HDzy25gq+oY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span39",
+                          "Name": "DomainPenId_listboxBad",
                           "FindExpressions": [
                             {
                               "Key": 1,
