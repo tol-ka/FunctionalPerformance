@@ -1010,9 +1010,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "mwwC7EW6shqlu9KcQ19uUSwDlhI=",
+                          "uniqueKey": "hFcV90CBQytWuQ4ielIBSVoKP9w=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "CustomGoalLabelTag",
@@ -1026,13 +1026,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^Custom Goal Nam"
+                                        "Clause": "TagName=label"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=label"
+                                        "Clause": "TextContent=Custom Goal Name"
                                       }
                                     }
                                   ],
@@ -1042,7 +1042,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[267]/div[2]/form[1]/div[1]/div[7]/div[1]/label[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/form[1]/div[1]/div[7]/div[1]/label[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1371,9 +1371,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "arjmlM1FtFpMmJc1KNg8PP4s01o=",
+                          "uniqueKey": "tE3eXyPSx6yJtfeuXEselLq3z7E=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "GoalDescriptionTextArea",
@@ -1387,13 +1387,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=GoalDescription"
+                                        "Clause": "tagname=textarea"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=textarea"
+                                        "Clause": "id=txtGoalDescription"
                                       }
                                     }
                                   ],
@@ -1403,7 +1403,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/textarea[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/textarea[1]",
                           "DataBindingExpressions": {}
                         }
                       },
