@@ -200,7 +200,7 @@
       "__value": {
         "ConnectionString": "",
         "DefaultToGrid": false,
-        "DataRange": "22:25",
+        "DataRange": "1:27",
         "LoadRecordsCount": null,
         "DataTableName": "IEP$",
         "DataProvider": "PerformanceTestDataIEP.xls",
