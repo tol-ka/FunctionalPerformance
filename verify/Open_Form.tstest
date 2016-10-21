@@ -57,7 +57,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c3166c35-0cc6-49ec-b246-e4dd791bc2b9",
+            "Runtime ID": "66258ec4-484a-4b4f-8a82-f0031c8c0814",
             "Description": "Verify Exists 'GeneralFormName'",
             "CustomDescription": null,
             "Step": {
@@ -761,13 +761,9 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": true,
-        "DataType": 0,
-        "BuiltInData": [
-          {
-            "formname": null
-          }
-        ],
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
         "BuiltInDocumentKey": "",
         "TSQL": ""
       }
