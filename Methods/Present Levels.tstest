@@ -376,8 +376,8 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.PresentLevelMainScreen",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Present Levels and Transition Needs.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\Present Levels.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -406,9 +406,9 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Present Levels and Transition Needs",
+    "Name": "Present Levels",
     "Owner": "",
-    "Path": "Methods\\Present Levels and Transition Needs.tstest",
+    "Path": "Methods\\Present Levels.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "35e37777-97ee-451f-9c9f-ae4edcd9560e",

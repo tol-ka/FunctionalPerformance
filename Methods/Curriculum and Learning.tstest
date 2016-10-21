@@ -1335,7 +1335,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "3lcZ9FULpYjQJjdraH1qu6yeKPg=",
+                          "uniqueKey": "yz5q4CRKQ6l/fyVD5IvSe5KmCUI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "FormFieldValues37ed20bc543240709c5eFcc0ac939a6cMultiSelectValueListboxUnorderedList",
@@ -1363,12 +1363,6 @@
                                       "__value": {
                                         "Clause": "class=k-list k-reset"
                                       }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "InnerText=Anger Management SkillsAudiological ServicesCareer SkillsChoice Making SkillsCommunication SkillsConflict Resolution SkillsConforming Behavioral SkillsCounselingCreative Thinking SkillsCritical Thinking SkillsDaily Living SkillsDecision Making SkillsEarly Literacy SkillsEmployability SkillsEnglish Language Acquisition Skills in Core Content AreasEnglish Language Acquisition Skills in Language ArtsEnglish Language Acquisition Skills in ReadingEnglish Language Acquisition Skills in WritingEnvironmental AwarenessFine Motor SkillsFrustration ToleranceFunctional AcademicsGross Motor SkillsGuidance/Counseling for Social/Emotional BehaviorHealth Related NeedsImpulse Control SkillsInterpersonal SkillsLanguage ArtsLanguage SkillsLanguage SupportsLanguage TherapyLeisure/Recreation SkillsLocomotion SkillsMathMath SkillsMobility SkillsNemeth Code SkillsOccupational TherapyOn-Task Behavioral SkillsOrganizational SkillsOrientation and Mobility SkillsPhysical TherapyPlay SkillsPre-AcademicPre-Academic SkillsProblem Solving SkillsPsychological ServicesReadingReading SkillsScienceSelf DeterminationSelf-Advocacy SkillsSelf-Help SkillsSensory EfficiencySensory Motor SkillsSocial SkillsSocial StudiesSocial Work ServicesSorting SkillsSpeech SkillsSpeech SupportsStudy SkillsTask Completion SkillsTask Transition SkillsVocational SkillsWritingWriting SkillsConsultation"
-                                      }
                                     }
                                   ],
                                   "Constraints": [],
@@ -1377,7 +1371,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[162]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": null,
                           "DataBindingExpressions": {}
                         }
                       },

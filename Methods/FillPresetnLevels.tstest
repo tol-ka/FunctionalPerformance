@@ -177,7 +177,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d2624dbc-4dde-43b1-9590-cfb33a26589c",
-            "Description": "Execute test 'OpenFormAndCount.tstest'",
+            "Description": "Execute test 'OpenFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -185,7 +185,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenFormAndCount.tstest",
+                "TestName": "OpenFormAndCount",
                 "TestPath": "verify\\OpenFormAndCount.tstest",
                 "TestUniqueId": "8040a0ed-1e24-4242-9481-4ea8ff8a4536",
                 "Pause": 0,
@@ -327,7 +327,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4ab27247-2cfe-402e-891d-f3541bb9c91b",
-            "Description": "Execute test 'Present Levels and Transition Needs'",
+            "Description": "Execute test 'Present Levels.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -335,8 +335,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Present Levels and Transition Needs",
-                "TestPath": "Methods\\Present Levels and Transition Needs.tstest",
+                "TestName": "Present Levels.tstest",
+                "TestPath": "Methods\\Present Levels.tstest",
                 "TestUniqueId": "35e37777-97ee-451f-9c9f-ae4edcd9560e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
