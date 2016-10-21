@@ -58,7 +58,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "215f5afc-d9c6-4b20-8ed5-36ad81c31624",
-            "Description": "Click 'DistributionLink0'",
+            "Description": "Click 'GeneralFormName'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -109,7 +109,7 @@
                           "uniqueKey": "rL9NbZ6869xJ2tlSU2bnQMpKnjs=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "DistributionLink0",
+                          "Name": "GeneralFormName",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -151,7 +151,7 @@
                   }
                 },
                 "StepType": 4,
-                "LogMessageOnFailure": "",
+                "LogMessageOnFailure": "formName not found",
                 "EditorType": "",
                 "DataBindingExpressions": {}
               }
