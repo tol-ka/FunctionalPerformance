@@ -46,8 +46,8 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"ChooseURL IEP based on base url")]
-        public void ChooseUrl_IEP()
+        [CodedStep(@"ChooseURL PSSP based on base url")]
+        public void ChooseUrl_PSSP()
         {
                         String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();
                         String studentID = "0";

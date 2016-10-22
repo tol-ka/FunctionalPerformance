@@ -18,7 +18,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d0164404-b49e-466d-b71c-dbd468484913",
-            "Description": "ChooseURL IEP based on base url",
+            "Description": "ChooseURL PSSP based on base url",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
@@ -45,7 +45,7 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "ChooseUrl_IEP",
+            "Id": "ChooseUrl_PSSP",
             "StepState": 1,
             "ContinueOnFailure": true,
             "StepImageKey": "GoToStIFSPEvents4w331mxq.p31",
