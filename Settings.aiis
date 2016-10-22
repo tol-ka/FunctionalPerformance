@@ -7,7 +7,7 @@
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
     "MenuHoldTime": 1.0,
-    "SilverlightConnectTimeout": 80000,
+    "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 4,
     "HighlightBorderColor": -65536,
@@ -212,7 +212,8 @@
       "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "..\\..\\..\\..\\Development\\Leo\\Reference\\Microsoft.Office.Interop.Excel.dll"
     ],
     "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
@@ -229,6 +230,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 2
+    "SelectedBrowserOption": 4
   }
 }
