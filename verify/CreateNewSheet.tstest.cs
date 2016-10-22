@@ -52,13 +52,19 @@ namespace PerformanceTesting
         {
              var todayDate = DateTime.Now.ToString("MMDD"); 
             string dataSourcePath = "";
+            var filename = "";
             if(Utility.plan == "IEP")
-            {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIEP.xls";}
-if(Utility.plan == "PSSP")
-     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataPSSP.xls";}
+            {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIEP.xls";
+             filename = todayDate+"_PerformanceTestDataIEP.xls";}
+else if(Utility.plan == "PSSP")
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataPSSP.xls";
+     filename = todayDate+"_PerformanceTestDataPSSP.xls";}
+     else if(Utility.plan == "IFSP")
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIFSP.xls";
+     filename = todayDate+"_PerformanceTestDataPSSP.xls";}
 
             var buildnum = Utility.currentBuild;
-var filename = todayDate+"_PerformanceTestDataIEP.xls";
+
 String myPath = "C:\\MatrixTestReport\\"+filename;
             Utility.filepath = myPath;
 var column = Utility.column;
