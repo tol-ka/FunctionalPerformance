@@ -479,13 +479,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "0baa4238-7410-44fb-ba64-6b6a4828ce31",
-            "Description": "KendoListBox: select item by text 'Assignment/task checklist'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
-                "SelectionText": "Assignment/task checklist",
+                "SelectionType": 1,
+                "SelectionText": "",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,

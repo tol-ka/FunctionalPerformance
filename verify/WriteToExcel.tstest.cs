@@ -80,16 +80,19 @@ ActiveBrowser.RefreshDomTree();
             if (Utility.savetime > 15000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
 column = 5;  
+             xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
-            xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
-             if (Utility.error_flag) {
+            xlRange.Font.Color = Excel.XlRgbColor.rgbGreen; 
+            if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
             }
             else if (Utility.saveflag == "nosaveNoOther"){
                  column = 4;
+                 xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
                 
      xlWorksheet.Cells[row , column] = "No save button here";
                 column = 5;  
+                 xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
                 xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
@@ -107,6 +110,7 @@ column = 5;
             string s = string.Format("Time counted for '{0}' action", Utility.comment);
      xlWorksheet.Cells[row , column] = s;
             column = 5;  
+              xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
             xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
