@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class FillForm : BaseWebAiiTest
+    public class ESY_Services : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,22 +46,11 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"FillFormDriven")]
-        public void FillForm_Driven()
-        {
-            var testname = Data["formname"].ToString();    
-            var filetestname = string.Format("Methods\\{0}.tstest", testname);
-            this.ExecuteTest(filetestname);
-            
-        }
-    
         [CodedStep(@"New Coded Step")]
-        public void FillForm_CodedStep()
+        public void ESY_Services_CodedStep()
         {
-            object myData = GetExtractedValue("ActualFormName");
-            var realName = myData.ToString();
-            var expectedName = Data["formname"].ToString();
-            Utility.func_comment = "Expected: "+expectedName+" , Actual: "+realName;
+            Utility.comment = "ESY Services";
+            Utility.saveflag = "nosaveNoOther";  
         }
     }
 }

@@ -90,7 +90,7 @@ column = 5;
                  column = 4;
                  xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
                 
-     xlWorksheet.Cells[row , column] = "No save button here";
+     xlWorksheet.Cells[row , column] = "N/a";
                 column = 5;  
                  xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
