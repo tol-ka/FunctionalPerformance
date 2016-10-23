@@ -49,6 +49,7 @@ namespace PerformanceTesting
         [CodedStep(@"Open Form And Count")]
         public void OpenForm_Count()
         {
+             Console.Out.WriteLine("Current form is "+Data["formname"].ToString());
              var watch = System.Diagnostics.Stopwatch.StartNew();
 this.ExecuteTest("verify\\Open_Form.tstest");
 watch.Stop();
