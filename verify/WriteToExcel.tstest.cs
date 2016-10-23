@@ -81,6 +81,7 @@ ActiveBrowser.RefreshDomTree();
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
 column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
+            xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
             }
@@ -90,6 +91,7 @@ column = 5;
      xlWorksheet.Cells[row , column] = "No save button here";
                 column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
+                xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
                 Utility.row = Utility.row + 1;
@@ -106,6 +108,7 @@ column = 5;
      xlWorksheet.Cells[row , column] = s;
             column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
+            xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
               

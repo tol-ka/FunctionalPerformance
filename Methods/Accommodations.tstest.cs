@@ -46,10 +46,10 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"Click 'AccommodationsSpan'")]
+        [CodedStep(@"Fill info")]
         public void AddAccomodation_CodedStep()
         {
-           Utility.comment = "Add Accomodation";
+           Utility.comment = "Add Accommodation";
             Utility.saveflag = "nosaveButOther";
             
         }
