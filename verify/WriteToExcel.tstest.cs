@@ -111,7 +111,7 @@ column = 5;
               
             }
 
- 
+ Utility.func_comment = "";
   Utility.error_flag = false;           
   Utility.saveflag = "normal";
 
