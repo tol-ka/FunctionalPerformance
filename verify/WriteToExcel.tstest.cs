@@ -82,7 +82,7 @@ ActiveBrowser.RefreshDomTree();
 column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
              if (Utility.error_flag) {
-   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
+   xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
             }
             else if (Utility.saveflag == "nosaveNoOther"){
                  column = 4;
@@ -91,7 +91,7 @@ column = 5;
                 column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
              if (Utility.error_flag) {
-   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
+   xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
                 Utility.row = Utility.row + 1;
             }
              else if (Utility.saveflag == "nosaveButOther"){
@@ -107,7 +107,8 @@ column = 5;
             column = 5;  
              xlWorksheet.Cells[row , column] = Utility.func_comment;
              if (Utility.error_flag) {
-   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
+   xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
+              
             }
 
  

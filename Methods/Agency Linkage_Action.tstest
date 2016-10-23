@@ -138,31 +138,232 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "caf7bc57-e44b-498f-9f62-4f21518ea941",
+            "Runtime ID": "5582cc9d-665b-4ebe-a1aa-9c6a83c2337e",
             "Description": "Verify table's 'RowsCount' is '1' on 'Table'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.TableVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
               "__value": {
-                "Count": 1,
-                "TableVerificationType": 0,
-                "CompareType": 4,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.TableVerificationDescriptor",
+                  "__value": {
+                    "Count": 1,
+                    "TableVerificationType": 0,
+                    "CompareType": 4,
+                    "UseBackupSearch": true,
+                    "DataBindVariableName": null,
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {
+                          "RunsAgainstVersion": ""
+                        }
+                      }
+                    },
+                    "Elements": {
+                      "table": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "table",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "/Plan/Events/ViewEvent",
+                              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                              "BaseUrl": "http://miami.acceliqc.com",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                              "CompareMode": 4,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "AccelifyIFSPInitial1"
+                            }
+                          },
+                          "Frame": null,
+                          "FindInfo": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "mrXdkdfsKp41hPlqEky9w/z5Vc4=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "Table",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "id=pnlAgencyLinkage"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "tagIndex=table:0"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": [
+                                        1
+                                      ]
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[2]/table[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTable",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 2,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
+                },
+                "Branches": {
+                  "1": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "5d2cc5af-ca94-4e2e-8849-2613257e98ca",
+                              "Description": "TestOK",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            Utility.func_comment = \"Agency Linkage is created OK\";\r\n            Utility.error_flag = false;",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "Test_OK",
+                              "StepState": 1,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "Agency Linkage_Action2yxaa3mo.ped",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "f597e07d-afc7-4a70-8d39-2ee9de9dd4d0",
+                              "Description": "TestNotOK",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            Utility.func_comment = \"Agency Linkage is NOT created\";\r\n            Utility.error_flag = true;",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "Test_Not_OK",
+                              "StepState": 1,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "Agency Linkage_Actionpxwzvo2r.y2r",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -234,7 +435,7 @@
                     }
                   }
                 },
-                "StepType": 2,
+                "StepType": 8,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -245,7 +446,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Agency Linkage_Actionpmyjg0qj.sdg",
+            "StepImageKey": "Agency Linkage_Actionap4fituo.dzr",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -265,10 +466,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "",
+    "TestClass": "PerformanceTesting.Agency_Linkage_Action",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Agency Linkage_Action.resx",
-    "HasCodeBehind": false,
+    "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
