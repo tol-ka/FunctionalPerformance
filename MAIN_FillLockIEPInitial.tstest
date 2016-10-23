@@ -890,7 +890,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.MAIN_FillLockIEPInitial",
+    "TestClass": "PerformanceFunctionalTesting.MAIN_FillLockIEPInitial",
     "IsManual": false,
     "ResourceFilePath": "MAIN_FillLockIEPInitial.resx",
     "HasCodeBehind": true,

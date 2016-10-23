@@ -659,7 +659,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.LoginAsAdminIFSPNoIEP",
+    "TestClass": "PerformanceFunctionalTesting.LoginAsAdminIFSPNoIEP",
     "IsManual": false,
     "ResourceFilePath": "Methods\\LoginAsAdminIFSPNoIEP.resx",
     "HasCodeBehind": true,

@@ -1867,7 +1867,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.FillMeetingAttendance",
+    "TestClass": "PerformanceFunctionalTesting.FillMeetingAttendance",
     "IsManual": false,
     "ResourceFilePath": "Methods\\FillMeetingAttendance.resx",
     "HasCodeBehind": true,

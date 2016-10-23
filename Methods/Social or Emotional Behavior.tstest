@@ -1683,7 +1683,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.FilldomainB",
+    "TestClass": "PerformanceFunctionalTesting.FilldomainB",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Social or Emotional Behavior.resx",
     "HasCodeBehind": true,

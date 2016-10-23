@@ -1598,7 +1598,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.MAIN_FillLockIFSPInitial",
+    "TestClass": "PerformanceFunctionalTesting.MAIN_FillLockIFSPInitial",
     "IsManual": false,
     "ResourceFilePath": "MAIN_FillLockIFSPInitial.resx",
     "HasCodeBehind": true,

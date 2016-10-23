@@ -1796,7 +1796,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.FillDomainD",
+    "TestClass": "PerformanceFunctionalTesting.FillDomainD",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Health Care.resx",
     "HasCodeBehind": true,

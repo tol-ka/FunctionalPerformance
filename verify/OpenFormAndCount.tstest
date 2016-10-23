@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.OpenFormAndCount",
+    "TestClass": "PerformanceFunctionalTesting.OpenFormAndCount",
     "IsManual": false,
     "ResourceFilePath": "verify\\OpenFormAndCount.resx",
     "HasCodeBehind": true,

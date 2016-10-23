@@ -688,7 +688,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.Fill_IEP_PSSP_Supports_for_School_Personnel",
+    "TestClass": "PerformanceFunctionalTesting.Fill_IEP_PSSP_Supports_for_School_Personnel",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Supports for School Personnel1.resx",
     "HasCodeBehind": true,

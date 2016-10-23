@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.Exceptionalities",
+    "TestClass": "PerformanceFunctionalTesting.Exceptionalities",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Exceptionalities.resx",
     "HasCodeBehind": true,

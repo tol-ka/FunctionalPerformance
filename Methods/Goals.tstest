@@ -2398,7 +2398,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.Goals",
+    "TestClass": "PerformanceFunctionalTesting.Goals",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Goals.resx",
     "HasCodeBehind": true,

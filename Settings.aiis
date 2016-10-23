@@ -218,7 +218,7 @@
     "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
     "ProjectVersion": "2016.3.919.0",
-    "Namespace": "PerformanceFuctionalTesting",
+    "Namespace": "PerformanceFunctionalTesting",
     "AssemblyName": "PerformanceFunctionalTesting",
     "OutputFolder": "bin",
     "ExcludedFiles": [],

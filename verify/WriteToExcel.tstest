@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.WriteToExcel2",
+    "TestClass": "PerformanceFunctionalTesting.WriteToExcel2",
     "IsManual": false,
     "ResourceFilePath": "verify\\WriteToExcel.resx",
     "HasCodeBehind": true,

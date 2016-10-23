@@ -2363,7 +2363,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.Distribution_Manager",
+    "TestClass": "PerformanceFunctionalTesting.Distribution_Manager",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Distribution Manager.resx",
     "HasCodeBehind": true,

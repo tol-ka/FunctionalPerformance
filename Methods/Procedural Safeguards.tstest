@@ -79,7 +79,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFuctionalTesting.Procedural_Safeguards",
+    "TestClass": "PerformanceFunctionalTesting.Procedural_Safeguards",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Procedural Safeguards.resx",
     "HasCodeBehind": true,
