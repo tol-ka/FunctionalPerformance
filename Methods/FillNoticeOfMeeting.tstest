@@ -5790,7 +5790,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillNoticeOfMeeting",
+    "TestClass": "PerformanceTesting.FillNoticeOfMeeting",
     "IsManual": false,
     "ResourceFilePath": "Methods\\FillNoticeOfMeeting.resx",
     "HasCodeBehind": true,

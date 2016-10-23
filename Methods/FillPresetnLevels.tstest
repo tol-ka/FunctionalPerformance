@@ -583,7 +583,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillPresetnLevels",
+    "TestClass": "PerformanceTesting.FillPresetnLevels",
     "IsManual": false,
     "ResourceFilePath": "Methods\\FillPresetnLevels.resx",
     "HasCodeBehind": true,

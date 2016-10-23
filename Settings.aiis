@@ -211,14 +211,12 @@
       "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "..\\..\\..\\..\\Development\\Leo\\Reference\\Microsoft.Office.Interop.Excel.dll"
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
     ],
     "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
     "ProjectVersion": "2016.3.919.0",
-    "Namespace": "PerformanceFunctionalTesting",
+    "Namespace": "PerformanceTesting",
     "AssemblyName": "PerformanceFunctionalTesting",
     "OutputFolder": "bin",
     "ExcludedFiles": [],

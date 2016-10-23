@@ -1823,7 +1823,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillDomainC",
+    "TestClass": "PerformanceTesting.FillDomainC",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Independent Functioning.resx",
     "HasCodeBehind": true,

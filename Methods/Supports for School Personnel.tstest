@@ -181,7 +181,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillSupportForSchoolPersonel",
+    "TestClass": "PerformanceTesting.FillSupportForSchoolPersonel",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Supports for School Personnel.resx",
     "HasCodeBehind": true,

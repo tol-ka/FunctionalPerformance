@@ -1472,7 +1472,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillDomainE",
+    "TestClass": "PerformanceTesting.FillDomainE",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Communications.resx",
     "HasCodeBehind": true,

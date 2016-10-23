@@ -191,7 +191,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.OpenSaveCount",
+    "TestClass": "PerformanceTesting.OpenSaveCount",
     "IsManual": false,
     "ResourceFilePath": "OpenSaveCount.resx",
     "HasCodeBehind": true,

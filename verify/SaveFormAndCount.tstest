@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.SaveFormAndCount",
+    "TestClass": "PerformanceTesting.SaveFormAndCount",
     "IsManual": false,
     "ResourceFilePath": "verify\\SaveFormAndCount.resx",
     "HasCodeBehind": true,

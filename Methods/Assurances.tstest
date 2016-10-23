@@ -976,7 +976,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillAssurance",
+    "TestClass": "PerformanceTesting.FillAssurance",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Assurances.resx",
     "HasCodeBehind": true,

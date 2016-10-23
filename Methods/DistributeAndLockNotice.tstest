@@ -1645,7 +1645,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.DistributeAndLockNotice",
+    "TestClass": "PerformanceTesting.DistributeAndLockNotice",
     "IsManual": false,
     "ResourceFilePath": "Methods\\DistributeAndLockNotice.resx",
     "HasCodeBehind": true,

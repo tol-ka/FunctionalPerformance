@@ -1101,7 +1101,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.Assistive_Technology",
+    "TestClass": "PerformanceTesting.Assistive_Technology",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Assistive Technology.resx",
     "HasCodeBehind": true,

@@ -948,7 +948,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.AddAccomodation",
+    "TestClass": "PerformanceTesting.AddAccomodation",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Accomodations.resx",
     "HasCodeBehind": true,

@@ -179,7 +179,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.Assessment_Data",
+    "TestClass": "PerformanceTesting.Assessment_Data",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Assessment Data.resx",
     "HasCodeBehind": true,

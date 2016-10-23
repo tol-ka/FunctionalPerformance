@@ -2031,7 +2031,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.Medication_Services",
+    "TestClass": "PerformanceTesting.Medication_Services",
     "IsManual": false,
     "ResourceFilePath": "Methods\\Medication Services.resx",
     "HasCodeBehind": true,

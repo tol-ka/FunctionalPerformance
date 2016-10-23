@@ -177,7 +177,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.GoTo10YSPSSP",
+    "TestClass": "PerformanceTesting.GoTo10YSPSSP",
     "IsManual": false,
     "ResourceFilePath": "Methods\\GoTo10YStPSSP.resx",
     "HasCodeBehind": true,

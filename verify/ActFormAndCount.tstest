@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.ActFormAndCount",
+    "TestClass": "PerformanceTesting.ActFormAndCount",
     "IsManual": false,
     "ResourceFilePath": "verify\\ActFormAndCount.resx",
     "HasCodeBehind": true,

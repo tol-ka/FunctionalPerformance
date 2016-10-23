@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.CreateNewSheet",
+    "TestClass": "PerformanceTesting.CreateNewSheet",
     "IsManual": false,
     "ResourceFilePath": "verify\\CreateNewSheet.resx",
     "HasCodeBehind": true,

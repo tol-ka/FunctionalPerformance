@@ -68,7 +68,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceFunctionalTesting.FillForm",
+    "TestClass": "PerformanceTesting.FillForm",
     "IsManual": false,
     "ResourceFilePath": "verify\\FillForm.resx",
     "HasCodeBehind": true,
