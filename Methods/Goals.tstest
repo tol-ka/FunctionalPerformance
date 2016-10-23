@@ -19,8 +19,7 @@
       "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -1373,7 +1372,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "tE3eXyPSx6yJtfeuXEselLq3z7E=",
+                          "uniqueKey": "Qde3y5muJdsd2LTbvn5dvYTIjeo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "GoalDescriptionTextArea",
@@ -1393,7 +1392,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=txtGoalDescription"
+                                        "Clause": "id=~GoalDescription"
                                       }
                                     }
                                   ],
@@ -1536,7 +1535,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 13,
             "Id": "",
             "StepState": 0,
@@ -1551,14 +1550,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "208df5cf-3b4c-49b5-8779-9765db890e20",
-            "Description": "KendoListBox: select item by text 'Art Therapist'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
-                "SelectionText": "Art Therapist",
-                "SelectionIndex": 0,
+                "SelectionType": 1,
+                "SelectionText": "",
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -1600,9 +1599,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "BdC2BjbvklFsfzrCAWZO4fbiJXs=",
+                          "uniqueKey": "NSk7qa0jscx4ParHRO93BDzUxog=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "MeasuredByIdsListboxUnorderedList1",
@@ -1616,7 +1615,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=ul:30"
+                                        "Clause": "id=MeasuredByIds_listbox"
                                       }
                                     }
                                   ],
@@ -1626,7 +1625,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[50]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1757,7 +1756,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 15,
             "Id": "",
             "StepState": 0,
@@ -1883,7 +1882,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 16,
             "Id": "",
             "StepState": 0,
@@ -1994,7 +1993,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 17,
             "Id": "",
             "StepState": 0,
@@ -2107,7 +2106,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 18,
             "Id": "",
             "StepState": 0,
@@ -2225,7 +2224,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 19,
             "Id": "",
             "StepState": 0,
@@ -2333,7 +2332,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 20,
             "Id": "",
             "StepState": 0,
@@ -2349,7 +2348,7 @@
           "__value": {
             "Runtime ID": "68c5d7e1-19c0-4df0-af0a-89554109fdee",
             "Description": "New Coded Step",
-            "CustomDescription": null,
+            "CustomDescription": "[Goals_CodedStep] : New Coded Step",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {

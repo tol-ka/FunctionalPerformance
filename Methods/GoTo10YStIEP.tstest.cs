@@ -55,7 +55,7 @@ namespace PerformanceTesting
                         if ((bbaseUrl.Contains("dade.acceliqc.com")))
                 {
                     Utility.currentDomain = "qc";
-                    studentID = "4725401";
+                    studentID = "39";
                 }
                 else if (bbaseUrl.Contains("miami-demo.accelidemo.com"))
                 {
