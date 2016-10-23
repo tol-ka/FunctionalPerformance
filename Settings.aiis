@@ -7,7 +7,7 @@
     "SkipDeleteElementPrompt": false,
     "HideFindExpressionWelcome": false,
     "MenuHoldTime": 1.0,
-    "SilverlightConnectTimeout": 60000,
+    "SilverlightConnectTimeout": 80000,
     "BaseClassName": "BaseWebAiiTest",
     "UrlRecordMode": 4,
     "HighlightBorderColor": -65536,
@@ -218,8 +218,8 @@
     "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
     "ProjectVersion": "2016.3.919.0",
-    "Namespace": "PerformanceTesting",
-    "AssemblyName": "PerformanceTesting",
+    "Namespace": "PerformanceFuctionalTesting",
+    "AssemblyName": "PerformanceFunctionalTesting",
     "OutputFolder": "bin",
     "ExcludedFiles": [],
     "DisabledTranslators": [],
@@ -230,6 +230,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 4
+    "SelectedBrowserOption": 2
   }
 }

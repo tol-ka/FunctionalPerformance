@@ -178,7 +178,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "3b6da7d6-5d3e-4851-9f71-f8d869974e08",
-            "Description": "Execute test 'OpenFormAndCount.tstest'",
+            "Description": "Execute test 'OpenFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -186,7 +186,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenFormAndCount.tstest",
+                "TestName": "OpenFormAndCount",
                 "TestPath": "verify\\OpenFormAndCount.tstest",
                 "TestUniqueId": "8040a0ed-1e24-4242-9481-4ea8ff8a4536",
                 "Pause": 0,
@@ -4400,7 +4400,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "23e176e2-c9e4-4a99-aaf4-468d38585f7c",
-            "Description": "Execute test 'SaveFormAndCount.tstest'",
+            "Description": "Execute test 'SaveFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -4408,7 +4408,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "SaveFormAndCount.tstest",
+                "TestName": "SaveFormAndCount",
                 "TestPath": "verify\\SaveFormAndCount.tstest",
                 "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
                 "Pause": 0,
@@ -5024,9 +5024,9 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "PerformanceTesting.dll",
+    "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillNoticeOfMeeting2",
+    "TestClass": "PerformanceFuctionalTesting.FillNoticeOfMeeting2",
     "IsManual": false,
     "ResourceFilePath": "Methods\\FillNoticeOfMeeting2.resx",
     "HasCodeBehind": true,
