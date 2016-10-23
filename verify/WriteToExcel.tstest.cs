@@ -69,7 +69,7 @@ System.Threading.Thread.Sleep(1000);
 ActiveBrowser.RefreshDomTree();
  
     xlWorksheet.Cells[row , column] = Utility.opentime;
-            if (Utility.opentime > 17000) {
+            if (Utility.opentime > 12000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
         
             if (Utility.saveflag == "normal")
@@ -77,28 +77,41 @@ ActiveBrowser.RefreshDomTree();
                 column = 3;
     xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
      xlWorksheet.Cells[row , column] = Utility.savetime;
-            if (Utility.savetime > 10000) {
+            if (Utility.savetime > 15000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
-            
+column = 5;  
+             xlWorksheet.Cells[row , column] = Utility.func_comment;
+             if (Utility.error_flag) {
+   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
             }
             else if (Utility.saveflag == "nosaveNoOther"){
                  column = 4;
                 
      xlWorksheet.Cells[row , column] = "No save button here";
+                column = 5;  
+             xlWorksheet.Cells[row , column] = Utility.func_comment;
+             if (Utility.error_flag) {
+   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
                 Utility.row = Utility.row + 1;
             }
              else if (Utility.saveflag == "nosaveButOther"){
                   column = 3;
     xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
      xlWorksheet.Cells[row , column] = Utility.savetime;
-            if (Utility.savetime > 10000) {
+            if (Utility.savetime > 15000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
                  column = 4;
              xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
             string s = string.Format("Time counted for '{0}' action", Utility.comment);
      xlWorksheet.Cells[row , column] = s;
+            column = 5;  
+             xlWorksheet.Cells[row , column] = Utility.func_comment;
+             if (Utility.error_flag) {
+   xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
             }
 
+ 
+  Utility.error_flag = false;           
   Utility.saveflag = "normal";
 
 excelApp.Visible = true;
