@@ -19,8 +19,7 @@
       "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -187,7 +186,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "AF07YvFeCR+7s8mWUBxybODFNwo=",
                           "NodeKind": 4,
@@ -258,13 +257,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c78c7511-bc9c-4998-8233-c81ef2682cfc",
-            "Description": "KendoListBox: select item by text 'Abilify'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
-                "SelectionText": "Abilify",
+                "SelectionType": 1,
+                "SelectionText": "",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
@@ -307,7 +306,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "bfvRSw8dRV8QB9iVMkeFFZidZXQ=",
                           "NodeKind": 4,
@@ -339,7 +338,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[52]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[33]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -489,14 +488,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a03bb467-6fa8-4956-be91-d703ade83439",
-            "Description": "Click 'SundayLink'",
+            "Runtime ID": "6a4b3845-a9d7-46e4-9084-fe34dfda6122",
+            "Description": "Click 'ToDayLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -508,9 +507,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -522,26 +519,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "Title": "Accelify - EDGAR ABADA",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "qI5NRLoHnfvduH5rQEAWVlUUjkI=",
+                          "uniqueKey": "uPMQdr4/zR+S0WW4+q8UtgJyK68=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SundayLink",
+                          "Name": "ToDayLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -552,13 +549,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^Sunday, October"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "class=k-link k-nav-today"
                                       }
                                     }
                                   ],
@@ -568,7 +565,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[66]/div[1]/div[1]/div[2]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[11]/div[1]/div[1]/div[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -591,7 +588,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Serviceskbgpshfi.ev2",
+            "StepImageKey": "Medication Servicesjy2angxm.y32",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -718,14 +715,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4cab6a5a-1f2c-4452-98d8-4d258ee2e738",
-            "Description": "Click 'SundayLink'",
+            "Runtime ID": "608cd6b6-02d4-4bb4-b27e-d04c395a499c",
+            "Description": "Click 'ToDayLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -737,9 +734,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -751,26 +746,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "Title": "Accelify - EDGAR ABADA",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Nrvgwv63JPWaRq4qgT/t31jOIqI=",
+                          "uniqueKey": "uPMQdr4/zR+S0WW4+q8UtgJyK68=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SundayLink0",
+                          "Name": "ToDayLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -781,25 +776,23 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=f1974614-d102-474c-a9f9-66b1c4a4c9e5"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=a:45"
+                                        "Clause": "class=k-link k-nav-today"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[67]/div[1]/div[1]/div[2]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[11]/div[1]/div[1]/div[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -822,7 +815,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Serviceskrchlcxb.bog",
+            "StepImageKey": "Medication Servicesmdtsuhgi.h0w",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -878,7 +871,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "J0F4Ryl1ZMTowAg8lxd0JyLxmLk=",
                           "NodeKind": 4,
@@ -894,13 +887,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenuCell"
+                                        "Clause": "tagname=td"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=td"
+                                        "Clause": "id=pnlEventMenuCell"
                                       }
                                     }
                                   ],
@@ -1178,7 +1171,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d394924f-e881-4a8d-b81a-d8267118c8af",
-            "Description": "Click 'Span'",
+            "Description": "Click 'Span5'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1224,9 +1217,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "joE80WfvKPidvJ7T399rcf6Ydd4=",
+                          "uniqueKey": "NcgLSJl+gj6a6QOjPkYNtxV++Tg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "Span5",
@@ -1246,7 +1239,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:42"
+                                        "Clause": "Title=Increase value"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=k-icon k-i-arrow-n"
                                       }
                                     }
                                   ],
@@ -1258,7 +1257,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[2]/span[1]/span[1]/span[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[2]/span[1]/span[1]/span[1]/span[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1338,9 +1337,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "q5CjknSwDYIt0RxhqaPvFdv+J6g=",
+                          "uniqueKey": "Y0Ex2Ah7CDPxw0YJVzmQneO7F9Q=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "Span6",
@@ -1366,7 +1365,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=12"
+                                        "Clause": "aria-owns=DoseUnitId_listbox"
                                       }
                                     }
                                   ],
@@ -1458,7 +1457,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "wIme8uNLTO6iEoiuOPCkYn96mp4=",
                           "NodeKind": 4,
@@ -1474,13 +1473,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=DoseUnitId_listbox"
+                                        "Clause": "tagname=ul"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=ul"
+                                        "Clause": "id=DoseUnitId_listbox"
                                       }
                                     }
                                   ],
@@ -1490,7 +1489,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[61]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[42]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1640,7 +1639,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5eda0b25-d6ef-4efc-a964-de86eefbea68",
+            "Runtime ID": "d2711fdd-2671-43bd-abb5-e33ad8a2ce6e",
             "Description": "KendoListBox: select item by text 'Ear'",
             "CustomDescription": null,
             "Step": {
@@ -1690,12 +1689,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Fp0wvb9eHpnZsrw2mU59dc8b+1M=",
+                          "uniqueKey": "geV0QoYdREW0//+NsucoqXK+Z9w=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "RouteIdListboxUnorderedList",
+                          "Name": "RouteIdListboxUnorderedList0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1706,7 +1705,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=ul:35"
+                                        "Clause": "TagName=ul"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=RouteId_listbox"
                                       }
                                     }
                                   ],
@@ -1716,7 +1721,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[64]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[34]/div[1]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1739,7 +1744,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Servicesfdtrmb5o.tzc",
+            "StepImageKey": "Medication Servicespo5d0suc.4i0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1796,9 +1801,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Z702QNS/AFJjdRWyblJLUEa7mI4=",
+                          "uniqueKey": "NtBhedTKX4DucN8+9DXI2ykNtio=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "Span10",
@@ -1824,7 +1829,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=22"
+                                        "Clause": "aria-owns=AdministeredById_listbox"
                                       }
                                     }
                                   ],
@@ -1916,7 +1921,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "yOULbESooUTYnsblFtN0u7ANp+s=",
                           "NodeKind": 4,
@@ -1932,13 +1937,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=AdministeredById_listbox"
+                                        "Clause": "tagname=ul"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=ul"
+                                        "Clause": "id=AdministeredById_listbox"
                                       }
                                     }
                                   ],
@@ -1948,7 +1953,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[65]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[46]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
