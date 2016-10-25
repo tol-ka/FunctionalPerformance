@@ -307,7 +307,7 @@
           "__value": {
             "Runtime ID": "01b29886-4583-4a1f-8add-aff901cef072",
             "Description": "Execute test 'CreateNewSheet'",
-            "CustomDescription": null,
+            "CustomDescription": "Execute test 'CreateNewSheet'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
