@@ -66,7 +66,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "MG99mEPIv6fzM0a7PKNTEjLHycs=",
                           "NodeKind": 4,
@@ -82,13 +82,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=cbxIsNone"
+                                        "Clause": "tagname=input"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "id=cbxIsNone"
                                       }
                                     }
                                   ],
