@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "             Console.Out.WriteLine(\"Current form is \"+Data[\"formname\"].ToString());\r\n             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"verify\\\\Open_Form.tstest\");\r\nwatch.Stop();\r\nUtility.opentime = watch.ElapsedMilliseconds;\r\n            ",
+                "Code": "             Console.Out.WriteLine(\"Current form: \"+Data[\"formname\"].ToString());\r\n             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"verify\\\\Open_Form.tstest\");\r\nwatch.Stop();\r\nUtility.opentime = watch.ElapsedMilliseconds;\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

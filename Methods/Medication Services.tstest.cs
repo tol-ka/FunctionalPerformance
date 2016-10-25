@@ -52,5 +52,18 @@ namespace PerformanceTesting
 Utility.comment = "Add Medication Service";
             Utility.saveflag = "nosaveButOther";            
         }
+    
+        [CodedStep(@"Add_day_to_date")]
+        public void Add_day()
+        {
+            object myData = GetExtractedValue("StartDateText");
+            string date = myData.ToString();
+DateTime dt = Convert.ToDateTime(date);
+            DateTime newDate = dt.AddDays(2);
+            string endDate = newDate.ToString("MM/dd/yyyy");
+            Console.Out.WriteLine("new date generated: " +endDate);
+            SetExtractedValue("EndDateText", endDate);
+            
+        }
     }
 }

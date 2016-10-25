@@ -597,6 +597,165 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "6333fc12-eb2c-4fa9-ba18-e43eda26581c",
+            "Description": "Extract input 'StartDateText' value into DataBindVariable $(StartDateText).",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+              "__value": {
+                "ExpectedValue": "10/25/2016",
+                "CompareType": 0,
+                "UseBackupSearch": true,
+                "DataBindVariableName": "StartDateText",
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "vI5YtsZfFcZiIueKUYAPRX8n4eA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "StartDateText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "aria-owns=StartDate_dateview"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=StartDate"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[3]/div[1]/span[2]/span[1]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 16,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Medication Servicest5w232fv.m2j",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "94c326e0-62d0-42e3-8b92-aaa56a68e644",
+            "Description": "Add_day_to_date",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            object myData = GetExtractedValue(\"StartDateText\");\r\n            string date = myData.ToString();\r\nDateTime dt = Convert.ToDateTime(date);\r\n            DateTime newDate = dt.AddDays(2);\r\n            string endDate = newDate.ToString(\"MM/dd/yyyy\");\r\n            Console.Out.WriteLine(\"new date generated: \" +endDate);\r\n            SetExtractedValue(\"EndDateText\", endDate);\r\n            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "Add_day",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Medication Servicesi0iicbe1.e2t",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "c7660f9b-e2c7-4866-9d7b-13eb9d62af3a",
             "Description": "KendoInput: Calendar open ",
             "CustomDescription": null,
@@ -702,7 +861,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -715,13 +874,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "608cd6b6-02d4-4bb4-b27e-d04c395a499c",
-            "Description": "Click 'ToDayLink'",
+            "Runtime ID": "cd88fefd-8c50-4ad1-87ae-388128e589e9",
+            "Description": "Enter text '' in 'EndDateText' - DataDriven: [$(EndDateText)]",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
+                "RawText": "",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": null,
+                "Encrypt": false,
+                "SupportUnicode": true,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -738,121 +904,10 @@
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "textTarget": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - EDGAR ABADA",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyEDGARABADA"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "uPMQdr4/zR+S0WW4+q8UtgJyK68=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "ToDayLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "class=k-link k-nav-today"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[11]/div[1]/div[1]/div[2]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 7,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "Medication Servicesmdtsuhgi.h0w",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "556d7200-2bae-4ba2-b2b4-974fc098a427",
-            "Description": "Click 'PnlEventMenuCellTableCell'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
+                      "Name": "textTarget",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -871,12 +926,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "J0F4Ryl1ZMTowAg8lxd0JyLxmLk=",
+                          "uniqueKey": "mc33wP0aR/EIV9GRD2ctADKW8UY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PnlEventMenuCellTableCell",
+                          "Name": "EndDateText",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -887,13 +942,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=td"
+                                        "Clause": "aria-owns=EndDate_dateview"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenuCell"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
@@ -903,11 +958,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[3]/div[2]/span[2]/span[1]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTableCell",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -918,15 +973,19 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {
+                  "Text": "$(EndDateText)"
+                },
+                "_canEncrypt": false,
+                "_cipher": null
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Servicesujtci4zd.t3u",
+            "StepImageKey": "Medication Serviceskjqndzqs.4o3",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -935,18 +994,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "21c5380c-d933-46dc-bc68-3abcd512ee4f",
-            "Description": "KendoInputvalue '8:00 AM' entered.",
+            "Runtime ID": "b018b7d0-a38b-4849-b362-b5a6e802d5e8",
+            "Description": "KendoInput: TimePicker open ",
             "CustomDescription": null,
             "Step": {
-              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.KendoInputTypeAction",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputTimePickerToggle",
               "__value": {
-                "InputValue": "8:00 AM",
-                "ClearBeforeTyping": true,
-                "KeyPressTime": 50,
-                "KeyHoldTime": 50,
-                "UseClientApi": false,
-                "CustomPrefix": null,
+                "TimePickerOpened": "False",
+                "CustomPrefix": "KendoInput",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -989,10 +1044,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "dhnfatjsJ2aJxRSM1u1k5GnLE88=",
+                          "uniqueKey": "yDgONppp7T01GHCEowp16JNEtQ0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span4",
+                          "Name": "Span40",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1009,13 +1064,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=~k-widget"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "GroupIndex=10"
+                                        "Clause": "class=k-widget k-timepicker k-header w-20"
                                       }
                                     }
                                   ],
@@ -1044,11 +1093,125 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Services3slqomzd.pgl",
+            "StepImageKey": "Medication Servicesicyyeo3n.ux0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6c85622a-ce23-4b49-aed7-5948e60fad7d",
+            "Description": "KendoListBox: select item by text '7:00 AM'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
+              "__value": {
+                "SelectionType": 0,
+                "SelectionText": "7:00 AM",
+                "SelectionIndex": 0,
+                "CustomPrefix": "KendoListBox",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "KendoListBox": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "KendoListBox",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "I3WIFt8UKHWp/uVFSiCQfXgGas8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TimeTimeviewUnorderedList",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=ul"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=Time_timeview"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[26]/div[1]/ul[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Medication Servicesioynsanm.4zg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1157,7 +1320,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1276,7 +1439,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1394,7 +1557,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1508,7 +1671,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1626,7 +1789,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1740,7 +1903,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1858,7 +2021,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1972,7 +2135,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2012,7 +2175,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 20,
             "Id": "Medication_Services_CodedStep",
             "StepState": 1,
             "ContinueOnFailure": true,
@@ -2024,7 +2187,203 @@
         }
       ]
     },
-    "IndependentDescriptors": [],
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/Plan/Events/ViewEvent",
+              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+              "BaseUrl": "http://miami.acceliqc.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyIFSPInitial1"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "mc33wP0aR/EIV9GRD2ctADKW8UY=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EndDateText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "aria-owns=EndDate_dateview"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[3]/div[2]/span[2]/span[1]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/Plan/Events/ViewEvent",
+              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+              "BaseUrl": "http://miami.acceliqc.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyIFSPInitial1"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "OKpaVZ5gMGmZtwq7kiyfmncfjpQ=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "TimeText",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "aria-owns=Time_timeview"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[1]/span[1]/span[1]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "KendoInput",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/Plan/Events/ViewEvent",
+              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+              "BaseUrl": "http://miami.acceliqc.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyIFSPInitial1"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "yDgONppp7T01GHCEowp16JNEtQ0=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Span40",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=k-widget k-timepicker k-header w-20"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[1]/span[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
