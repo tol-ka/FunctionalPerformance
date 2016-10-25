@@ -1220,14 +1220,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4c5db736-e046-4aea-9db4-4b8d97c49815",
-            "Description": "Click 'Div'",
+            "Runtime ID": "ef232bdd-abf2-4acc-91f8-55c6b85931a5",
+            "Description": "KendoInputButton click -> 'Up' arrow",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.KendoButtonsAction",
               "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
+                "SpinButtonType": 0,
+                "CustomPrefix": "KendoInput",
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -1245,123 +1246,10 @@
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoInput": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "GrCDA1OzVbtWZdytzx/CleiOTn8=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Div6",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=frmCreateMedicationService"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagIndex=div:24"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[6]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 12,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "Medication Serviceszkf3x2q0.1ec",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "d394924f-e881-4a8d-b81a-d8267118c8af",
-            "Description": "Click 'Span5'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
+                      "Name": "KendoInput",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -1382,10 +1270,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "NcgLSJl+gj6a6QOjPkYNtxV++Tg=",
+                          "uniqueKey": "kYI/JxFV3BvtzZNSC7zH9zRLwdc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span5",
+                          "Name": "IncreaseValueSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1396,35 +1284,33 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmCreateMedicationService"
+                                        "Clause": "tagname=span"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "Title=Increase value"
+                                        "Clause": "class=k-widget k-numerictextbox w-20"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=k-icon k-i-arrow-n"
+                                        "Clause": "InnerText=Increase valueDecrease value"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[2]/span[1]/span[1]/span[1]/span[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[5]/div[1]/div[2]/div[2]/span[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoExtendedInput",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -1439,11 +1325,11 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Medication Servicesbplxzzak.4rk",
+            "StepImageKey": "Medication Servicesvlw1on3q.omw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1502,10 +1388,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Y0Ex2Ah7CDPxw0YJVzmQneO7F9Q=",
+                          "uniqueKey": "usLUoNdaoh2E5A1yRazn8qK889Q=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span6",
+                          "Name": "UnitsSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1522,13 +1408,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=~k-widget"
+                                        "Clause": "aria-owns=DoseUnitId_listbox"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "aria-owns=DoseUnitId_listbox"
+                                        "Clause": "class=k-widget k-dropdown k-header w-25"
                                       }
                                     }
                                   ],
@@ -1557,7 +1443,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1571,12 +1457,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "82848ca9-4495-4993-b26d-cb76d572a952",
-            "Description": "KendoListBox: select item by text 'Capsule'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Capsule",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
@@ -1652,7 +1538,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[42]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[18]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1671,7 +1557,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1734,10 +1620,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "pgeZLq981C7TSWtc66Z2aPsBI94=",
+                          "uniqueKey": "5W393BawB/HCha1MEnET0qYD05Q=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span19",
+                          "Name": "RouteListSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1760,7 +1646,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=19"
+                                        "Clause": "aria-owns=RouteId_listbox"
                                       }
                                     }
                                   ],
@@ -1770,7 +1656,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[6]/span[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1789,7 +1675,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1803,12 +1689,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d2711fdd-2671-43bd-abb5-e33ad8a2ce6e",
-            "Description": "KendoListBox: select item by text 'Ear'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
+                "SelectionType": 1,
                 "SelectionText": "Ear",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
@@ -1884,7 +1770,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[34]/div[1]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1903,11 +1789,124 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "Medication Servicespo5d0suc.4i0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "3029bfef-5b8a-4853-85b6-52e33d8ba0fb",
+            "Description": "Check 'IsParentPermissionOnFileCheckBox' to be 'True'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
+              "__value": {
+                "CheckedState": true,
+                "InvokeOnClick": false,
+                "InvokeOnChange": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "checkBox": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "checkBox",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cue0ZDUBbNW8hpLW3YHWTg3PjFk=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "IsParentPermissionOnFileCheckBox",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=IsParentPermissionOnFile"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[4]/ul[1]/li[1]/div[1]/form[1]/div[1]/div[7]/div[1]/div[1]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Medication Serviceszrs1q10s.f0l",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1969,7 +1968,7 @@
                           "uniqueKey": "NtBhedTKX4DucN8+9DXI2ykNtio=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span10",
+                          "Name": "ViaSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -2035,13 +2034,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "04247dee-5b2b-43c1-97bf-90bcb5ee4b13",
-            "Description": "KendoListBox: select item by text 'Self-Administered with Supervision'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SelectionType": 0,
-                "SelectionText": "Self-Administered with Supervision",
+                "SelectionType": 1,
+                "SelectionText": "",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
@@ -2116,7 +2115,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[46]/div[2]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[22]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
