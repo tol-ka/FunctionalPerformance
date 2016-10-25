@@ -87,7 +87,7 @@ column = 5;
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
             }
             else if (Utility.saveflag == "nosaveNoOther"){
-                 column = 4;
+                 column = 3;
                  xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
                 
      xlWorksheet.Cells[row , column] = "N/a";
