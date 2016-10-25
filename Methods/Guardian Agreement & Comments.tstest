@@ -18,7 +18,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c093616d-3c2b-4fec-9390-ae3f74fa63c4",
-            "Description": "Click 'YesSpan'",
+            "Description": "Click 'YesParentAgreeWithTheIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -64,12 +64,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "OQqeedpelvZ0UviTZqTw/W1gGKc=",
+                          "uniqueKey": "GygNvIWxqWm5BU+A0qphqtTAoow=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "YesSpan11",
+                          "Name": "YesParentAgreeWithTheIEP",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -80,13 +80,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmFormDetails"
+                                        "Clause": "class=js-form-field-value DidTheParentAgreeWithTheIEP"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:2"
+                                        "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Yes"
                                       }
                                     }
                                   ],
@@ -131,7 +137,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "013fc65f-a6d2-427c-b8cf-fbd58184ea24",
-            "Description": "Click 'YesSpan'",
+            "Description": "Click 'ParentGuardianCommentsQuestion1Yes'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -177,12 +183,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "lLMjwHBET3Vn+YjRdw76V3PzweQ=",
+                          "uniqueKey": "5d+6e/Zl8L4feju4RGd6lx6d2As=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "YesSpan12",
+                          "Name": "ParentGuardianCommentsQuestion1Yes",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -193,13 +199,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmFormDetails"
+                                        "Clause": "class=js-form-field-value ParentGuardianCommentsQuestion1"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:8"
+                                        "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Yes"
                                       }
                                     }
                                   ],
@@ -256,7 +268,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.FillParentGuardian",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Parent Guardian  Agreement & Comments.resx",
+    "ResourceFilePath": "Methods\\Guardian Agreement & Comments.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -286,9 +298,9 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Parent Guardian  Agreement & Comments",
+    "Name": "Guardian Agreement & Comments",
     "Owner": "",
-    "Path": "Methods\\Parent Guardian  Agreement & Comments.tstest",
+    "Path": "Methods\\Guardian Agreement & Comments.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "45116d24-a347-4e89-9184-931f05c6f015",

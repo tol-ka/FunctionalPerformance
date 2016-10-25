@@ -47,7 +47,7 @@
             "Order": 1,
             "Id": "Parent_Community_Resource_Letter_CodedStep",
             "StepState": 1,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Parent Community Resource Lettergbot5flp.dkz",
             "QcId": 0,
             "QcVersionStamp": 0,
