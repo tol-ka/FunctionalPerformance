@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class FillMeetingAttendance : BaseWebAiiTest
+    public class Meeting_Signatures : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,10 +46,11 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"Set_formName")]
-        public void setFormName()
+        [CodedStep(@"New Coded Step")]
+        public void Meeting_Signatures_CodedStep()
         {
-                                 Utility.formname = "Meeting Attendance";
+            Utility.comment = "Meeting Signatures";
+            Utility.saveflag = "nosaveNoOther"; 
         }
     }
 }
