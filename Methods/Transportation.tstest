@@ -120,7 +120,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillLockIEPInitialuqoq5a5k.upu",
             "QcId": 0,
             "QcVersionStamp": 0,
