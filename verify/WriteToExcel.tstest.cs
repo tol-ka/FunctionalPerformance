@@ -56,7 +56,7 @@ String myPath = Utility.filepath;
 
 var buildnum = Utility.currentBuild;
 //var row = Utility.row;
-var row = Data.IterationIndex + 2;
+var row = Data.IterationIndex + 3;
 var column = 2; 
 
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
