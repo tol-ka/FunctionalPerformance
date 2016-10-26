@@ -118,5 +118,11 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
             String build = new String(_build.Where(Char.IsDigit).ToArray());
                                     Utility.currentBuild = build;
         }
+    
+        [CodedStep(@"Set event Name")]
+        public void setEventName()
+        {
+            Utility.eventName = @"IFSP Initial Meeting";
+        }
     }
 }

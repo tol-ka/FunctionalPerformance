@@ -385,18 +385,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9c49365b-0b91-4b5a-8f65-70f1db6ee7ca",
-            "Description": "Execute test 'CreateInitialIEP'",
+            "Runtime ID": "5ef9cffb-a794-48d9-997b-4af577a0d4bd",
+            "Description": "Set event Name",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "WaitOnElementsTimeout": 0,
+                "Code": "            Utility.eventName = @\"IEP Initial Eligibility and Initial Meeting\";",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "CreateInitialIEP",
-                "TestPath": "Methods\\CreateInitialIEP.tstest",
-                "TestUniqueId": "1bf0ad17-2b5d-4fd2-aa1c-d763af1e72db",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -414,6 +413,47 @@
             },
             "Enabled": true,
             "Order": 8,
+            "Id": "setEventName",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockIEPInitialr2yekijs.52n",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "9c49365b-0b91-4b5a-8f65-70f1db6ee7ca",
+            "Description": "Execute test 'CreateEvent'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "CreateEvent",
+                "TestPath": "Methods\\CreateEvent.tstest",
+                "TestUniqueId": "1bf0ad17-2b5d-4fd2-aa1c-d763af1e72db",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -522,7 +562,7 @@
               }
             },
             "Enabled": false,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -563,7 +603,7 @@
               }
             },
             "Enabled": false,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -604,7 +644,7 @@
               }
             },
             "Enabled": false,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -715,7 +755,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -824,7 +864,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -865,7 +905,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,

@@ -387,18 +387,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f87835ec-0858-410c-babc-b0bb618bb0cd",
-            "Description": "Execute test 'CreateInitialMeetingPSSP'",
+            "Runtime ID": "a5820906-691b-44bd-81d5-543ee4f824eb",
+            "Description": "Set event Name",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "WaitOnElementsTimeout": 0,
+                "Code": "            Utility.eventName = @\"PSSP Initial Meeting\";",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "CreateInitialMeetingPSSP",
-                "TestPath": "Methods\\CreateInitialMeetingPSSP.tstest",
-                "TestUniqueId": "4487d383-29f6-46b2-8373-3b7bcd9e1953",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -416,10 +415,51 @@
             },
             "Enabled": true,
             "Order": 8,
+            "Id": "setEventName",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockPSSPInitialwfyjr3xc.l32",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f24ac970-60b4-481e-9cd0-0233337c2a95",
+            "Description": "Execute test 'CreateEvent'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "CreateEvent",
+                "TestPath": "Methods\\CreateEvent.tstest",
+                "TestUniqueId": "1bf0ad17-2b5d-4fd2-aa1c-d763af1e72db",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitial3j2s1f1x.io4",
+            "StepImageKey": "MAIN_FillLockPSSPInitialtwsffkfr.31a",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -524,7 +564,7 @@
               }
             },
             "Enabled": false,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -635,7 +675,7 @@
               }
             },
             "Enabled": false,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -746,7 +786,7 @@
               }
             },
             "Enabled": false,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -785,7 +825,7 @@
               }
             },
             "Enabled": false,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -826,7 +866,7 @@
               }
             },
             "Enabled": false,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -867,7 +907,7 @@
               }
             },
             "Enabled": false,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -986,7 +1026,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1095,7 +1135,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1136,7 +1176,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,

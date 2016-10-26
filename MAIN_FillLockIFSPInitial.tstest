@@ -387,18 +387,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4895252f-019d-40c9-aff4-d32a05f320ad",
-            "Description": "Execute test 'CreateInitialMeetingIFSP'",
+            "Runtime ID": "c1626d39-2cc2-40fc-bec7-a51fa653b3aa",
+            "Description": "Set event Name",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "WaitOnElementsTimeout": 0,
+                "Code": "            Utility.eventName = @\"IFSP Initial Meeting\";",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "CreateInitialMeetingIFSP",
-                "TestPath": "Methods\\CreateInitialMeetingIFSP.tstest",
-                "TestUniqueId": "f9b46e6d-b40c-4ec2-9679-2cb6d06b976e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -416,10 +415,51 @@
             },
             "Enabled": true,
             "Order": 8,
+            "Id": "setEventName",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "MAIN_FillLockIFSPInitials2spuylg.ssz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "99c525d6-4d3f-4fbe-a558-57e40497358e",
+            "Description": "Execute test 'CreateEvent'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "CreateEvent",
+                "TestPath": "Methods\\CreateEvent.tstest",
+                "TestUniqueId": "1bf0ad17-2b5d-4fd2-aa1c-d763af1e72db",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIFSPInitialypq14xaf.gyl",
+            "StepImageKey": "MAIN_FillLockIFSPInitiale5z5frcn.rbl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -524,7 +564,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -641,7 +681,7 @@
               }
             },
             "Enabled": false,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -750,7 +790,7 @@
               }
             },
             "Enabled": false,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -867,7 +907,7 @@
               }
             },
             "Enabled": false,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -976,7 +1016,7 @@
               }
             },
             "Enabled": false,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1015,7 +1055,7 @@
               }
             },
             "Enabled": false,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1056,7 +1096,7 @@
               }
             },
             "Enabled": false,
-            "Order": 15,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1097,7 +1137,7 @@
               }
             },
             "Enabled": false,
-            "Order": 16,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1206,7 +1246,7 @@
               }
             },
             "Enabled": false,
-            "Order": 17,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1315,7 +1355,7 @@
               }
             },
             "Enabled": false,
-            "Order": 18,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1424,7 +1464,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1533,7 +1573,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1574,7 +1614,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
