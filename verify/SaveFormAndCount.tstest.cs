@@ -54,7 +54,8 @@ this.ExecuteTest("verify\\Save_Form.tstest");
 watch.Stop();
 Utility.savetime = watch.ElapsedMilliseconds;
             this.ExecuteTest("verify\\WriteToExcel.tstest");
-            Utility.row = Utility.row + 1;
+            //Utility.row = Utility.row + 1;
+            Utility.row = Data.IterationIndex + 2;
     }
     }
 }

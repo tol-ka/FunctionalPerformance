@@ -55,8 +55,8 @@ String myPath = Utility.filepath;
 
 
 var buildnum = Utility.currentBuild;
-//var row = Utility.row;
-var row = Data.IterationIndex + 3;
+var row = Utility.row;
+//var row = Data.IterationIndex + 2;
 var column = 2; 
 
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
@@ -98,7 +98,8 @@ column = 5;
                 xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
-                Utility.row = Utility.row + 1;
+                //Utility.row = Utility.row + 1;
+             Utility.row = Data.IterationIndex + 2;
             }
              else if (Utility.saveflag == "nosaveButOther"){
                   column = 3;

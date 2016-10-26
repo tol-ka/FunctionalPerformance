@@ -20,7 +20,8 @@ namespace PerformanceTesting
         public static String accomodURL;
         public static String datasource = "";
         public static int column = 1;
-        public static int row = 2;
+        public static int row = 1;
+       // public static int row = Data.IterationIndex + 2;
         public static long opentime = 000;
         public static long savetime = 000;
         //may be normal, nosaveNoOther, nosaveButOther
