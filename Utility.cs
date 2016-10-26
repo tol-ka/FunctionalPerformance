@@ -20,8 +20,7 @@ namespace PerformanceTesting
         public static String accomodURL;
         public static String datasource = "";
         public static int column = 1;
-        public static int row = 1;
-       // public static int row = Data.IterationIndex + 2;
+        public static int row = 2;
         public static long opentime = 000;
         public static long savetime = 000;
         //may be normal, nosaveNoOther, nosaveButOther
@@ -29,7 +28,7 @@ namespace PerformanceTesting
         public static String comment = "save";
         public static Boolean error_flag = false;
         public static String func_comment = "";
-        //may be pssp, iep, ifsp
+        //may be pssp, iep, ifsp, ep
         public static String plan = "not defined";
         public static String checkbox = "non defined";
         public static String currentDomain = "non defined";

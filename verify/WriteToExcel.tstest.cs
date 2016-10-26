@@ -98,8 +98,8 @@ column = 5;
                 xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
              if (Utility.error_flag) {
    xlRange.Font.Color = Excel.XlRgbColor.rgbRed; }
-                //Utility.row = Utility.row + 1;
-             Utility.row = Data.IterationIndex + 2;
+                Utility.row = Utility.row + 1;
+             //Utility.row = Data.IterationIndex + 2;
             }
              else if (Utility.saveflag == "nosaveButOther"){
                   column = 3;
