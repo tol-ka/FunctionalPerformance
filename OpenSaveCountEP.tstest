@@ -135,47 +135,6 @@
             "QcVersionStamp": 0,
             "Version": 200
           }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "8b9c5a28-d2c2-4844-b31e-ab1e9672533d",
-            "Description": "Execute test 'SaveFormAndCount'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "SaveFormAndCount",
-                "TestPath": "verify\\SaveFormAndCount.tstest",
-                "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 4,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "OpenSaveCountxruu3ssx.udc",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
         }
       ]
     },
@@ -200,10 +159,10 @@
       "__value": {
         "ConnectionString": "",
         "DefaultToGrid": false,
-        "DataRange": "",
+        "DataRange": ":13",
         "LoadRecordsCount": null,
-        "DataTableName": "PSSP$",
-        "DataProvider": "PerformanceTestDataPSSP.xls",
+        "DataTableName": "EP$",
+        "DataProvider": "PerformanceTestDataEP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
         "DataType": 5,
