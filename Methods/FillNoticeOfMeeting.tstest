@@ -145,87 +145,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "43810504-e43d-44cb-815a-6a805b18e49c",
-            "Description": "Set_formName",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "                        Utility.formname = \"Notice of Meeting\";",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "setFormName",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillNoticeOfMeetingap3fesvx.kff",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "29eadfc4-b0a5-416b-8b21-c82c51f338be",
-            "Description": "Execute test 'OpenFormAndCount'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "OpenFormAndCount",
-                "TestPath": "verify\\OpenFormAndCount.tstest",
-                "TestUniqueId": "8040a0ed-1e24-4242-9481-4ea8ff8a4536",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillNoticeOfMeetingegfcyf4t.hpo",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "a9045009-80cf-464d-aac5-c0c709e690a3",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
@@ -322,7 +241,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -442,7 +361,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -564,7 +483,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -680,7 +599,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -804,7 +723,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -843,7 +762,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -967,7 +886,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1006,7 +925,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1130,7 +1049,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1169,7 +1088,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1295,7 +1214,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1417,7 +1336,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1537,7 +1456,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1551,14 +1470,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c9732ca0-ec7a-4533-bfbe-686555f8ba68",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -1653,7 +1572,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1779,7 +1698,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1905,7 +1824,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2027,7 +1946,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2147,7 +2066,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2161,14 +2080,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "327441e2-22bb-4718-9f42-837d687cdc8b",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "NON-MDCPS CHILD",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -2263,7 +2182,7 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2389,7 +2308,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2500,7 +2419,7 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2622,7 +2541,7 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2742,7 +2661,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2756,14 +2675,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "84f9b6a0-8f68-4da5-9eae-39ffdd0cefc7",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "2, 1",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -2858,7 +2777,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2980,7 +2899,7 @@
               }
             },
             "Enabled": true,
-            "Order": 28,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3100,7 +3019,7 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3114,14 +3033,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6a825d5e-da1a-4f6a-8d5d-5c4d2c7bff12",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "2, 1",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -3216,7 +3135,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3338,7 +3257,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3458,7 +3377,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3472,14 +3391,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "70185478-4731-4711-9a67-b33f869fa600",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "2, 1",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -3574,7 +3493,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3690,7 +3609,7 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3810,7 +3729,7 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -3824,14 +3743,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "28a1091d-281f-4680-a42d-df2ba8695510",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -3926,7 +3845,7 @@
               }
             },
             "Enabled": true,
-            "Order": 36,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4048,7 +3967,7 @@
               }
             },
             "Enabled": true,
-            "Order": 37,
+            "Order": 35,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4168,7 +4087,7 @@
               }
             },
             "Enabled": true,
-            "Order": 38,
+            "Order": 36,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4182,14 +4101,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c1f0dce1-be3b-4af7-b5bc-79c269634776",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -4284,7 +4203,7 @@
               }
             },
             "Enabled": true,
-            "Order": 39,
+            "Order": 37,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4406,7 +4325,7 @@
               }
             },
             "Enabled": true,
-            "Order": 40,
+            "Order": 38,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4526,7 +4445,7 @@
               }
             },
             "Enabled": true,
-            "Order": 41,
+            "Order": 39,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4540,14 +4459,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2ac2c54f-b249-4788-8087-0d4bea90bed8",
-            "Description": "KendoListBox: select item by index '0'",
+            "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 1,
                 "SelectionText": "",
-                "SelectionIndex": 0,
+                "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
@@ -4642,52 +4561,11 @@
               }
             },
             "Enabled": true,
-            "Order": 42,
+            "Order": 40,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "FillNoticeOfMeeting13l5fohd.yg0",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "eba5c543-6d91-474a-a3a3-1853aa3856d2",
-            "Description": "Execute test 'SaveFormAndCount'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "SaveFormAndCount",
-                "TestPath": "verify\\SaveFormAndCount.tstest",
-                "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 43,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillNoticeOfMeetingipnatwqd.i2x",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -4794,7 +4672,7 @@
               }
             },
             "Enabled": false,
-            "Order": 44,
+            "Order": 41,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -4903,7 +4781,7 @@
               }
             },
             "Enabled": false,
-            "Order": 45,
+            "Order": 42,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
