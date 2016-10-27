@@ -57,6 +57,15 @@ namespace PerformanceTesting
                                                 Utility.currentBuild = build;
         }
     
+         [CodedStep(@"Set Event Name")]
+        public void SeteventName()
+        {
+        string area = Utility.eventName;
+            Log.WriteLine("Event to go: "+area);
+        SetExtractedValue("EventName", area);            
+        }
+        
+        
         [CodedStep(@"Start Checking Forms")]
         public void startForms()
         {

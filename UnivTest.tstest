@@ -10,7 +10,17 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
@@ -48,122 +58,8 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialxcanzz0x.cib",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "93123df4-1155-44bb-81fa-bc05474bdfb3",
-            "Description": "Extract 'TextContent'  $(EventName)",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
-              "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "",
-                "UseBackupSearch": true,
-                "DataBindVariableName": "EventName",
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/AcceliTrack/Home.aspx",
-                          "Query": "",
-                          "BaseUrl": "http://dadematrix.acceliplan.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "AcceliTrack - Welcome to AcceliTrack provider area!",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AcceliTrackWelcomeTo"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "zRvONnlKZmtZSFz0SDUBPGZ1Sz8=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "PlcContentCtlPageHeaderLnkLogoutLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=plcContent_ctlPageHeader_lnkLogout"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/div[3]/div[1]/div[2]/div[2]/span[5]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 16,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "MAIN_FillLockPSSPInitial4vabsryt.1tt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -200,10 +96,10 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitialswyql2iz.gfu",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -314,10 +210,10 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialed0aq1ge.pnt",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -354,10 +250,10 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "SaveCurrentBuild1",
             "StepState": 1,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialf4w2usf2.j2r",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -395,10 +291,10 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitial3oxmkvh0.du5",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -436,10 +332,10 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillLockIEPInitialfzqgayp0.l5i",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -477,10 +373,10 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitialtwsffkfr.31a",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -586,10 +482,10 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialpgubb0pm.nkw",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -697,10 +593,10 @@
               }
             },
             "Enabled": false,
-            "Order": 10,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitial2xnq5hsd.i5p",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -808,50 +704,11 @@
               }
             },
             "Enabled": false,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitialqm4a2pvc.ka3",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "84b3e0f7-7592-438a-bf4a-40edc7c02fe5",
-            "Description": "Comment: ToDo - fill NoM distribute and lock",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CommentActionDescriptor",
-              "__value": {
-                "Comment": "ToDo - fill NoM distribute and lock",
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": false,
-            "Order": 12,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "MAIN_FillLockPSSPInitial5awihqfg.mjj",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -888,10 +745,10 @@
               }
             },
             "Enabled": false,
-            "Order": 13,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitial4zwvbbr1.jjb",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -929,10 +786,10 @@
               }
             },
             "Enabled": false,
-            "Order": 14,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillLockIEPInitialh1f23typ.m1w",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -942,8 +799,48 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "bb4914b2-3f41-496d-ae84-769b36f8b525",
+            "Description": "Set Event Name",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "        string area = Utility.eventName;\r\n            Log.WriteLine(\"Event to go: \"+area);\r\n        SetExtractedValue(\"EventName\", area);            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "SeteventName",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "UnivTestd2hkqfbq.xw0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "fac81939-3f46-4d0a-9315-4c1794cf2e80",
-            "Description": "Click 'InitialMeetingLink'",
+            "Description": "Click 'GeneralEventLink0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -994,7 +891,7 @@
                           "uniqueKey": "8mvmmNx/eHwGxMvqL93D3RHG9RE=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "InitialMeetingLink",
+                          "Name": "GeneralEventLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1022,7 +919,9 @@
                             }
                           ],
                           "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]/a[1]",
-                          "DataBindingExpressions": {}
+                          "DataBindingExpressions": {
+                            "Expression": "tagname=a,TextContent=~$(EventName)"
+                          }
                         }
                       },
                       "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
@@ -1040,10 +939,10 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitialcihcbblv.5qs",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1148,11 +1047,11 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 16,
+            "Enabled": false,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillLockIEPInitialsxzvl30t.i2w",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1188,11 +1087,11 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
-            "Order": 17,
+            "Enabled": false,
+            "Order": 16,
             "Id": "startForms",
             "StepState": 1,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockPSSPInitial3vo2coig.1pi",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1230,7 +1129,7 @@
         "HasBuiltinGrid": false,
         "DataType": 4,
         "BuiltInData": null,
-        "BuiltInDocumentKey": null,
+        "BuiltInDocumentKey": "",
         "TSQL": ""
       }
     },

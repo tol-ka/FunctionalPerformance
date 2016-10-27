@@ -33,7 +33,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "        string area = Utility.eventName;\r\n            Log.WriteLine(\"Event to create: \"+area);\r\n        SetExtractedValue(\"EventName\", area);            ",
+                "Code": "        string area = Utility.eventGroupName;\r\n            Log.WriteLine(\"Event to create: \"+area);\r\n        SetExtractedValue(\"EventGroupName\", area);            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -514,7 +514,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "074a1914-868c-4ae1-bc42-97e375ccfd41",
-            "Description": "KendoListBox: select item by text '' - DataDriven: [$(EventName)]",
+            "Description": "KendoListBox: select item by text '' - DataDriven: [$(EventGroupName)]",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
@@ -611,7 +611,7 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {
-                  "SelectionText": "$(EventName)"
+                  "SelectionText": "$(EventGroupName)"
                 }
               }
             },

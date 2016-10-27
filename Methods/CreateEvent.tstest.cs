@@ -49,9 +49,9 @@ namespace PerformanceTesting
         [CodedStep(@"New Coded Step")]
         public void CreateInitialIEP_CodedStep()
         {
-        string area = Utility.eventName;
+        string area = Utility.eventGroupName;
             Log.WriteLine("Event to create: "+area);
-        SetExtractedValue("EventName", area);            
+        SetExtractedValue("EventGroupName", area);            
         }
     }
 }

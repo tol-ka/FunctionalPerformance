@@ -648,7 +648,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c440b06f-9db1-46cc-9305-df656c14bd83",
-            "Description": "Click 'InitialMeetingLink'",
+            "Description": "Click 'GeneralEventLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -699,7 +699,7 @@
                           "uniqueKey": "8mvmmNx/eHwGxMvqL93D3RHG9RE=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "InitialMeetingLink",
+                          "Name": "GeneralEventLink",
                           "FindExpressions": [
                             {
                               "Key": 1,

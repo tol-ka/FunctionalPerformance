@@ -104,6 +104,12 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
             Utility.eventName = @"IEP Initial Eligibility and Initial Meeting";
         }
         
+         [CodedStep(@"Set event Group Name")]
+        public void setEventGroupName()
+        {
+            Utility.eventGroupName = @"IEP Initial Eligibility and Initial Meeting";
+        }
+        
         
     }
 }

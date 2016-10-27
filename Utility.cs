@@ -38,6 +38,7 @@ namespace PerformanceTesting
         public static String currentLevel = "non defined";
         public static String expectedLevel = "non defined";
         public static String expectedRow = "non defined";
+        public static String eventGroupName = "non defined";
         public static String eventName = "non defined";
         public static String rowToCheck = "non defined";
         public static String currentRow = "non defined";
