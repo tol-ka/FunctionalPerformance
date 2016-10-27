@@ -82,8 +82,9 @@ namespace PerformanceTesting
                     studentID = "38090";
                    
                 }
-                String address = "/Plan/Students/ViewStudent?CommonStudentId="+studentID+"&studentViewType=Events&programType=MiamiIEP";
-                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
+                String address = String.Format("/Plan/Students/ViewStudent?CommonStudentId={0}&studentViewType=Events&programType=Miami{1}",studentID,Utility.plan);
+                Console.Out.WriteLine(address); 
+                ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
             
         }
       

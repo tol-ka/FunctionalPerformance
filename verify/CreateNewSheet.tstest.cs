@@ -61,8 +61,10 @@ else if(Utility.plan == "PSSP")
      filename = todayDate+"_PerformanceTestDataPSSP.xls";}
      else if(Utility.plan == "IFSP")
      {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIFSP.xls";
-     filename = todayDate+"_PerformanceTestDataPSSP.xls";}
-
+     filename = todayDate+"_PerformanceTestDataIFSP.xls";}
+else if(Utility.plan == "EP")
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataEP.xls";
+     filename = todayDate+"_PerformanceTestDataEP.xls";}
             var buildnum = Utility.currentBuild;
 
 String myPath = "C:\\MatrixTestReport\\"+filename;

@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class CreateInitialIEP : BaseWebAiiTest
+    public class OpenSaveCountEP : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,12 +46,19 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"New Coded Step")]
-        public void CreateInitialIEP_CodedStep()
+        [CodedStep(@"ChooseAction")]
+        public void OpenSaveCount_ChooseAction()
         {
-        string area = Utility.eventName;
-            Log.WriteLine("Event to create: "+area);
-        SetExtractedValue("EventName", area);            
+            if(Utility.saveflag == "normal"){
+                this.ExecuteTest("verify\\SaveFormAndCount.tstest");
+            }
+            else if(Utility.saveflag == "nosaveButOther"){
+                this.ExecuteTest("verify\\ActFormAndCount.tstest");
+            }
+             else if(Utility.saveflag == "nosaveNoOther"){
+                this.ExecuteTest("verify\\WriteToExcel.tstest");
+            }
+             Utility.saveflag = "normal";
         }
     }
 }

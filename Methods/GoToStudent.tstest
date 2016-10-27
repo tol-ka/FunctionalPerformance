@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    Utility.currentDomain = \"qc\";\r\n                    studentID = \"39\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                    Utility.currentDomain = \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                  else if (bbaseUrl.Contains(\"dadematrix.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"dade_matrix\";\r\n                    studentID = \"38090\";\r\n                   \r\n                }\r\n                String address = \"/Plan/Students/ViewStudent?CommonStudentId=\"+studentID+\"&studentViewType=Events&programType=MiamiIEP\";\r\n                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
+                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    Utility.currentDomain = \"qc\";\r\n                    studentID = \"39\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                    Utility.currentDomain = \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                  else if (bbaseUrl.Contains(\"dadematrix.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"dade_matrix\";\r\n                    studentID = \"38090\";\r\n                   \r\n                }\r\n                String address = String.Format(\"/Plan/Students/ViewStudent?CommonStudentId={0}&studentViewType=Events&programType=Miami{1}\",studentID,Utility.plan);\r\n                Console.Out.WriteLine(address); \r\n                ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -179,7 +179,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.GoTo10YStIEP",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\GoTo10YStIEP.resx",
+    "ResourceFilePath": "Methods\\GoToStudent.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -209,9 +209,9 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "GoTo10YStIEP",
+    "Name": "GoToStudent",
     "Owner": "",
-    "Path": "Methods\\GoTo10YStIEP.tstest",
+    "Path": "Methods\\GoToStudent.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "49d922d2-ae02-421c-b832-6bb651c7b75f",

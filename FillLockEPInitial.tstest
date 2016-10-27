@@ -10,30 +10,20 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c5b6bbe7-958a-4fd6-b73d-85735b832fa7",
-            "Description": "SetPlantoIEP",
+            "Runtime ID": "d8d7d6e2-ef5d-4495-85c1-b609976e9d2a",
+            "Description": "SetPlantoEP",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "         Utility.plan = @\"IEP\";",
+                "Code": "                     Utility.plan = @\"EP\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -55,10 +45,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "SetPlantoieP",
+            "Id": "SetPlantoEP",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialfmimknyo.cyy",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitial04p1m0hv.kqa",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,47 +57,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5ef9cffb-a794-48d9-997b-4af577a0d4bd",
-            "Description": "Set event Name",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "            Utility.eventName = @\"IEP Initial Eligibility and Initial Meeting\";",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "setEventName",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialr2yekijs.52n",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a0dee7a3-76b9-45d5-b3b0-2ca991905f3b",
+            "Runtime ID": "e7048b60-1235-4769-97a6-d1b5138916fd",
             "Description": "Execute test 'LoginAsAdmin'",
             "CustomDescription": null,
             "Step": {
@@ -135,11 +85,11 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialxcanzz0x.cib",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialg1cxzfje.uln",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -148,7 +98,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6eb74d68-d7cb-41e1-a538-d6f080153235",
+            "Runtime ID": "19f46d41-49a7-469d-986b-dae481515c23",
             "Description": "Execute test 'GoToStudent'",
             "CustomDescription": null,
             "Step": {
@@ -176,11 +126,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialhfvfzhe4.2t2",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitial4o0u5lbi.cl2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -189,7 +139,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8c4ec6d8-3996-4c2d-8971-d058b44912ec",
+            "Runtime ID": "158a1589-c049-4337-98a6-6cf460525845",
             "Description": "Extract 'TextContent' on 'Version' into DataBindVariable $(currentBuild)",
             "CustomDescription": null,
             "Step": {
@@ -290,11 +240,11 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialed0aq1ge.pnt",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialro01rhpw.qin",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -303,13 +253,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "444abb12-7ed9-4c3d-9280-2cd7b8a2c2a6",
+            "Runtime ID": "a393e9c1-8b38-4a8a-9a2f-2c491fde4711",
             "Description": "SaveCurrentBuild",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                                    object myData = GetExtractedValue(\"currentBuild\");\r\n            var _build = myData.ToString();\r\n            //removing all but numbers in build\r\n           // String build = Regex.Replace(_build, @\"\\D+\", String.Empty);\r\n            String build = new String(_build.Where(Char.IsDigit).ToArray());\r\n                                    Utility.currentBuild = build;",
+                "Code": "                                                object myData = GetExtractedValue(\"currentBuild\");\r\n                        var _build = myData.ToString();\r\n                        //removing all but numbers in build\r\n                       // String build = Regex.Replace(_build, @\"\\D+\", String.Empty);\r\n                        String build = new String(_build.Where(Char.IsDigit).ToArray());\r\n                                                Utility.currentBuild = build;",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -330,11 +280,11 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 5,
             "Id": "SaveCurrentBuild1",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialf4w2usf2.j2r",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialv2rjjk4a.lyt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -343,7 +293,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2556289c-2ca1-4627-b599-dd44a94e18f9",
+            "Runtime ID": "963c84ca-131d-472f-bc1e-851f99a15e91",
             "Description": "Execute test 'CreateNewSheet'",
             "CustomDescription": null,
             "Step": {
@@ -371,11 +321,11 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialnfxrmdyv.wz0",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialnvh0vkpe.gga",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -384,7 +334,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "e82939fc-3a80-4a5b-88c3-c54ad7b8ad41",
+            "Runtime ID": "6affe95f-02c1-4fc4-a0f3-abf92c4e57e9",
             "Description": "Execute test 'Clean'",
             "CustomDescription": null,
             "Step": {
@@ -412,11 +362,11 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialfzqgayp0.l5i",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialc5umrwds.leg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -425,7 +375,47 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9c49365b-0b91-4b5a-8f65-70f1db6ee7ca",
+            "Runtime ID": "abb6003b-2cea-43d4-afb1-b4cf5edae1b1",
+            "Description": "Set event Name",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "                        Utility.eventName = @\"EP Initial Meeting\";",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "setEventName",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialjekygmfh.2hb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "18ac8ae4-37d9-4524-bb80-0dd67bd85d8a",
             "Description": "Execute test 'CreateEvent'",
             "CustomDescription": null,
             "Step": {
@@ -456,8 +446,8 @@
             "Order": 9,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialfo11cyu2.umc",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialr1dtnp4l.or0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -466,7 +456,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bb93409b-086e-4638-82ec-06da2588b1b9",
+            "Runtime ID": "f8926190-daff-47a7-967b-35b7e6791123",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -561,12 +551,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialpgubb0pm.nkw",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialtavwk0d5.zxt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -575,7 +565,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2148785c-5520-479e-a207-8dac9cf68c18",
+            "Runtime ID": "36bb66ae-ebb5-4671-a9ce-83b62d92058e",
             "Description": "Execute test 'FillNoticeOfMeeting'",
             "CustomDescription": null,
             "Step": {
@@ -602,12 +592,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 11,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitial4zwvbbr1.jjb",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialbptxakj5.szf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -616,7 +606,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2af64f27-bb70-4b7a-9be2-0929712979f7",
+            "Runtime ID": "d64a3861-5fb3-4e26-b9ae-b5dd4e36c104",
             "Description": "Execute test 'DistributeAndLockNotice'",
             "CustomDescription": null,
             "Step": {
@@ -643,12 +633,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 12,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialh1f23typ.m1w",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialw2vkcbmh.sdy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -657,7 +647,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "29f2abbe-e864-4412-80ad-378fc344ac41",
+            "Runtime ID": "c440b06f-9db1-46cc-9305-df656c14bd83",
             "Description": "Click 'InitialMeetingLink'",
             "CustomDescription": null,
             "Step": {
@@ -758,8 +748,8 @@
             "Order": 13,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialdt5ijh2r.l0e",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialmhafonun.v5p",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -768,7 +758,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b1b154b3-ef8a-44e4-80dc-f98d8ca16bef",
+            "Runtime ID": "e5b7faa1-53f3-4ac3-9419-029288a4429d",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -867,8 +857,8 @@
             "Order": 14,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIEPInitialsxzvl30t.i2w",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitialwlatz3br.kfu",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -877,7 +867,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "aaea6528-60d7-49e1-8dc9-3a132f3847d5",
+            "Runtime ID": "ed993f0d-d09e-41e4-b2e0-a4a78a65eb90",
             "Description": "Execute test 'OpenSaveCountIEP.tstest'",
             "CustomDescription": null,
             "Step": {
@@ -908,8 +898,8 @@
             "Order": 15,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialwjifki01.gvv",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillLockEPInitiallx4vdwze.h4v",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -929,9 +919,9 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.MAIN_FillLockIEPInitial",
+    "TestClass": "PerformanceTesting.FillLockEPInitial",
     "IsManual": false,
-    "ResourceFilePath": "MAIN_FillLockIEPInitial.resx",
+    "ResourceFilePath": "FillLockEPInitial.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -961,13 +951,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "MAIN_FillLockIEPInitial",
+    "Name": "FillLockEPInitial",
     "Owner": "",
-    "Path": "MAIN_FillLockIEPInitial.tstest",
+    "Path": "FillLockEPInitial.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
-    "Id": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
+    "UniqueId": "044a9564-e3c7-4f14-bf43-c970527e915c",
+    "Id": "044a9564-e3c7-4f14-bf43-c970527e915c",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

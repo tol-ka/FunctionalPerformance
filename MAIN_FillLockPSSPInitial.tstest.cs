@@ -118,5 +118,12 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
         {
             Utility.eventName = @"PSSP Initial Meeting";
         }
+        
+        [CodedStep(@"Start Checking Forms")]
+        public void startForms()
+        {
+            var testname = String.Format("OpenSaveCount{0}.tstest",Utility.plan);
+             this.ExecuteTest(testname);
+        }
     }
 }

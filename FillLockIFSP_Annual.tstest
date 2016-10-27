@@ -18,7 +18,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e1f9f5e0-100a-4d84-a5b0-a1032d87baa8",
-            "Description": "Execute test 'LoginAsAdminIFSPNoIEP'",
+            "Description": "Execute test 'LoginAsAdmin.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -26,8 +26,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginAsAdminIFSPNoIEP",
-                "TestPath": "Methods\\LoginAsAdminIFSPNoIEP.tstest",
+                "TestName": "LoginAsAdmin.tstest",
+                "TestPath": "Methods\\LoginAsAdmin.tstest",
                 "TestUniqueId": "0c0a2d71-c7f3-4a94-ac52-4cfaf4caf2f2",
                 "Pause": 0,
                 "RunsAgainstVersion": "",

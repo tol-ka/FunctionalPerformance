@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class CreateInitialIEP : BaseWebAiiTest
+    public class FillLockEPInitial : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,12 +46,27 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"New Coded Step")]
-        public void CreateInitialIEP_CodedStep()
+        [CodedStep(@"SetPlantoEP")]
+        public void SetPlantoEP()
         {
-        string area = Utility.eventName;
-            Log.WriteLine("Event to create: "+area);
-        SetExtractedValue("EventName", area);            
+                     Utility.plan = @"EP";
+        }
+    
+        [CodedStep(@"SaveCurrentBuild")]
+        public void SaveCurrentBuild1()
+        {
+                                                object myData = GetExtractedValue("currentBuild");
+                        var _build = myData.ToString();
+                        //removing all but numbers in build
+                       // String build = Regex.Replace(_build, @"\D+", String.Empty);
+                        String build = new String(_build.Where(Char.IsDigit).ToArray());
+                                                Utility.currentBuild = build;
+        }
+    
+        [CodedStep(@"Set event Name")]
+        public void setEventName()
+        {
+                        Utility.eventName = @"EP Initial Meeting";
         }
     }
 }
