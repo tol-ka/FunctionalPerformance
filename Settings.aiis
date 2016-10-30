@@ -166,7 +166,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "http://dadematrix.acceliplan.com",
+    "RecorderBaseUrl": "http:\\\\dade.acceliqc.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
@@ -221,8 +221,8 @@
       "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
     ],
-    "ScheduleServerUrl": "http://test22:8009/",
-    "IsScheduleServerRemote": true,
+    "ScheduleServerUrl": "http://localhost:8009/",
+    "IsScheduleServerRemote": false,
     "ProjectVersion": "2016.3.919.0",
     "Namespace": "PerformanceTesting",
     "AssemblyName": "PerformanceFunctionalTesting",

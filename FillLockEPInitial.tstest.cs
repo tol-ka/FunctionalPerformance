@@ -69,11 +69,6 @@ namespace PerformanceTesting
                         Utility.eventName = @"EP Initial Meeting";
         }
     
-        [CodedStep(@"SetPlan")]
-        public void SetPlan()
-        {
-                     Utility.plan = @"EP";
-        }
     
     
         [CodedStep(@"Set event Group Name")]

@@ -799,6 +799,46 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "4e20384d-fbbc-4fa1-b142-7d351b05d167",
+            "Description": "Set Event Name",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "        string area2 = Utility.eventName;\r\n            Log.WriteLine(\"Event to go: \"+area2);\r\n            Console.Out.WriteLine(\"__Event to go: \"+area2);\r\n        SetExtractedValue(\"EventName\", area2);            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "SeteventName",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "UnivTestsdn051sm.kbz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "fac81939-3f46-4d0a-9315-4c1794cf2e80",
             "Description": "Click 'GeneralEventLink0'",
             "CustomDescription": null,
@@ -899,7 +939,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1008,7 +1048,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1048,7 +1088,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 16,
             "Id": "startForms",
             "StepState": 1,
             "ContinueOnFailure": true,

@@ -46,12 +46,13 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"New Coded Step")]
+        [CodedStep(@"Set Event Group and Event variables")]
         public void CreateInitialIEP_CodedStep()
         {
         string area = Utility.eventGroupName;
             Log.WriteLine("Event to create: "+area);
-        SetExtractedValue("EventGroupName", area);            
+        SetExtractedValue("EventGroupName", area); 
+            
         }
     }
 }

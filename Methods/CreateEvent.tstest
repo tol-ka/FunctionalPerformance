@@ -28,12 +28,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "49d91fc1-2c66-4e79-aca7-e95fca37744a",
-            "Description": "New Coded Step",
+            "Description": "Set Event Group and Event variables",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "        string area = Utility.eventGroupName;\r\n            Log.WriteLine(\"Event to create: \"+area);\r\n        SetExtractedValue(\"EventGroupName\", area);            ",
+                "Code": "        string area = Utility.eventGroupName;\r\n            Log.WriteLine(\"Event to create: \"+area);\r\n        SetExtractedValue(\"EventGroupName\", area); \r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

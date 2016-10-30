@@ -60,9 +60,10 @@ namespace PerformanceTesting
          [CodedStep(@"Set Event Name")]
         public void SeteventName()
         {
-        string area = Utility.eventName;
-            Log.WriteLine("Event to go: "+area);
-        SetExtractedValue("EventName", area);            
+        string area2 = Utility.eventName;
+            Log.WriteLine("Event to go: "+area2);
+            Console.Out.WriteLine("__Event to go: "+area2);
+        SetExtractedValue("EventName", area2);            
         }
         
         
