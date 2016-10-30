@@ -744,7 +744,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 11,
             "Id": "",
             "StepState": 0,
@@ -791,46 +791,6 @@
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "FillLockIEPInitialh1f23typ.m1w",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "bb4914b2-3f41-496d-ae84-769b36f8b525",
-            "Description": "Set Event Name",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "        string area = Utility.eventName;\r\n            Log.WriteLine(\"Event to go: \"+area);\r\n        SetExtractedValue(\"EventName\", area);            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 13,
-            "Id": "SeteventName",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "UnivTestd2hkqfbq.xw0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -939,7 +899,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1047,8 +1007,8 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
-            "Order": 15,
+            "Enabled": true,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1088,7 +1048,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "startForms",
             "StepState": 1,
             "ContinueOnFailure": true,

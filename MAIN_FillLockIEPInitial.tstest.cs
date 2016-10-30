@@ -45,8 +45,8 @@ namespace PerformanceTesting
         #endregion
         
         // Add your test methods here...
-      [CodedStep(@"SetPlantoIEP")]
-        public void SetPlantoieP()
+      [CodedStep(@"Set Plan to IEP")]
+        public void SetPlantoIEP()
         {
          Utility.plan = @"IEP";
         }
@@ -54,7 +54,7 @@ namespace PerformanceTesting
         public void CreateNewSheet()
         {
              var todayDate = DateTime.Now.ToString("MMDD"); 
-string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestData1007.xls";
+string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIEP.xls";
             var buildnum = Utility.currentBuild;
 var filename = todayDate+"_PerformanceTestData1007.xls";
 String myPath = "C:\\MatrixTestReport\\"+filename;
@@ -101,7 +101,7 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
           [CodedStep(@"Set event Name")]
         public void setEventName()
         {
-            Utility.eventName = @"IEP Initial Eligibility and Initial Meeting";
+            Utility.eventName = @"IEP Initial Meeting";
         }
         
          [CodedStep(@"Set event Group Name")]

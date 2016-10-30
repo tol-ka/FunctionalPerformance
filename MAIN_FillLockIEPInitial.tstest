@@ -28,7 +28,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c5b6bbe7-958a-4fd6-b73d-85735b832fa7",
-            "Description": "SetPlantoIEP",
+            "Description": "Set Plan to IEP",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
@@ -55,7 +55,7 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "SetPlantoieP",
+            "Id": "SetPlantoIEP",
             "StepState": 1,
             "ContinueOnFailure": true,
             "StepImageKey": "MAIN_FillLockIEPInitialfmimknyo.cyy",
@@ -73,7 +73,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventName = @\"IEP Initial Eligibility and Initial Meeting\";",
+                "Code": "            Utility.eventName = @\"IEP Initial Meeting\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
