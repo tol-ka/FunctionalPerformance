@@ -159,9 +159,9 @@
       "__value": {
         "ConnectionString": "",
         "DefaultToGrid": false,
-        "DataRange": ":13",
+        "DataRange": "1:13",
         "LoadRecordsCount": null,
-        "DataTableName": "EP$",
+        "DataTableName": "EP_Initial$",
         "DataProvider": "PerformanceTestDataEP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,

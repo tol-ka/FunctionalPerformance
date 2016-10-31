@@ -79,11 +79,12 @@ if (!System.IO.File.Exists(myPath))
             
         todayDate = DateTime.Now.ToString("MMdd");
 
-    var sheetName = Utility.plan+"_"+buildnum+"_"+Utility.currentDomain+"_"+todayDate;           
+    var sheetName = Utility.plan+"_"+Utility.eventType+"_"+buildnum+"_"+Utility.currentDomain;           
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 var plan = Utility.plan;
-workbook.Sheets.Copy(Before: workbook.Sheets[1]); 
+var sheetName1 = Utility.plan+"_"+Utility.eventType;
+workbook.Sheets.Copy(Before: workbook.Sheets[1]);
 Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
 xlWorksheet.Name = sheetName;
             
