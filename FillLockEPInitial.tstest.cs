@@ -76,5 +76,11 @@ namespace PerformanceTesting
         {
                         Utility.eventGroupName = @"EP Eligibility Meeting and EP Initial Meeting";
         }
+        
+        [CodedStep(@"Set event Type")]
+        public void setEventType()
+        {
+            Utility.eventType = @"Initial";
+        }
     }
 }

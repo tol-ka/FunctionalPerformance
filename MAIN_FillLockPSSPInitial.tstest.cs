@@ -125,5 +125,19 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
             var testname = String.Format("OpenSaveCount{0}.tstest",Utility.plan);
              this.ExecuteTest(testname);
         }
+        
+         [CodedStep(@"Set event Type")]
+        public void setEventType()
+        {
+            Utility.eventType = @"Initial";
+        }
+        
+        
+    
+        [CodedStep(@"Set event Group Name")]
+        public void setEventGroupName()
+        {
+                        Utility.eventGroupName = @"IEP Initial Eligibility and Initial Meeting";
+        }
     }
 }

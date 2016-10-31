@@ -17,17 +17,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4514cfb8-6664-4d81-9e69-1268460039b4",
-            "Description": "SetPlantoIFSP",
+            "Runtime ID": "bb6555f4-ff1d-46d1-90bb-2fdcd2f70c5a",
+            "Description": "Execute test 'OpenFormAndCount'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "Code": "                     Utility.plan = @\"IFSP\";",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "OpenFormAndCount",
+                "TestPath": "verify\\OpenFormAndCount.tstest",
+                "TestUniqueId": "8040a0ed-1e24-4242-9481-4ea8ff8a4536",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -45,10 +46,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "SetPlantoIFSP",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIFSP_Annuall244zi24.snz",
+            "StepImageKey": "OpenSaveCountreozvyro.1uf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -57,17 +58,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "16fcd0f5-3186-48b1-a215-584ef0427502",
-            "Description": "Set event Name",
+            "Runtime ID": "be12a254-cb8f-4b79-afa1-be31dff225d1",
+            "Description": "Execute test 'FillForm'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "Code": "            Utility.eventName = @\"IFSP Annual Meeting\";",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "FillForm",
+                "TestPath": "verify\\FillForm.tstest",
+                "TestUniqueId": "de9776c7-aa79-4e13-82ba-64088d93fa5c",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -85,10 +87,10 @@
             },
             "Enabled": true,
             "Order": 2,
-            "Id": "setEventName",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIFSP_Annual0jesybsl.14h",
+            "StepImageKey": "OpenSaveCounti22ykuee.yva",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -97,13 +99,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a690e991-3e5d-48a4-a291-de44cc3baa52",
-            "Description": "Set event Group Name",
+            "Runtime ID": "9b9b1622-f325-4836-951e-648ebc332996",
+            "Description": "ChooseAction",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                                    Utility.eventGroupName = @\"IFSP Annual Meeting\";",
+                "Code": "            if(Utility.saveflag == \"normal\"){\r\n                this.ExecuteTest(\"verify\\\\SaveFormAndCount.tstest\");\r\n            }\r\n            else if(Utility.saveflag == \"nosaveButOther\"){\r\n                this.ExecuteTest(\"verify\\\\ActFormAndCount.tstest\");\r\n            }\r\n             else if(Utility.saveflag == \"nosaveNoOther\"){\r\n                this.ExecuteTest(\"verify\\\\WriteToExcel.tstest\");\r\n            }\r\n             Utility.saveflag = \"normal\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -125,10 +127,10 @@
             },
             "Enabled": true,
             "Order": 3,
-            "Id": "setEventGroupName",
+            "Id": "OpenSaveCount_ChooseAction",
             "StepState": 1,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIFSP_Annualdi3e3ipy.u0f",
+            "StepImageKey": "OpenSaveCount3oieljgn.s0k",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -137,8 +139,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0f70b4eb-a05b-4b9a-89e0-e463f7e12a28",
-            "Description": "Execute test 'UnivTest'",
+            "Runtime ID": "8b9c5a28-d2c2-4844-b31e-ab1e9672533d",
+            "Description": "Execute test 'SaveFormAndCount'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -146,9 +148,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "UnivTest",
-                "TestPath": "UnivTest.tstest",
-                "TestUniqueId": "54f6a4d9-bb17-46d9-bdf0-bb38bc8231a8",
+                "TestName": "SaveFormAndCount",
+                "TestPath": "verify\\SaveFormAndCount.tstest",
+                "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -164,12 +166,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FillLockIFSP_Annualcyvyvfop.wth",
+            "StepImageKey": "OpenSaveCountxruu3ssx.udc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -189,22 +191,22 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.FillLockIFSP_Annual",
+    "TestClass": "PerformanceTesting.OpenSaveCountIFSPAnnual",
     "IsManual": false,
-    "ResourceFilePath": "FillLockIFSP_Annual.resx",
+    "ResourceFilePath": "OpenSaveCountIFSPAnnual.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
-        "DefaultToGrid": true,
+        "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "",
-        "DataProvider": "",
+        "DataTableName": "IFSP$",
+        "DataProvider": "PerformanceTestDataIFSP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
-        "DataType": 4,
+        "DataType": 5,
         "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""
@@ -221,13 +223,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "FillLockIFSP_Annual",
+    "Name": "OpenSaveCountIFSPAnnual",
     "Owner": "",
-    "Path": "FillLockIFSP_Annual.tstest",
+    "Path": "OpenSaveCountIFSPAnnual.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "bee9e718-6d2a-40f5-8c44-f26c6d2aba68",
-    "Id": "bee9e718-6d2a-40f5-8c44-f26c6d2aba68",
+    "UniqueId": "c7453007-e592-4e96-901b-6bb74cf5f790",
+    "Id": "c7453007-e592-4e96-901b-6bb74cf5f790",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

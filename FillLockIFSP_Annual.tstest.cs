@@ -68,5 +68,19 @@ namespace PerformanceTesting
         {
             Utility.eventName = @"IFSP Annual Meeting";
         }
+    
+          [CodedStep(@"Set event Type")]
+        public void setEventType()
+        {
+            Utility.eventType = @"Annual";
+        }
+    
+        [CodedStep(@"Set event Group Name")]
+        public void setEventGroupName()
+        {
+                                    Utility.eventGroupName = @"IFSP Annual Meeting";
+        }
+        
+    
     }
 }
