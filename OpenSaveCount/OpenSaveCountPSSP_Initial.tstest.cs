@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class UnivTest : BaseWebAiiTest
+    public class OpenSaveCountPSSP_Initial: BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,32 +46,19 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"SaveCurrentBuild")]
-        public void SaveCurrentBuild1()
+        [CodedStep(@"ChooseAction")]
+        public void OpenSaveCount_ChooseAction()
         {
-                                                object myData = GetExtractedValue("currentBuild");
-                        var _build = myData.ToString();
-                        //removing all but numbers in build
-                       // String build = Regex.Replace(_build, @"\D+", String.Empty);
-                        String build = new String(_build.Where(Char.IsDigit).ToArray());
-                                                Utility.currentBuild = build;
-        }
-    
-         [CodedStep(@"Set Event Name")]
-        public void SeteventName()
-        {
-        string area2 = Utility.eventName;
-            Log.WriteLine("Event to go: "+area2);
-            Console.Out.WriteLine("__Event to go: "+area2);
-        SetExtractedValue("EventName", area2);            
-        }
-        
-        
-        [CodedStep(@"Start Checking Forms")]
-        public void startForms()
-        {
-                        var testname = String.Format("OpenSaveCount\\OpenSaveCount{0}_{1}.tstest",Utility.plan,Utility.eventType);
-                         this.ExecuteTest(testname);
+            if(Utility.saveflag == "normal"){
+                this.ExecuteTest("verify\\SaveFormAndCount.tstest");
+            }
+            else if(Utility.saveflag == "nosaveButOther"){
+                this.ExecuteTest("verify\\ActFormAndCount.tstest");
+            }
+             else if(Utility.saveflag == "nosaveNoOther"){
+                this.ExecuteTest("verify\\WriteToExcel.tstest");
+            }
+             Utility.saveflag = "normal";
         }
     }
 }

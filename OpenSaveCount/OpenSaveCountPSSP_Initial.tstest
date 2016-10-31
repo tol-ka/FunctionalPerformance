@@ -135,6 +135,47 @@
             "QcVersionStamp": 0,
             "Version": 200
           }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8b9c5a28-d2c2-4844-b31e-ab1e9672533d",
+            "Description": "Execute test 'SaveFormAndCount'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "SaveFormAndCount",
+                "TestPath": "verify\\SaveFormAndCount.tstest",
+                "TestUniqueId": "69184710-b268-4417-a55f-8ed9f804f32c",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "OpenSaveCountxruu3ssx.udc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
         }
       ]
     },
@@ -150,19 +191,19 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.OpenSaveCountEP",
+    "TestClass": "PerformanceTesting.OpenSaveCountPSSP_Initial",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveCountEP.resx",
+    "ResourceFilePath": "OpenSaveCount\\OpenSaveCountPSSP_Initial.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
         "DefaultToGrid": false,
-        "DataRange": "1:13",
+        "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "EP_Initial$",
-        "DataProvider": "PerformanceTestDataEP.xls",
+        "DataTableName": "PSSP_Initial$",
+        "DataProvider": "PerformanceTestDataPSSP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
         "DataType": 5,
@@ -182,13 +223,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSaveCountEP",
+    "Name": "OpenSaveCountPSSP_Initial",
     "Owner": "",
-    "Path": "OpenSaveCountEP.tstest",
+    "Path": "OpenSaveCount\\OpenSaveCountPSSP_Initial.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "a0732548-6395-4dc3-bab8-4dd28e2b383f",
-    "Id": "a0732548-6395-4dc3-bab8-4dd28e2b383f",
+    "UniqueId": "ef19a6c7-3473-4c25-a960-7682f3dff6d5",
+    "Id": "ef19a6c7-3473-4c25-a960-7682f3dff6d5",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

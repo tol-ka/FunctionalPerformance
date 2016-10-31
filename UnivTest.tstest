@@ -1067,7 +1067,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                        var testname = String.Format(\"OpenSaveCount{0}.tstest\",Utility.plan);\r\n                         this.ExecuteTest(testname);",
+                "Code": "                        var testname = String.Format(\"OpenSaveCount\\\\OpenSaveCount{0}_{1}.tstest\",Utility.plan,Utility.eventType);\r\n                         this.ExecuteTest(testname);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

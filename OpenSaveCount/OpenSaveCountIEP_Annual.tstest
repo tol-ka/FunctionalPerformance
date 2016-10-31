@@ -19,7 +19,7 @@
           "__value": {
             "Runtime ID": "bb6555f4-ff1d-46d1-90bb-2fdcd2f70c5a",
             "Description": "Execute test 'OpenFormAndCount'",
-            "CustomDescription": null,
+            "CustomDescription": "Execute test 'OpenFormAndCount'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -191,9 +191,9 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.OpenSaveCountIFSPAnnual",
+    "TestClass": "PerformanceTesting.OpenSaveCountIEP_Annual",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveCountIFSPAnnual.resx",
+    "ResourceFilePath": "OpenSaveCount\\OpenSaveCountIEP_Annual.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -202,8 +202,8 @@
         "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "IFSP$",
-        "DataProvider": "PerformanceTestDataIFSP.xls",
+        "DataTableName": "IEP_Annual$",
+        "DataProvider": "PerformanceTestDataIEP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
         "DataType": 5,
@@ -223,13 +223,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSaveCountIFSPAnnual",
+    "Name": "OpenSaveCountIEP_Annual",
     "Owner": "",
-    "Path": "OpenSaveCountIFSPAnnual.tstest",
+    "Path": "OpenSaveCount\\OpenSaveCountIEP_Annual.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "c7453007-e592-4e96-901b-6bb74cf5f790",
-    "Id": "c7453007-e592-4e96-901b-6bb74cf5f790",
+    "UniqueId": "80719037-398d-4d91-8b22-424b2506e09c",
+    "Id": "80719037-398d-4d91-8b22-424b2506e09c",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }
