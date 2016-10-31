@@ -229,7 +229,7 @@
     "OutputFolder": "bin",
     "ExcludedFiles": [],
     "DisabledTranslators": [],
-    "SkipFindExpressionSetDataDrivenWarning": false,
+    "SkipFindExpressionSetDataDrivenWarning": true,
     "BugTrackerPersistableSettings": {},
     "ActiveBugTrackers": [],
     "BugTitleMask": "{Step name} step on {Test name} test failed.",
