@@ -202,7 +202,7 @@
         "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "IFSPAnnual$",
+        "DataTableName": "IFSP_Annual$",
         "DataProvider": "PerformanceTestDataIFSP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
