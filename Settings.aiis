@@ -166,7 +166,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "http:\\\\dadematrix.acceliplan.com",
+    "RecorderBaseUrl": "http:\\\\dade.acceliqc.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,

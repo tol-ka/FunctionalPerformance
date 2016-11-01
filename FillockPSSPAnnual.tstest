@@ -10,30 +10,20 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6e9bb340-0bb6-46a6-909a-5e0e2e2866ae",
+            "Runtime ID": "a4c4e4a6-9a74-4980-ba1a-0ebb3038b52f",
             "Description": "SetPlantoPSSP",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "         Utility.plan = @\"PSSP\";",
+                "Code": "                     Utility.plan = @\"PSSP\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -57,8 +47,8 @@
             "Order": 1,
             "Id": "SetPlantoPSSP",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitialunbvo5vx.qkz",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillockPSSPAnnualtxtdb1ih.ccb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,13 +57,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a5820906-691b-44bd-81d5-543ee4f824eb",
+            "Runtime ID": "70f6f7be-1418-40fc-b72a-187ff9f81470",
             "Description": "Set event Name",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventName = @\"PSSP Initial Meeting\";",
+                "Code": "                        Utility.eventName = @\"PSSP Annual Meeting\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -97,8 +87,8 @@
             "Order": 2,
             "Id": "setEventName",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitialwfyjr3xc.l32",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillockPSSPAnnualtnfj5wyu.l2l",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -107,13 +97,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "32afbbe2-71b4-4935-ac75-5509bfb6d419",
+            "Runtime ID": "3790b54a-e428-41a6-8a03-d0e34c602f59",
             "Description": "Set event Group Name",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                        Utility.eventGroupName = @\"PSSP Initial Meeting\";",
+                "Code": "                                    Utility.eventGroupName = @\"PSSP Annual Meeting\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -137,8 +127,8 @@
             "Order": 3,
             "Id": "setEventGroupName",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitialz3btbxl1.cbv",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillockPSSPAnnual51uil1ro.1ta",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -147,13 +137,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ec62934b-1bca-4a92-b163-a63092230442",
+            "Runtime ID": "e417e65e-157b-4f31-b6e1-c577fcdb7e31",
             "Description": "Set event Type",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventType = @\"Initial\";",
+                "Code": "                        Utility.eventType = @\"Annual\";",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -177,8 +167,8 @@
             "Order": 4,
             "Id": "setEventType",
             "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitialyqlsfzfq.5by",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillockPSSPAnnualzpn4l3lv.mua",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -187,7 +177,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "529b12fd-5346-4a36-b7ca-82dfd41c3a55",
+            "Runtime ID": "b3632f91-b8b8-40e0-a24e-fb7bae7ce82b",
             "Description": "Execute test 'UnivTest'",
             "CustomDescription": null,
             "Step": {
@@ -218,8 +208,8 @@
             "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockPSSPInitialc5c3oiwn.ioh",
+            "ContinueOnFailure": false,
+            "StepImageKey": "FillockPSSPAnnual2d1pzb3p.xlp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -239,9 +229,9 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.MAIN_FillLockPSSPInitial",
+    "TestClass": "PerformanceTesting.FillockPSSPAnnual",
     "IsManual": false,
-    "ResourceFilePath": "MAIN_FillLockPSSPInitial.resx",
+    "ResourceFilePath": "FillockPSSPAnnual.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -271,13 +261,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "MAIN_FillLockPSSPInitial",
+    "Name": "FillockPSSPAnnual",
     "Owner": "",
-    "Path": "MAIN_FillLockPSSPInitial.tstest",
+    "Path": "FillockPSSPAnnual.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "8e84e0a9-dea4-4040-9ef7-bcf7749e698f",
-    "Id": "8e84e0a9-dea4-4040-9ef7-bcf7749e698f",
+    "UniqueId": "1de2a738-378e-4547-864e-0b7de3612b98",
+    "Id": "1de2a738-378e-4547-864e-0b7de3612b98",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }
