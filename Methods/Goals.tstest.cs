@@ -50,7 +50,7 @@ namespace PerformanceTesting
         public void Goals_CodedStep()
         {
 Utility.comment = "Update Goals";
-            Utility.saveflag = "nosaveButOther";            
+            Utility.saveflag = "nosaveNoOther";            
         }
     }
 }

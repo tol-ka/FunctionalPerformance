@@ -327,7 +327,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4ab27247-2cfe-402e-891d-f3541bb9c91b",
-            "Description": "Execute test 'Present Levels IEP'",
+            "Description": "Execute test '_Present Levels IEP.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -335,8 +335,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Present Levels IEP",
-                "TestPath": "Methods\\Present Levels IEP.tstest",
+                "TestName": "_Present Levels IEP.tstest",
+                "TestPath": "Methods\\_Present Levels IEP.tstest",
                 "TestUniqueId": "35e37777-97ee-451f-9c9f-ae4edcd9560e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
