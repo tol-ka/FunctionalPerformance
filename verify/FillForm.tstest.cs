@@ -61,7 +61,7 @@ namespace PerformanceTesting
             object myData = GetExtractedValue("ActualFormName");
             var realName = myData.ToString();
             var expectedName = Data["formname"].ToString();
-            Utility.func_comment = "Expected: "+expectedName+" , Actual: "+realName;
+            Utility.func_comment = "Actual form: "+realName;
         }
     }
 }

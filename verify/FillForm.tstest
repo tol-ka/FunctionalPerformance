@@ -137,7 +137,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Expected: \"+expectedName+\" , Actual: \"+realName;",
+                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Actual form: \"+realName;",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
