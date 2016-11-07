@@ -10,15 +10,25 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ba690d60-69ad-43b1-a0f4-ec09c1729e04",
-            "Description": "Click 'NoticeOfSpan'",
+            "Runtime ID": "0b01c9e9-b68a-4343-bc1e-44d958f6b22c",
+            "Description": "Click 'NoticeOfLink2'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -64,12 +74,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "uLROUmvjcouSUXQ5gkAmYLibw6I=",
+                          "uniqueKey": "XnDy2BxA/2yvFwc/YhGF+SCuzCc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NoticeOfSpan",
+                          "Name": "NoticeOfLink2",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -80,18 +90,26 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^Notice Of Meeti"
+                                        "Clause": "id=pnlEventMenuCell"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=span"
+                                        "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Notice of Meeting"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
@@ -100,7 +118,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -119,7 +137,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "SaveResponsekyiyarop.44i",
+            "StepImageKey": "SaveResponseu4zhay2k.ley",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -868,7 +886,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "ddEdzx2zbjQxjB64PIM0Qr/4wNQ=",
+                          "uniqueKey": "0TC/RbDCT3mGqn9NrDllXc5uF9g=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "Span7",
@@ -883,6 +901,12 @@
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
                                         "Clause": "id=pnlAttempts"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=span"
                                       }
                                     },
                                     {
@@ -1519,7 +1543,7 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "MiamiDade.dll",
+    "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,

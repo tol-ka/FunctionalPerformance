@@ -1,10 +1,10 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
   "__value": {
-    "TestListId": "fd299d7a-4774-4808-b195-a10b589b705f",
-    "Id": "fd299d7a-4774-4808-b195-a10b589b705f",
-    "TestListName": "Perf2",
-    "CreationDate": "2016-10-26T22:34:09",
+    "TestListId": "e80e6a0f-4be6-4944-9f21-3f687f40afed",
+    "Id": "e80e6a0f-4be6-4944-9f21-3f687f40afed",
+    "TestListName": "EP",
+    "CreationDate": "2016-11-03T17:25:20",
     "OwnerName": null,
     "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -22,7 +22,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 1,
             "EnableScriptLogging": false,
-            "BaseUrl": "http://dadematrix.acceliplan.com",
+            "BaseUrl": "http:\\\\dade.acceliqc.com",
             "KillBrowserProcessOnClose": false,
             "UseHttpProxy": false,
             "EnableSilverlight": false,
@@ -42,15 +42,15 @@
         "QueryEventLogErrorsOnExit": false,
         "LogAnnotations": false,
         "SimulatedMouseMoveSpeed": 0.3,
-        "WaitCheckInterval": 700,
-        "ElementWaitTimeout": 65000,
-        "ExecuteCommandTimeout": 40000,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 15000,
+        "ExecuteCommandTimeout": 20000,
         "ExecutionDelay": 0,
         "UnexpectedDialogAction": 2,
         "AnnotateExecution": false,
-        "AnnotationMode": 2,
+        "AnnotationMode": 0,
         "XMultiMgr": true,
-        "ClientReadyTimeout": 80000,
+        "ClientReadyTimeout": 60000,
         "DisableDialogMonitoring": false
       }
     },
@@ -58,8 +58,8 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
-          "Path": "MAIN_FillLockIEPInitial.tstest",
+          "Id": "044a9564-e3c7-4f14-bf43-c970527e915c",
+          "Path": "FillLockEPInitial.tstest",
           "PathType": 0
         }
       }

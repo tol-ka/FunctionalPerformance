@@ -51,5 +51,14 @@ namespace PerformanceTesting
         {
                         Utility.formname = "Notice of Meeting";
         }
+    
+        [CodedStep(@"Choose fields NOM")]
+        public void ChooseFormToFill()
+        {
+            if (Utility.plan=="not defined")
+            {Log.WriteLine("_NOM test not run because no Otility.plan choosen_");}
+            var noticetest = String.Format("Methods\\_NoticeOfMeeting{0}.tstest",Utility.plan);
+                         this.ExecuteTest(noticetest);
+        }
     }
 }
