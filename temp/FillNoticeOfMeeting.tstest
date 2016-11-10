@@ -3588,7 +3588,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9c1c7757-913c-493d-9013-fb979578b4a1",
-            "Description": "Extract 'aria-owns' attribute on 'SpanParent' into DataBindVariable $(ValueParent)",
+            "Description": "Extract 'aria-owns' attribute on 'Parent' into DataBindVariable $(ValueParent)",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AttributeVerificationDescriptor",
@@ -3639,10 +3639,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "GRabF4PqP36ZRCB/oUrUyxWu6tU=",
+                          "uniqueKey": "WLeqev65vjkXMpje3tMMZWlBc5o=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SpanParent",
+                          "Name": "Parent",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -3653,13 +3653,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmFormDetails"
+                                        "Clause": "class=js-form-field-value ParentTeamFatherLookUp"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=span:57"
+                                        "Clause": "tagname=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=k-widget k-dropdown k-header"
                                       }
                                     }
                                   ],
@@ -5443,10 +5449,10 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": "GRabF4PqP36ZRCB/oUrUyxWu6tU=",
+              "uniqueKey": "WLeqev65vjkXMpje3tMMZWlBc5o=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "SpanParent",
+              "Name": "Parent",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -5457,13 +5463,19 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "id=frmFormDetails"
+                            "Clause": "class=js-form-field-value ParentTeamFatherLookUp"
                           }
                         },
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "tagIndex=span:57"
+                            "Clause": "tagname=span"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "class=k-widget k-dropdown k-header"
                           }
                         }
                       ],
