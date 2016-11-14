@@ -28,7 +28,7 @@ namespace PerformanceTesting
         public static String comment = "save";
         public static Boolean error_flag = false;
         public static String func_comment = "";
-        //may be pssp, iep, ifsp, ep
+        //may be pssp, iep, ifsp, ep, 504
         public static String plan = "not defined";
         public static String checkbox = "non defined";
         public static String currentDomain = "non defined";
