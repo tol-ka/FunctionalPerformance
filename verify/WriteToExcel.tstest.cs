@@ -61,7 +61,7 @@ var column = 2;
 var sheetName = Utility.plan+"_"+Utility.eventType+"_"+buildnum+"_"+Utility.currentDomain; 
 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
-Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[sheetName];
+Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[Utility.sheetIndex];
 Microsoft.Office.Interop.Excel.Range xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
 
 

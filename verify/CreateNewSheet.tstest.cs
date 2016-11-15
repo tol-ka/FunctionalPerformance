@@ -65,6 +65,9 @@ else if(Utility.plan == "PSSP")
 else if(Utility.plan == "EP")
      {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataEP.xls";
      filename = todayDate+"_PerformanceTestDataEP.xls";}
+     else if(Utility.plan == "504")
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataEP.xls";
+     filename = todayDate+"_PerformanceTestData504.xls";}
             var buildnum = Utility.currentBuild;
 
 String myPath = "C:\\MatrixTestReport\\"+filename;
@@ -84,8 +87,9 @@ Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Inter
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 var plan = Utility.plan;
 var sheetName1 = Utility.plan+"_"+Utility.eventType;
-workbook.Sheets.Copy(Before: workbook.Sheets[1]);
-Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
+//workbook.Sheets.Copy(Before: workbook.Sheets[1]);
+
+Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[Utility.sheetIndex];
 xlWorksheet.Name = sheetName;
             
 excelApp.Visible = true;

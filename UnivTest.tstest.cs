@@ -73,5 +73,18 @@ namespace PerformanceTesting
                         var testname = String.Format("OpenSaveCount\\OpenSaveCount{0}_{1}.tstest",Utility.plan,Utility.eventType);
                          this.ExecuteTest(testname);
         }
+    
+        [CodedStep(@"set sheet Index")]
+        public void UnivTest_setIndex()
+        {
+            if(Utility.eventType == @"Initial"){
+                Utility.sheetIndex = 1;
+            }
+             else if(Utility.eventType == @"Annual"){
+                Utility.sheetIndex = 2;}
+             else if(Utility.eventType == @"Interim"){
+                Utility.sheetIndex = 3;
+            }
+        }
     }
 }
