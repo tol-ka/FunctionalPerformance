@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class OpenSaveCountEP : BaseWebAiiTest
+    public class OpenSaveCountEP1 : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
