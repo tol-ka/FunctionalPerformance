@@ -49,17 +49,10 @@ namespace PerformanceTesting
         [CodedStep(@"Choose Present levels")]
         public void ChoosePresentLevels()
         {
-            if (Utility.plan == "IEP") {
-                this.ExecuteTest("Methods\\_Present Levels IEP.tstest");
-            }
+             var testname = String.Format(@"_Present Levels {0}.tstest",Utility.plan);
+            this.ExecuteTest(@"Methods\\MethodsToPlans\\"+testname);
             
-            else if (Utility.plan == "PSSP") {
-                this.ExecuteTest("Methods\\_Present Levels PSSP.tstest");
-            }
-            
-             else if (Utility.plan == "IFSP") {
-                this.ExecuteTest("Methods\\_Present Levels IFSP.tstest");
-            }
+        
         }
     }
 }

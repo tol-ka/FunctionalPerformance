@@ -135,8 +135,8 @@ namespace PerformanceTesting
          [CodedStep(@"Choose Method")]
         public  void Choose_Method()
         {
-            var testname = String.Format("_Services{0}.tstest",Utility.plan);
-            this.ExecuteTest("Methods//"+testname);
+            var testname = String.Format(@"_Services{0}.tstest",Utility.plan);
+            this.ExecuteTest(@"Methods\\MethodsToPlans\\"+testname);
          
     
         }

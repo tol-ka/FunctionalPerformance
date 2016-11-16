@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class Meeting_Attendance : BaseWebAiiTest
+    public class Notice_Of_Meeting : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -47,12 +47,14 @@ namespace PerformanceTesting
         // Add your test methods here...
     
         [CodedStep(@"New Coded Step")]
-        public void Meeting_Attendance_ChoosePlan()
+        public void Notice_Of_Meeting_CodedStep()
         {
-              var testname = String.Format(@"_Meeting Attendance {0}.tstest",Utility.plan);
-            this.ExecuteTest(@"Methods\\MethodsToPlans\\"+testname);
-        
 
+             var testname = String.Format(@"_NoticeOfMeeting{0}.tstest",Utility.plan);
+            this.ExecuteTest(@"Methods\\MethodsToPlans\\"+testname);
+            
+        
+           
         }
     }
 }

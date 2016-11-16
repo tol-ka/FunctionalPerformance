@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            if (Utility.plan == \"IEP\") {\r\n                this.ExecuteTest(\"Methods\\\\_Present Levels IEP.tstest\");\r\n            }\r\n            \r\n            else if (Utility.plan == \"PSSP\") {\r\n                this.ExecuteTest(\"Methods\\\\_Present Levels PSSP.tstest\");\r\n            }\r\n            \r\n             else if (Utility.plan == \"IFSP\") {\r\n                this.ExecuteTest(\"Methods\\\\_Present Levels IFSP.tstest\");\r\n            }",
+                "Code": "             var testname = String.Format(@\"_Present Levels {0}.tstest\",Utility.plan);\r\n            this.ExecuteTest(@\"Methods\\\\MethodsToPlans\\\\\"+testname);\r\n            \r\n        ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

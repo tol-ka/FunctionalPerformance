@@ -17,7 +17,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0f958be9-94e9-42ae-ae71-4e70a2d8b182",
+            "Runtime ID": "461b392b-25f0-4ea7-be85-249b75b9e3f6",
             "Description": "Extract 'aria-owns' attribute on 'SpanLEARepresentative' into DataBindVariable $(ValueLEARepresentative)",
             "CustomDescription": null,
             "Step": {
@@ -130,7 +130,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPfius4x2y.cgi",
+            "StepImageKey": "_Meeting Attendance EPx4jcnxqm.ovq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -139,7 +139,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bc1cf5f6-6708-4672-b185-2296cd90ea19",
+            "Runtime ID": "9581b8cb-cee3-4f1b-9ce5-8df5c9102645",
             "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
@@ -250,7 +250,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPp3u2eegw.0vo",
+            "StepImageKey": "_Meeting Attendance EPoex2yig3.s4b",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -259,7 +259,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4d72f264-ca36-4f14-93f4-780e23c7d87c",
+            "Runtime ID": "eb4c5ab2-3168-4041-a944-3c79d7bf5341",
             "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
@@ -366,7 +366,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPnxy2agw3.xqz",
+            "StepImageKey": "_Meeting Attendance EPbn30icy0.0al",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -375,7 +375,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "87478bb8-b681-4a7b-af76-cc3b35ea74b4",
+            "Runtime ID": "22bcd8b0-8797-442e-aa31-5b99ab8476e8",
             "Description": "Extract 'aria-owns' attribute on 'SpanGeneralEducationTeacher' into DataBindVariable $(ValueGeneral)",
             "CustomDescription": null,
             "Step": {
@@ -488,7 +488,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPoyhtwgmi.wjp",
+            "StepImageKey": "_Meeting Attendance EPzoaqjjn4.de5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -497,7 +497,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8c8604c7-90a1-4b89-b2bc-3ad8bc8ee3b1",
+            "Runtime ID": "83b45674-aea5-4c9b-a721-01f6bf95fbee",
             "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
@@ -608,7 +608,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPpz5buho0.qxi",
+            "StepImageKey": "_Meeting Attendance EPa3leag5m.lvt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -617,7 +617,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7c9d55ca-89be-44a4-9f0c-00e8ca9b5d5e",
+            "Runtime ID": "16485d9a-2f38-473d-ad47-92c38ca95140",
             "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
@@ -724,7 +724,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPhy4h1w5z.r0v",
+            "StepImageKey": "_Meeting Attendance EPdpahxos2.gik",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -733,17 +733,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "83f95804-53be-4f83-8526-2539cdb36e98",
-            "Description": "Extract 'aria-owns' attribute on 'SpanSpecial' into DataBindVariable $(ValueSpecial)",
+            "Runtime ID": "1d10e751-8a18-450c-99b1-f94f4287024a",
+            "Description": "Extract 'aria-owns' attribute on 'TeacherOfTheGiftedTeamList' into DataBindVariable $(ValueTeacherGifted)",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AttributeVerificationDescriptor",
               "__value": {
                 "AttributeName": "aria-owns",
                 "AttributeValue": "",
-                "CompareType": 2,
+                "CompareType": 1,
                 "UseBackupSearch": true,
-                "DataBindVariableName": "ValueSpecial",
+                "DataBindVariableName": "ValueTeacherGifted",
                 "Timeout": 30000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
@@ -785,10 +785,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "soKXmIj2s41NucIocHHd62GH6K8=",
+                          "uniqueKey": "Bo/VPaWqVt8J/Nt8wpyTaN0N5zI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "SpanSpecial",
+                          "Name": "TeacherOfTheGiftedTeamList",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -799,7 +799,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=js-form-field-value SpecialEducationTeacherTeamLookUp"
+                                        "Clause": "class=js-form-field-value TeacherOfTheGiftedTeamLookUp"
                                       }
                                     },
                                     {
@@ -823,7 +823,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[3]/div[3]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/div[1]/span[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/div[1]/span[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -846,7 +846,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPtcso02wg.uwc",
+            "StepImageKey": "_Meeting Attendance EPtz3gwct2.hby",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -855,7 +855,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9f48ee40-89b3-4203-af00-bd6def356b5a",
+            "Runtime ID": "3a2b9e1c-e2cf-4c40-94c9-a18b14ef8893",
             "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
@@ -966,7 +966,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEP44ojkr1l.jiq",
+            "StepImageKey": "_Meeting Attendance EP3aslsbwq.5cy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -975,7 +975,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0bacc383-ed64-4ef3-b344-11e82f8ffcb9",
+            "Runtime ID": "964c6b9b-7c91-4161-8c33-9f5afdb52fc5",
             "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
@@ -1082,7 +1082,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEP1p2deviv.rcp",
+            "StepImageKey": "_Meeting Attendance EPm2u0kbhm.s0v",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1091,7 +1091,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d610964d-f2ca-4165-8160-ac84b44d61d8",
+            "Runtime ID": "6ed43154-dc77-4cd7-afce-83a425f168f5",
             "Description": "Extract 'aria-owns' attribute on 'SpanEvaulationSpec' into DataBindVariable $(ValueEvalSpec)",
             "CustomDescription": null,
             "Step": {
@@ -1204,7 +1204,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPpld4qpmo.y34",
+            "StepImageKey": "_Meeting Attendance EPvwkm2ydx.tw4",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1213,7 +1213,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5138c0fd-017c-4930-b5db-0f764dd6236a",
+            "Runtime ID": "5548e080-46d5-4422-b77e-2c52a06695be",
             "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
@@ -1324,7 +1324,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPlx4qhkmk.ron",
+            "StepImageKey": "_Meeting Attendance EPs20vwv2o.l1c",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1333,7 +1333,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0ccc3013-2c82-4352-8bdb-4b3fc638404c",
+            "Runtime ID": "69f5298a-f783-4696-890e-81abd1ce0d4a",
             "Description": "KendoListBox: select item by index '1'",
             "CustomDescription": null,
             "Step": {
@@ -1440,7 +1440,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "_Meeting Attendance IEPljgyskmf.1dh",
+            "StepImageKey": "_Meeting Attendance EP144lhclo.hbg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1448,7 +1448,73 @@
         }
       ]
     },
-    "IndependentDescriptors": [],
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "verifyTarget",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/Plan/Events/ViewEvent",
+              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+              "BaseUrl": "http://miami.acceliqc.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyIFSPInitial1"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "q04c5nM+olXANL7xbhqs2VHhAko=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "Span5",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "aria-owns=FormFieldValues_148ec683-91f5-49ba-ab0c-1fcb47cd0b85__ValueString_listbox"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=span"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/div[1]/span[1]/span[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -1462,7 +1528,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\_Meeting Attendance IEP.resx",
+    "ResourceFilePath": "Methods\\MethodsToPlans\\_Meeting Attendance EP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1474,9 +1540,13 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": false,
-        "DataType": 4,
-        "BuiltInData": null,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "ValueTeacherGifted": null
+          }
+        ],
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }
@@ -1492,13 +1562,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "_Meeting Attendance IEP",
+    "Name": "_Meeting Attendance EP",
     "Owner": "",
-    "Path": "Methods\\_Meeting Attendance IEP.tstest",
+    "Path": "Methods\\MethodsToPlans\\_Meeting Attendance EP.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ccc008b5-7ff6-4154-89d6-7e4db772283f",
-    "Id": "ccc008b5-7ff6-4154-89d6-7e4db772283f",
+    "UniqueId": "84ac4189-d78d-46bc-8fbf-cc283f25167c",
+    "Id": "84ac4189-d78d-46bc-8fbf-cc283f25167c",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

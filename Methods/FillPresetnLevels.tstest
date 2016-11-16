@@ -336,7 +336,7 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "_Present Levels IEP.tstest",
-                "TestPath": "Methods\\_Present Levels IEP.tstest",
+                "TestPath": "Methods\\MethodsToPlans\\_Present Levels IEP.tstest",
                 "TestUniqueId": "35e37777-97ee-451f-9c9f-ae4edcd9560e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",

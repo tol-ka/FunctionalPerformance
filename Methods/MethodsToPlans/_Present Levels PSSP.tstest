@@ -2122,7 +2122,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\_Present Levels IFSP.resx",
+    "ResourceFilePath": "Methods\\MethodsToPlans\\_Present Levels PSSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -2152,13 +2152,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "_Present Levels IFSP",
+    "Name": "_Present Levels PSSP",
     "Owner": "",
-    "Path": "Methods\\_Present Levels IFSP.tstest",
+    "Path": "Methods\\MethodsToPlans\\_Present Levels PSSP.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ecf3b74d-3b91-4d86-b4ac-43bc646f5c69",
-    "Id": "ecf3b74d-3b91-4d86-b4ac-43bc646f5c69",
+    "UniqueId": "971247ea-2799-4041-b613-55bce9b08228",
+    "Id": "971247ea-2799-4041-b613-55bce9b08228",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

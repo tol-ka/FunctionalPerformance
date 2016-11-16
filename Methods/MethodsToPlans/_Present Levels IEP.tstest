@@ -376,7 +376,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "PerformanceTesting.PresentLevelMainScreen",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\_Present Levels IEP.resx",
+    "ResourceFilePath": "Methods\\MethodsToPlans\\_Present Levels IEP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -408,7 +408,7 @@
     "Description": "",
     "Name": "_Present Levels IEP",
     "Owner": "",
-    "Path": "Methods\\_Present Levels IEP.tstest",
+    "Path": "Methods\\MethodsToPlans\\_Present Levels IEP.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "35e37777-97ee-451f-9c9f-ae4edcd9560e",
