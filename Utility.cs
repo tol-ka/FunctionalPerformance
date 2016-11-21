@@ -49,9 +49,12 @@ namespace PerformanceTesting
         public static String trigger = "non defined";
         public static String filename = "non defined";
         public static int sheetIndex = 0;
+        public static String newDate = "non defined";
+        public static String dateToCheck = "non defined";
         public static ArrayList ischecked = new ArrayList();
         public static ArrayList expectedChecked = new ArrayList();
        public static ArrayList expectedAll = new ArrayList();
+        public static List<string> IFSPData = new List<string>();
          
         public static void GetExAll(String text){
             
