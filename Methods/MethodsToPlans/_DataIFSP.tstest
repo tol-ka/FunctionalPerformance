@@ -604,7 +604,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8d13a200-536b-4392-925a-58f9d649e43f",
+            "Runtime ID": "63c0a3de-0885-4532-8a79-8aed030417e3",
             "Description": "Verify input 'PlanDurationDate' value 'Exact' ''.",
             "CustomDescription": null,
             "Step": {
@@ -714,7 +714,48 @@
                     "__value": {
                       "StepList": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": []
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "95f0ef61-7e69-45f2-b5ff-c4d330c287df",
+                              "Description": "IFSP Plan Duration Correct",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            Utility.IFSPData.Add(\"Plan Duration is correct\");",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "IFSP_Plan_Duration_Correct",
+                              "StepState": 1,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "_DataIFSPbzhi20mb.1bz",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
                       },
                       "Description": "IF ({0})",
                       "CustomDescription": null,
@@ -728,7 +769,48 @@
                     "__value": {
                       "StepList": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": []
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "90f1b5de-7035-4eae-9de2-11515cddc3ef",
+                              "Description": "IFSP Plan Duration Non Correct",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            Utility.IFSPData.Add(@\"Plan Duration is NOT correct\");\r\n            Utility.error_flag = true;",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "IFSP_Plan_Duration_Non_Correct",
+                              "StepState": 1,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "_DataIFSPsjjnxye1.dg3",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
                       },
                       "Description": "ELSE",
                       "CustomDescription": null,
@@ -836,30 +918,147 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5d07268e-3b92-42a7-a4d3-ceb3fca24777",
+            "Runtime ID": "0dd74c82-e769-49d3-bf11-5c71fe003447",
             "Description": "Verify input 'FormFieldValuesB60995d1D83146e3A5f30a2348bc9bdeValueDateStringText' value 'Exact' '11/20/2016'.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
               "__value": {
-                "ExpectedValue": "11/20/2016",
-                "CompareType": 0,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+                  "__value": {
+                    "ExpectedValue": "11/20/2016",
+                    "CompareType": 0,
+                    "UseBackupSearch": true,
+                    "DataBindVariableName": null,
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {
+                          "RunsAgainstVersion": ""
+                        }
+                      }
+                    },
+                    "Elements": {
+                      "TargetKey1": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "TargetKey1",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "/Plan/Events/ViewEvent",
+                              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                              "BaseUrl": "http://miami.acceliqc.com",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                              "CompareMode": 4,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "AccelifyIFSPInitial1"
+                            }
+                          },
+                          "Frame": null,
+                          "FindInfo": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "wVyox2iLuesRu/y73NSZylX2vUk=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "FormFieldValuesB60995d1D83146e3A5f30a2348bc9bdeValueDateStringText",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "tagname=input"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "field-key=PlanInitiationDate"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": []
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[5]/div[6]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/input[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 2,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
+                },
+                "Branches": {
+                  "1": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -885,7 +1084,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "wVyox2iLuesRu/y73NSZylX2vUk=",
                           "NodeKind": 4,
@@ -901,13 +1100,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "field-key=PlanInitiationDate"
+                                        "Clause": "tagname=input"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "field-key=PlanInitiationDate"
                                       }
                                     }
                                   ],
@@ -929,7 +1128,7 @@
                     }
                   }
                 },
-                "StepType": 2,
+                "StepType": 8,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -940,7 +1139,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "_DataIFSPf3zjsq1m.qce",
+            "StepImageKey": "_DataIFSPi0q1zkt2.jlk",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
