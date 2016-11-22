@@ -77,13 +77,38 @@ namespace PerformanceTesting
         [CodedStep(@"set sheet Index")]
         public void UnivTest_setIndex()
         {
-            if(Utility.eventType == @"Initial"){
+            if(Utility.plan == @"EP" && Utility.eventType == @"Initial"){
                 Utility.sheetIndex = 1;
             }
-             else if(Utility.eventType == @"Annual"){
-                Utility.sheetIndex = 2;}
-             else if(Utility.eventType == @"Interim"){
-                Utility.sheetIndex = 3;
+             else if(Utility.plan == @"EP" && Utility.eventType == @"Eligibility"){
+                Utility.sheetIndex = 2;
+            }
+            else if(Utility.plan == @"IEP" && Utility.eventType == @"Initial"){
+                Utility.sheetIndex = 1;
+            }
+            else if(Utility.plan == @"IEP" && Utility.eventType == @"Annual"){
+                Utility.sheetIndex = 2;
+            }
+             else if(Utility.plan == @"504" && Utility.eventType == @"Initial"){
+                Utility.sheetIndex = 1;
+            }
+            else if(Utility.plan == @"504" && Utility.eventType == @"Annual"){
+                Utility.sheetIndex = 2;
+            }
+             else if(Utility.plan == @"IFSP" && Utility.eventType == @"Initial"){
+                Utility.sheetIndex = 1;
+            }
+            else if(Utility.plan == @"IFSP" && Utility.eventType == @"Annual"){
+                Utility.sheetIndex = 2;
+            }
+             else if(Utility.plan == @"PSSP" && Utility.eventType == @"Initial"){
+                Utility.sheetIndex = 1;
+            }
+            else if(Utility.plan == @"PSSP" && Utility.eventType == @"Annual"){
+                Utility.sheetIndex = 2;
+            }
+             else {
+                Utility.sheetIndex = 1;
             }
         }
     }

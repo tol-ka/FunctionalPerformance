@@ -49,25 +49,25 @@ namespace PerformanceTesting
         [CodedStep(@"SetPlanto")]
         public void SetPlanto()
         {
-                                 Utility.plan = @"504";
+            Utility.plan = @"504";
         }
     
         [CodedStep(@"Set event Name")]
         public void setEventName()
         {
-                                    Utility.eventName = @"504 Initial Meeting";
+            Utility.eventName = @"504 Initial Meeting";
         }
     
         [CodedStep(@"Set event Group Name")]
         public void setEventGroupName()
         {
-                                    Utility.eventGroupName = @"504 Eligibility Meeting and 504 Initial Meeting";
+            Utility.eventGroupName = @"504 Eligibility Meeting and 504 Initial Meeting";
         }
     
         [CodedStep(@"Set event Type")]
         public void setEventType()
         {
-                        Utility.eventType = @"Initial";
+            Utility.eventType = @"Initial";
         }
     }
 }

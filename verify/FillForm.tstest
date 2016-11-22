@@ -177,7 +177,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
+                "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(@\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

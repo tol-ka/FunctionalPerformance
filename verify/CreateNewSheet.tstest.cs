@@ -66,7 +66,7 @@ else if(Utility.plan == "EP")
      {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataEP.xls";
      filename = todayDate+"_PerformanceTestDataEP.xls";}
      else if(Utility.plan == "504")
-     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataEP.xls";
+     {dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestData504.xls";
      filename = todayDate+"_PerformanceTestData504.xls";}
             var buildnum = Utility.currentBuild;
 

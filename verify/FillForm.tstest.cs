@@ -50,7 +50,7 @@ namespace PerformanceTesting
         public void FillForm_Driven()
         {
             var testname = Data["formname"].ToString();    
-            var filetestname = string.Format("Methods\\{0}.tstest", testname);
+            var filetestname = string.Format(@"Methods\\{0}.tstest", testname);
             this.ExecuteTest(filetestname);
             
         }
