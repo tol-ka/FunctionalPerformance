@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.plan = @\"504\";",
+                "Code": "            Utility.plan = @\"504\";\r\nSetExtractedValue(\"CurrentPlan\", Utility.plan);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -63,7 +63,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventName = @\"504 Initial Meeting\";",
+                "Code": "            Utility.eventName = @\"504 Initial Meeting\";\r\n            SetExtractedValue(\"CurrentEventName\", Utility.eventName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -103,7 +103,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventGroupName = @\"504 Eligibility Meeting and 504 Initial Meeting\";",
+                "Code": "            Utility.eventGroupName = @\"504 Eligibility Meeting and 504 Initial Meeting\";\r\n            SetExtractedValue(\"CurrentEventGroupName\", Utility.eventGroupName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -143,7 +143,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventType = @\"Initial\";",
+                "Code": "            Utility.eventType = @\"Initial\";\r\n            SetExtractedValue(\"CurrentEventGroupName\", Utility.eventGroupName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

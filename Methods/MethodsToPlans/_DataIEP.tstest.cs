@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class FillLock504Initial : BaseWebAiiTest
+    public class _DataIEP : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,32 +46,10 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"SetPlanto")]
-        public void SetPlanto()
+        [CodedStep(@"get Current Event Type")]
+        public void getCurrenteventType()
         {
-            Utility.plan = @"504";
-SetExtractedValue("CurrentPlan", Utility.plan);
-        }
-    
-        [CodedStep(@"Set event Name")]
-        public void setEventName()
-        {
-            Utility.eventName = @"504 Initial Meeting";
-            SetExtractedValue("CurrentEventName", Utility.eventName);
-        }
-    
-        [CodedStep(@"Set event Group Name")]
-        public void setEventGroupName()
-        {
-            Utility.eventGroupName = @"504 Eligibility Meeting and 504 Initial Meeting";
-            SetExtractedValue("CurrentEventGroupName", Utility.eventGroupName);
-        }
-    
-        [CodedStep(@"Set event Type")]
-        public void setEventType()
-        {
-            Utility.eventType = @"Initial";
-            SetExtractedValue("CurrentEventGroupName", Utility.eventGroupName);
+            SetExtractedValue("currentEventType", Utility.eventType);
         }
     }
 }

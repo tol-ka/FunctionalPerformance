@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using System.Diagnostics;
 
 using ArtOfTest.Common.UnitTesting;
 using ArtOfTest.WebAii.Core;
@@ -110,6 +111,19 @@ namespace PerformanceTesting
              else {
                 Utility.sheetIndex = 1;
             }
+        }
+    
+        [CodedStep(@"Close Excel")]
+        public void UnivTest_CloseExcelProc()
+        {
+            var excelprocesses = Process.GetProcesses().
+                                 Where(pr => pr.ProcessName == "excel");
+
+foreach (var process in excelprocesses)
+{
+     process.Kill();
+}
+           
         }
     }
 }
