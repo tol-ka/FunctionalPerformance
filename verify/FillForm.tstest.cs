@@ -63,5 +63,15 @@ namespace PerformanceTesting
             var expectedName = Data["formname"].ToString();
             Utility.func_comment = "Actual form: "+realName;
         }
+         [CodedStep(@"Form Opens With Error")]
+        public void FillForm_Error()
+        {
+            object myData = GetExtractedValue("ActualFormName");
+            var realName = myData.ToString();
+            var expectedName = Data["formname"].ToString();
+            Utility.func_comment = "Form "+realName+ " opens with error";
+            Utility.error_flag = true;
+            Utility.saveflag = "nosaveNoOther";
+        }
     }
 }
