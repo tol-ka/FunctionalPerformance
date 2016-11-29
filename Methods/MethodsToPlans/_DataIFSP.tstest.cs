@@ -69,39 +69,39 @@ namespace PerformanceTesting
         [CodedStep(@"IFSP Plan Duration Correct")]
         public void IFSP_Plan_Duration_Correct()
         {
-            Utility.IFSPData.Add("Plan Duration is correct");
+            Utility.resultsData.Add("Plan Duration is correct");
         }
         
          [CodedStep(@"IFSP Plan Duration Non Correct")]
         public void IFSP_Plan_Duration_Non_Correct()
         {
-            Utility.IFSPData.Add(@"Plan Duration is NOT correct");
+            Utility.resultsData.Add(@"Plan Duration is NOT correct");
             Utility.error_flag = true;
         }
     
         [CodedStep(@"IFSP Initiation Date Correct")]
         public void IFSP_Initiation_Date_Correct()
         {
-            Utility.IFSPData.Add("Initiation Date is correct");
+            Utility.resultsData.Add("Initiation Date is correct");
         }
         
          [CodedStep(@"IFSP Initiation Date Non Correct")]
         public void IFSP_Plan_Initiation_Date_Correct()
         {
-            Utility.IFSPData.Add(@"Initiation Date is NOT correct");
+            Utility.resultsData.Add(@"Initiation Date is NOT correct");
             Utility.error_flag = true;
         }
         
          [CodedStep(@"IFSP Schedule Date is Correct")]
         public void IFSP_Schedule_Date_Correct()
         {
-            Utility.IFSPData.Add("Schedule Date is correct");
+            Utility.resultsData.Add("Schedule Date is correct");
         }
         
          [CodedStep(@"IFSP Schedule Date Non Correct")]
         public void IFSP_Plan_Schedule_Date_Correct()
         {
-            Utility.IFSPData.Add(@"Schedule Date is NOT correct");
+            Utility.resultsData.Add(@"Schedule Date is NOT correct");
             Utility.error_flag = true;
         }
         [CodedStep(@"New Coded Step")]

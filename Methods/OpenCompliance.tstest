@@ -17,66 +17,28 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d0164404-b49e-466d-b71c-dbd468484913",
-            "Description": "ChooseURL IEP based on base url",
+            "Runtime ID": "a4c9e814-bc96-4f80-b68a-24f2e8172622",
+            "Description": "Click 'BtnCheckEventComplienceLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    Utility.currentDomain = \"qc\";\r\n                    studentID = \"39\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                    Utility.currentDomain = \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                  else if (bbaseUrl.Contains(\"dadematrix.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"dade_matrix\";\r\n                    studentID = \"38090\";\r\n                   \r\n                }\r\n                \r\n                else if (bbaseUrl.Contains(\"daderesearch.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"research\";\r\n                    studentID = \"1669946\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"prod\";\r\n                    studentID = \"1669946\";\r\n                   \r\n                }\r\n                String address = String.Format(\"/Plan/Students/ViewStudent?CommonStudentId={0}&studentViewType=Events&programType=Miami{1}\",studentID,Utility.plan);\r\n                Console.Out.WriteLine(address); \r\n                ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 1,
-            "Id": "ChooseUrl_IEP",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "GoToStIFSPEvents4w331mxq.p31",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ee596694-4f9a-40fa-b5fc-bd55183ee425",
-            "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
-              "__value": {
-                "ExistsNot": true,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "DataBindVariableName": null,
-                "Timeout": 50000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -88,15 +50,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/IEP/Students",
-                          "Query": "",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - Students",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents0"
+                          "FriendlyName": "AccelifyIFSPInitial1"
                         }
                       },
                       "Frame": null,
@@ -104,10 +66,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
+                          "uniqueKey": "gD3LG/A0Yc2Ne2Bqxe/SxcKZKmI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LoadingDiv",
+                          "Name": "BtnCheckEventComplienceLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -118,13 +80,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=div"
+                                        "Clause": "id=btnCheckEventComplience"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^Loading"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -134,7 +96,121 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/a[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "OpenCompliancel0wphc2f.vt4",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "90625d3d-d6d5-4359-934d-47bc1e04f403",
+            "Description": "Verify 'InnerText' 'Contains' 'present levels' on 'PnlValidationSummaryLockDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 0,
+                "ExpectedString": "present levels",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "JeE9mpxfVwY44pNbv7LsLoJE2J0=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PnlValidationSummaryLockDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlValidationSummaryLock"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[5]/div[2]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -146,7 +222,7 @@
                     }
                   }
                 },
-                "StepType": 1,
+                "StepType": 2,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -156,8 +232,8 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "GoToStIFSPEventsdsqapawa.dbz",
+            "ContinueOnFailure": false,
+            "StepImageKey": "OpenCompliancedeewinrm.sem",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -177,10 +253,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.GoTo10YStIEP",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\GoToStudent.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\OpenCompliance.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -209,13 +285,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "GoToStudent",
+    "Name": "OpenCompliance",
     "Owner": "",
-    "Path": "Methods\\GoToStudent.tstest",
+    "Path": "Methods\\OpenCompliance.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "49d922d2-ae02-421c-b832-6bb651c7b75f",
-    "Id": "49d922d2-ae02-421c-b832-6bb651c7b75f",
+    "UniqueId": "12655b49-90e3-412b-ab49-f7c4fa59c9d8",
+    "Id": "12655b49-90e3-412b-ab49-f7c4fa59c9d8",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

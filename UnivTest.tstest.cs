@@ -117,7 +117,7 @@ namespace PerformanceTesting
         public void UnivTest_CloseExcelProc()
         {
             var excelprocesses = Process.GetProcesses().
-                                 Where(pr => pr.ProcessName == "excel");
+                                 Where(pr => pr.ProcessName == "excel.exe");
 
 foreach (var process in excelprocesses)
 {

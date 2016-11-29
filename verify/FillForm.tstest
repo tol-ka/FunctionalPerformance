@@ -131,8 +131,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "afa66473-61de-4b51-8f9d-6038054fcbb5",
-            "Description": "Verify element 'ErrorNotify' 'is' visible.",
+            "Runtime ID": "96188764-cb07-48b2-aca8-8df869796e55",
+            "Description": "IF (Verify element 'ErrorNotify' 'is' visible.)",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
@@ -182,7 +182,7 @@
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "2QEomkyHcrfsHUoh4lVZT9ygkyU=",
+                              "uniqueKey": "bYMeeOLLiNyNEXI6DXAQAs02VPY=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
                               "Name": "ErrorNotify",
@@ -196,7 +196,13 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "TagIndex=div:74"
+                                            "Clause": "class=k-widget k-notification k-notification-error k-popup k-group k-reset k-state-border-up"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "InnerText=~An error has occurred"
                                           }
                                         }
                                       ],
@@ -206,7 +212,7 @@
                                   }
                                 }
                               ],
-                              "BackupSearchClause": "/html[1]/body[1]/div[8]/div[1]",
+                              "BackupSearchClause": "/html[1]/body[1]/div[34]/div[1]",
                               "DataBindingExpressions": {}
                             }
                           },
@@ -230,7 +236,157 @@
                     "__value": {
                       "StepList": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": []
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "22aa4dfd-76f6-48ec-8975-36b4231516d4",
+                              "Description": "Form Opens With Error",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Form \"+realName+ \" opens with error\";\r\n            Utility.error_flag = true;\r\n            Utility.saveflag = \"nosaveNoOther\";",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": false,
+                              "Order": 1,
+                              "Id": "FillForm_Error",
+                              "StepState": 1,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "FillFormj0gtdriv.bsi",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "62ebe7a1-16cf-46bf-86f8-58f2aa80b6b9",
+                              "Description": "Click 'ErrorNotify'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "UsejQuery": false,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "/Plan/Events/ViewEvent",
+                                            "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                                            "BaseUrl": "http://miami.acceliqc.com",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                                            "CompareMode": 4,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AccelifyIFSPInitial1"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "bYMeeOLLiNyNEXI6DXAQAs02VPY=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ErrorNotify",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "class=k-widget k-notification k-notification-error k-popup k-group k-reset k-state-border-up"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=~An error has occurred"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[34]/div[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": false,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "FillFormdtgq4rr5.uzb",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
                       },
                       "Description": "IF ({0})",
                       "CustomDescription": null,
@@ -244,88 +400,7 @@
                     "__value": {
                       "StepList": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": [
-                          {
-                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-                            "__value": {
-                              "Runtime ID": "c51279ec-0bce-4ed0-b7ef-0b3913d8cc13",
-                              "Description": "New Coded Step",
-                              "CustomDescription": null,
-                              "Step": {
-                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-                                "__value": {
-                                  "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Actual form: \"+realName;",
-                                  "RequiresSilverlight": false,
-                                  "WaitOnElements": true,
-                                  "WaitOnElementsTimeout": 30000,
-                                  "UseStepWaitOnElementsTimout": false,
-                                  "Pause": 0,
-                                  "RunsAgainstVersion": "",
-                                  "Constraints": {
-                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                                    "__value": {
-                                      "ConstraintValues": {}
-                                    }
-                                  },
-                                  "Elements": {},
-                                  "StepType": 4,
-                                  "LogMessageOnFailure": "",
-                                  "EditorType": "",
-                                  "DataBindingExpressions": {}
-                                }
-                              },
-                              "Enabled": true,
-                              "Order": 1,
-                              "Id": "FillForm_CodedStep",
-                              "StepState": 1,
-                              "ContinueOnFailure": true,
-                              "StepImageKey": "FillFormxp2w0c3e.qko",
-                              "QcId": 0,
-                              "QcVersionStamp": 0,
-                              "Version": 200
-                            }
-                          },
-                          {
-                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-                            "__value": {
-                              "Runtime ID": "ba69a251-cefe-470c-88a1-bd9cd1f45fb0",
-                              "Description": "FillFormDriven",
-                              "CustomDescription": null,
-                              "Step": {
-                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-                                "__value": {
-                                  "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(@\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
-                                  "RequiresSilverlight": false,
-                                  "WaitOnElements": true,
-                                  "WaitOnElementsTimeout": 30000,
-                                  "UseStepWaitOnElementsTimout": false,
-                                  "Pause": 0,
-                                  "RunsAgainstVersion": "",
-                                  "Constraints": {
-                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                                    "__value": {
-                                      "ConstraintValues": {}
-                                    }
-                                  },
-                                  "Elements": {},
-                                  "StepType": 4,
-                                  "LogMessageOnFailure": "",
-                                  "EditorType": "",
-                                  "DataBindingExpressions": {}
-                                }
-                              },
-                              "Enabled": true,
-                              "Order": 2,
-                              "Id": "FillForm_Driven",
-                              "StepState": 1,
-                              "ContinueOnFailure": true,
-                              "StepImageKey": "FillFormwoyf1gxt.rj5",
-                              "QcId": 0,
-                              "QcVersionStamp": 0,
-                              "Version": 200
-                            }
-                          }
-                        ]
+                        "__value": []
                       },
                       "Description": "ELSE",
                       "CustomDescription": null,
@@ -371,7 +446,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2QEomkyHcrfsHUoh4lVZT9ygkyU=",
+                          "uniqueKey": "bYMeeOLLiNyNEXI6DXAQAs02VPY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ErrorNotify",
@@ -385,7 +460,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=div:74"
+                                        "Clause": "class=k-widget k-notification k-notification-error k-popup k-group k-reset k-state-border-up"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=~An error has occurred"
                                       }
                                     }
                                   ],
@@ -395,7 +476,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[8]/div[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[34]/div[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -413,12 +494,92 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillFormntleyawc.nlf",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c51279ec-0bce-4ed0-b7ef-0b3913d8cc13",
+            "Description": "New Coded Step",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Actual form: \"+realName;",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "FillForm_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillFormxp2w0c3e.qko",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ba69a251-cefe-470c-88a1-bd9cd1f45fb0",
+            "Description": "FillFormDriven",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(@\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "FillForm_Driven",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "FillFormwoyf1gxt.rj5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

@@ -604,7 +604,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "63c0a3de-0885-4532-8a79-8aed030417e3",
+            "Runtime ID": "03b8041e-dde4-4486-92f7-7d59a4509c43",
             "Description": "Verify input 'PlanDurationDate' value 'Exact' ''.",
             "CustomDescription": null,
             "Step": {
@@ -724,7 +724,7 @@
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
                                 "__value": {
-                                  "Code": "            Utility.IFSPData.Add(\"Plan Duration is correct\");",
+                                  "Code": "            Utility.resultsData.Add(\"Plan Duration is correct\");",
                                   "RequiresSilverlight": false,
                                   "WaitOnElements": true,
                                   "WaitOnElementsTimeout": 30000,
@@ -779,7 +779,7 @@
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
                                 "__value": {
-                                  "Code": "            Utility.IFSPData.Add(@\"Plan Duration is NOT correct\");\r\n            Utility.error_flag = true;",
+                                  "Code": "            Utility.resultsData.Add(@\"Plan Duration is NOT correct\");\r\n            Utility.error_flag = true;",
                                   "RequiresSilverlight": false,
                                   "WaitOnElements": true,
                                   "WaitOnElementsTimeout": 30000,
@@ -918,7 +918,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0dd74c82-e769-49d3-bf11-5c71fe003447",
+            "Runtime ID": "0971fc5e-5158-49ed-8b5f-93ed6ed78166",
             "Description": "Verify input 'FormFieldValuesB60995d1D83146e3A5f30a2348bc9bdeValueDateStringText' value 'Exact' '11/20/2016'.",
             "CustomDescription": null,
             "Step": {

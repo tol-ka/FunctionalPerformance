@@ -57,7 +57,7 @@ namespace PerformanceTesting
         public static ArrayList ischecked = new ArrayList();
         public static ArrayList expectedChecked = new ArrayList();
        public static ArrayList expectedAll = new ArrayList();
-        public static List<string> IFSPData = new List<string>();
+        public static List<string> resultsData = new List<string>();
          
         public static void GetExAll(String text){
             

@@ -89,6 +89,13 @@ namespace PerformanceTesting
                     studentID = "1669946";
                    
                 }
+                
+                 else if (bbaseUrl.Contains("dade.acceliplan.com"))
+                {
+                    Utility.currentDomain = "prod";
+                    studentID = "1669946";
+                   
+                }
                 String address = String.Format("/Plan/Students/ViewStudent?CommonStudentId={0}&studentViewType=Events&programType=Miami{1}",studentID,Utility.plan);
                 Console.Out.WriteLine(address); 
                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);

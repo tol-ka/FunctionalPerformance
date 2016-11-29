@@ -130,5 +130,11 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
         {
             Utility.eventType = @"Initial";
         }
+    
+        [CodedStep(@"Set event Group Name")]
+        public void setEventGroupName()
+        {
+                        Utility.eventGroupName = @"IFSP Initial Meeting";
+        }
     }
 }
