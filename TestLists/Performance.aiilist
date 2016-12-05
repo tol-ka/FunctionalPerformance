@@ -22,7 +22,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 1,
             "EnableScriptLogging": false,
-            "BaseUrl": "http:\\\\dade.acceliqc.com",
+            "BaseUrl": "https:\\\\dade.acceliplan.com",
             "KillBrowserProcessOnClose": false,
             "UseHttpProxy": false,
             "EnableSilverlight": false,
@@ -45,7 +45,7 @@
         "WaitCheckInterval": 500,
         "ElementWaitTimeout": 45000,
         "ExecuteCommandTimeout": 60000,
-        "ExecutionDelay": 0,
+        "ExecutionDelay": 200,
         "UnexpectedDialogAction": 2,
         "AnnotateExecution": false,
         "AnnotationMode": 0,
@@ -76,6 +76,54 @@
         "__value": {
           "Id": "8e84e0a9-dea4-4040-9ef7-bcf7749e698f",
           "Path": "MAIN_FillLockPSSPInitial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "23c91f7b-e0d4-4d42-a651-3d738b211044",
+          "Path": "FillLock504Initial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "0b99579a-0fa2-4bee-a0b3-2a2c7a08bfdf",
+          "Path": "FillLockEP_Eligibility.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "bee9e718-6d2a-40f5-8c44-f26c6d2aba68",
+          "Path": "FillLockIFSP_Annual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "1de2a738-378e-4547-864e-0b7de3612b98",
+          "Path": "FillockPSSPAnnual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "f1debca8-98f2-4ee9-b724-fa87e5339283",
+          "Path": "MAIN_FillLockIEPAnnual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "044695de-d2c1-4d29-a538-155a8b3be6d8",
+          "Path": "MAIN_FillLockIFSPInitial.tstest",
           "PathType": 0
         }
       }
