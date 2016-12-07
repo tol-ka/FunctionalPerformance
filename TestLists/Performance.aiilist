@@ -22,7 +22,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 1,
             "EnableScriptLogging": false,
-            "BaseUrl": "https:\\\\dade.acceliplan.com",
+            "BaseUrl": "http:\\\\dade.acceliqc.com",
             "KillBrowserProcessOnClose": false,
             "UseHttpProxy": false,
             "EnableSilverlight": false,
@@ -66,8 +66,24 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
+          "Id": "0b99579a-0fa2-4bee-a0b3-2a2c7a08bfdf",
+          "Path": "FillLockEP_Eligibility.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
           "Id": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
           "Path": "MAIN_FillLockIEPInitial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "f1debca8-98f2-4ee9-b724-fa87e5339283",
+          "Path": "MAIN_FillLockIEPAnnual.tstest",
           "PathType": 0
         }
       },
@@ -82,30 +98,6 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "23c91f7b-e0d4-4d42-a651-3d738b211044",
-          "Path": "FillLock504Initial.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "0b99579a-0fa2-4bee-a0b3-2a2c7a08bfdf",
-          "Path": "FillLockEP_Eligibility.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "bee9e718-6d2a-40f5-8c44-f26c6d2aba68",
-          "Path": "FillLockIFSP_Annual.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
           "Id": "1de2a738-378e-4547-864e-0b7de3612b98",
           "Path": "FillockPSSPAnnual.tstest",
           "PathType": 0
@@ -114,8 +106,16 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "f1debca8-98f2-4ee9-b724-fa87e5339283",
-          "Path": "MAIN_FillLockIEPAnnual.tstest",
+          "Id": "23c91f7b-e0d4-4d42-a651-3d738b211044",
+          "Path": "FillLock504Initial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "bee9e718-6d2a-40f5-8c44-f26c6d2aba68",
+          "Path": "FillLockIFSP_Annual.tstest",
           "PathType": 0
         }
       },
