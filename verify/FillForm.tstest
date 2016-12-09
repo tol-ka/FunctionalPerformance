@@ -131,7 +131,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1729fa08-e09a-4d19-a3e5-b34bb4e5e434",
+            "Runtime ID": "bb4521a2-5502-4e91-988e-8e9e358568d2",
             "Description": "IF (Verify element 'ErrorNotify' 'is' visible.)",
             "CustomDescription": null,
             "Step": {
@@ -266,7 +266,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 1,
                               "Id": "FillForm_Error",
                               "StepState": 1,
@@ -375,7 +375,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 2,
                               "Id": "",
                               "StepState": 0,
@@ -494,7 +494,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 2,
             "Id": "",
             "StepState": 0,
