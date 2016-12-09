@@ -131,7 +131,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "96188764-cb07-48b2-aca8-8df869796e55",
+            "Runtime ID": "1729fa08-e09a-4d19-a3e5-b34bb4e5e434",
             "Description": "IF (Verify element 'ErrorNotify' 'is' visible.)",
             "CustomDescription": null,
             "Step": {
@@ -246,7 +246,7 @@
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
                                 "__value": {
-                                  "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Form \"+realName+ \" opens with error\";\r\n            Utility.error_flag = true;\r\n            Utility.saveflag = \"nosaveNoOther\";",
+                                  "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.resultsData.Add(\"Form \"+realName+ \" opens with error\");\r\n            Utility.error_flag = true;\r\n            Utility.saveflag = \"nosaveNoOther\";",
                                   "RequiresSilverlight": false,
                                   "WaitOnElements": true,
                                   "WaitOnElementsTimeout": 30000,
@@ -266,7 +266,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": false,
+                              "Enabled": true,
                               "Order": 1,
                               "Id": "FillForm_Error",
                               "StepState": 1,
@@ -375,11 +375,11 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": false,
+                              "Enabled": true,
                               "Order": 2,
                               "Id": "",
                               "StepState": 0,
-                              "ContinueOnFailure": false,
+                              "ContinueOnFailure": true,
                               "StepImageKey": "FillFormdtgq4rr5.uzb",
                               "QcId": 0,
                               "QcVersionStamp": 0,
@@ -494,7 +494,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 2,
             "Id": "",
             "StepState": 0,
@@ -514,7 +514,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.func_comment = \"Actual form: \"+realName;",
+                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.resultsData.Add(\"Actual form: \"+realName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
