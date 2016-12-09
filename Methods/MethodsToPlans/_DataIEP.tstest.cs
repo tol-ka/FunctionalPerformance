@@ -51,5 +51,18 @@ namespace PerformanceTesting
         {
             SetExtractedValue("currentEventType", Utility.eventType);
         }
+        
+         [CodedStep(@"IFSP Schedule Date is Correct")]
+        public void IFSP_Schedule_Date_Correct()
+        {
+            Utility.resultsData.Add("Schedule Date is correct");
+        }
+        
+         [CodedStep(@"IFSP Schedule Date Non Correct")]
+        public void IFSP_Plan_Schedule_Date_Correct()
+        {
+            Utility.resultsData.Add(@"Schedule Date is NOT correct");
+            Utility.error_flag = true;
+        }
     }
 }

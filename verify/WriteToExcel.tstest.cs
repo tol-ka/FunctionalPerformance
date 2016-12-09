@@ -112,6 +112,7 @@ column = 5;
             string s = string.Format("Time counted for '{0}'", Utility.comment);
      xlWorksheet.Cells[row , column] = s;
             column = 5;  
+            Utility.func_comment = string.Join(",", Utility.resultsData.ToArray());
               xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
             xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
