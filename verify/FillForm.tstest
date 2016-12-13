@@ -131,7 +131,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bb4521a2-5502-4e91-988e-8e9e358568d2",
+            "Runtime ID": "ac970824-cd5d-4f67-89ca-17e3aa76cf09",
             "Description": "IF (Verify element 'ErrorNotify' 'is' visible.)",
             "CustomDescription": null,
             "Step": {
@@ -266,7 +266,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": false,
+                              "Enabled": true,
                               "Order": 1,
                               "Id": "FillForm_Error",
                               "StepState": 1,
@@ -375,7 +375,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": false,
+                              "Enabled": true,
                               "Order": 2,
                               "Id": "",
                               "StepState": 0,
@@ -400,7 +400,88 @@
                     "__value": {
                       "StepList": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
-                        "__value": []
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "c51279ec-0bce-4ed0-b7ef-0b3913d8cc13",
+                              "Description": "New Coded Step",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.resultsData.Add(\"Actual form: \"+realName);",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "FillForm_CodedStep",
+                              "StepState": 1,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "FillFormxp2w0c3e.qko",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "ba69a251-cefe-470c-88a1-bd9cd1f45fb0",
+                              "Description": "FillFormDriven",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+                                "__value": {
+                                  "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(@\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
+                                  "RequiresSilverlight": false,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "FillForm_Driven",
+                              "StepState": 1,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "FillFormwoyf1gxt.rj5",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
                       },
                       "Description": "ELSE",
                       "CustomDescription": null,
@@ -494,92 +575,12 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "FillFormntleyawc.nlf",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "c51279ec-0bce-4ed0-b7ef-0b3913d8cc13",
-            "Description": "New Coded Step",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "            object myData = GetExtractedValue(\"ActualFormName\");\r\n            var realName = myData.ToString();\r\n            var expectedName = Data[\"formname\"].ToString();\r\n            Utility.resultsData.Add(\"Actual form: \"+realName);",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "FillForm_CodedStep",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillFormxp2w0c3e.qko",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ba69a251-cefe-470c-88a1-bd9cd1f45fb0",
-            "Description": "FillFormDriven",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "            var testname = Data[\"formname\"].ToString();    \r\n            var filetestname = string.Format(@\"Methods\\\\{0}.tstest\", testname);\r\n            this.ExecuteTest(filetestname);\r\n            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 4,
-            "Id": "FillForm_Driven",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillFormwoyf1gxt.rj5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

@@ -68,7 +68,9 @@ Microsoft.Office.Interop.Excel.Range xlRange = (Microsoft.Office.Interop.Excel.R
 
 System.Threading.Thread.Sleep(1000);
 ActiveBrowser.RefreshDomTree();
- 
+ Utility.func_comment = string.Join(",", Utility.resultsData);
+              Console.Out.WriteLine("______Func Comment is:  " + Utility.func_comment);
+            Log.WriteLine("______Func Comment is:  " + Utility.func_comment);
     xlWorksheet.Cells[row , column] = Utility.opentime;
             if (Utility.opentime > 12000) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
@@ -112,8 +114,7 @@ column = 5;
             string s = string.Format("Time counted for '{0}'", Utility.comment);
      xlWorksheet.Cells[row , column] = s;
             column = 5;  
-            Utility.func_comment = string.Join(",", Utility.resultsData);
-              Console.Out.WriteLine("______Comment is:  " + Utility.func_comment);
+            
               xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
              xlWorksheet.Cells[row , column] = Utility.func_comment;
             xlRange.Font.Color = Excel.XlRgbColor.rgbGreen;
