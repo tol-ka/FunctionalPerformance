@@ -10,30 +10,20 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c5b6bbe7-958a-4fd6-b73d-85735b832fa7",
-            "Description": "Set Plan to IEP",
+            "Runtime ID": "fe62ab0d-eb66-4250-a188-74090fd3f990",
+            "Description": "SetPlanto",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "         Utility.plan = @\"IEP\";",
+                "Code": "            Utility.plan = @\"504\";\r\nSetExtractedValue(\"CurrentPlan\", Utility.plan);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -55,10 +45,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "SetPlantoIEP",
+            "Id": "SetPlanto",
             "StepState": 1,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialfmimknyo.cyy",
+            "StepImageKey": "FillLock504Initialrhexpukt.xj3",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,13 +57,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5ef9cffb-a794-48d9-997b-4af577a0d4bd",
+            "Runtime ID": "40420e3c-cc53-4bab-8331-c324c02d61b4",
             "Description": "Set event Name",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventName = @\"IEP Interim Meeting\";",
+                "Code": "            Utility.eventName = @\"504 Annual Meeting\";\r\n            SetExtractedValue(\"CurrentEventName\", Utility.eventName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -98,7 +88,7 @@
             "Id": "setEventName",
             "StepState": 1,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialr2yekijs.52n",
+            "StepImageKey": "FillLock504Initialobj0zpju.a1y",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -107,13 +97,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "44b0ea54-bb86-442a-834b-914afad81660",
+            "Runtime ID": "cc71e01a-26b4-4b81-8662-03a0f060feff",
             "Description": "Set event Group Name",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventGroupName = @\"IEP Interim Meeting\";",
+                "Code": "            Utility.eventGroupName = @\"504 Annual Meeting\";\r\n            SetExtractedValue(\"CurrentEventGroupName\", Utility.eventGroupName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -138,7 +128,7 @@
             "Id": "setEventGroupName",
             "StepState": 1,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitial02kasnkt.vvj",
+            "StepImageKey": "FillLock504Initialu4jtwrnm.ovi",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -147,13 +137,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7e519649-af48-4b3e-b967-f0e701d16855",
+            "Runtime ID": "4a5b4bdd-052d-4b34-85b4-cce317706bfd",
             "Description": "Set event Type",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Utility.eventType = @\"Interim\";",
+                "Code": "            Utility.eventType = @\"Annual\";\r\n            SetExtractedValue(\"CurrentEventGroupName\", Utility.eventGroupName);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -178,7 +168,7 @@
             "Id": "setEventType",
             "StepState": 1,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialspvfilcq.czn",
+            "StepImageKey": "FillLock504Initialmgsganjo.mnh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -187,7 +177,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "eb25e799-f9b3-4165-ac66-9bb3d2f468f6",
+            "Runtime ID": "ca0487f5-0713-4127-83ea-5c202ad13bd7",
             "Description": "Execute test 'UnivTest'",
             "CustomDescription": null,
             "Step": {
@@ -219,7 +209,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "MAIN_FillLockIEPInitialmp3nbomb.o1b",
+            "StepImageKey": "FillLock504Initialnuasgqla.vc3",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -239,9 +229,9 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.MAIN_FillLockIEPInitial1",
+    "TestClass": "PerformanceTesting.FillLock504Annual",
     "IsManual": false,
-    "ResourceFilePath": "MAIN_FillLockIEPInterim.resx",
+    "ResourceFilePath": "FillLock504Annual.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -271,13 +261,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "MAIN_FillLockIEPInterim",
+    "Name": "FillLock504Annual",
     "Owner": "",
-    "Path": "MAIN_FillLockIEPInterim.tstest",
+    "Path": "FillLock504Annual.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "317d0410-f106-488e-b5b5-bd67c7b0a049",
-    "Id": "317d0410-f106-488e-b5b5-bd67c7b0a049",
+    "UniqueId": "a22aa71d-ca7b-46c4-a789-62cf7fa4ca7b",
+    "Id": "a22aa71d-ca7b-46c4-a789-62cf7fa4ca7b",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }
