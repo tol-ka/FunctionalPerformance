@@ -15,6 +15,9 @@ namespace PerformanceTesting
     public static class Utility
     {
         public static String presentURL;
+        //Today's date, used for form filling or creating event
+        public static String currentDate;
+        public static String currentDay;
         public static String serviceURL;
         public static String matrixURL;
         public static String matrixCURL;

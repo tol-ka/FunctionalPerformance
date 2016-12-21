@@ -90,6 +90,9 @@ namespace PerformanceTesting
             else if(Utility.plan == @"IEP" && Utility.eventType == @"Annual"){
                 Utility.sheetIndex = 2;
             }
+             else if(Utility.plan == @"IEP" && Utility.eventType == @"Interim"){
+                Utility.sheetIndex = 3;
+            }
              else if(Utility.plan == @"504" && Utility.eventType == @"Initial"){
                 Utility.sheetIndex = 1;
             }
@@ -101,6 +104,9 @@ namespace PerformanceTesting
             }
             else if(Utility.plan == @"IFSP" && Utility.eventType == @"Annual"){
                 Utility.sheetIndex = 2;
+            }
+             else if(Utility.plan == @"IFSP" && Utility.eventType == @"Interim"){
+                Utility.sheetIndex = 3;
             }
              else if(Utility.plan == @"PSSP" && Utility.eventType == @"Initial"){
                 Utility.sheetIndex = 1;

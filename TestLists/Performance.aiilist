@@ -46,7 +46,7 @@
         "ElementWaitTimeout": 45000,
         "ExecuteCommandTimeout": 60000,
         "ExecutionDelay": 200,
-        "UnexpectedDialogAction": 2,
+        "UnexpectedDialogAction": 1,
         "AnnotateExecution": false,
         "AnnotationMode": 0,
         "XMultiMgr": true,
@@ -58,8 +58,16 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "044a9564-e3c7-4f14-bf43-c970527e915c",
-          "Path": "FillLockEPInitial.tstest",
+          "Id": "a22aa71d-ca7b-46c4-a789-62cf7fa4ca7b",
+          "Path": "FillLock504Annual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "23c91f7b-e0d4-4d42-a651-3d738b211044",
+          "Path": "FillLock504Initial.tstest",
           "PathType": 0
         }
       },
@@ -74,40 +82,8 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
-          "Path": "MAIN_FillLockIEPInitial.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "f1debca8-98f2-4ee9-b724-fa87e5339283",
-          "Path": "MAIN_FillLockIEPAnnual.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "8e84e0a9-dea4-4040-9ef7-bcf7749e698f",
-          "Path": "MAIN_FillLockPSSPInitial.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "1de2a738-378e-4547-864e-0b7de3612b98",
-          "Path": "FillockPSSPAnnual.tstest",
-          "PathType": 0
-        }
-      },
-      {
-        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
-        "__value": {
-          "Id": "23c91f7b-e0d4-4d42-a651-3d738b211044",
-          "Path": "FillLock504Initial.tstest",
+          "Id": "044a9564-e3c7-4f14-bf43-c970527e915c",
+          "Path": "FillLockEPInitial.tstest",
           "PathType": 0
         }
       },
@@ -124,6 +100,46 @@
         "__value": {
           "Id": "044695de-d2c1-4d29-a538-155a8b3be6d8",
           "Path": "MAIN_FillLockIFSPInitial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "1de2a738-378e-4547-864e-0b7de3612b98",
+          "Path": "FillockPSSPAnnual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "8e84e0a9-dea4-4040-9ef7-bcf7749e698f",
+          "Path": "MAIN_FillLockPSSPInitial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "f1debca8-98f2-4ee9-b724-fa87e5339283",
+          "Path": "MAIN_FillLockIEPAnnual.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "4dc6d0a5-2aec-4519-a21c-4983b3ea1047",
+          "Path": "MAIN_FillLockIEPInitial.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "317d0410-f106-488e-b5b5-bd67c7b0a049",
+          "Path": "MAIN_FillLockIEPInterim.tstest",
           "PathType": 0
         }
       }

@@ -56,9 +56,21 @@ namespace PerformanceTesting
         public void ChooseFormToFill()
         {
             if (Utility.plan=="not defined")
-            {Log.WriteLine("_NOM test not run because no Otility.plan choosen_");}
+            {Log.WriteLine("++__NOM test not run because no Utility.plan choosen_");}
             var noticetest = String.Format("Methods\\_NoticeOfMeeting{0}.tstest",Utility.plan);
                          this.ExecuteTest(noticetest);
+        }
+        
+         [CodedStep(@"Get Today date")]
+        public void GetCurrentDate()
+        {
+            
+            string datetom = DateTime.Today.ToString(@"MM/dd/yyyy");
+            string currentDay = DateTime.Today.ToString(@"dd");
+            Utility.currentDate = datetom;
+            Utility.currentDay = currentDay;
+            SetExtractedValue("currentDate", datetom);
+            SetExtractedValue("currentDay", currentDay);
         }
     }
 }

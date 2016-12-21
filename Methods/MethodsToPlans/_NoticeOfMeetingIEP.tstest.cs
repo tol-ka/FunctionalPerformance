@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class FillLock504Annual : BaseWebAiiTest
+    public class _NoticeOfMeetingIEP : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,34 +46,16 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"SetPlanto")]
-        public void SetPlanto()
+       [CodedStep(@"Get Today date")]
+        public void GetCurrentDate()
         {
-            Utility.plan = @"504";
-SetExtractedValue("CurrentPlan", Utility.plan);
+            
+            string datetom = DateTime.Today.ToString(@"MM/dd/yyyy");
+            string currentDay = DateTime.Today.ToString(@"dd");
+            Utility.currentDate = datetom;
+            Utility.currentDay = currentDay;
+            SetExtractedValue("currentDate", datetom);
+            SetExtractedValue("currentDay", currentDay);
         }
-    
-        [CodedStep(@"Set event Name")]
-        public void setEventName()
-        {
-            Utility.eventName = @"504 Annual Meeting";
-            SetExtractedValue("CurrentEventName", Utility.eventName);
-        }
-    
-        [CodedStep(@"Set event Group Name")]
-        public void setEventGroupName()
-        {
-            Utility.eventGroupName = @"504 Annual Meeting";
-            SetExtractedValue("CurrentEventGroupName", Utility.eventGroupName);
-        }
-    
-        [CodedStep(@"Set event Type")]
-        public void setEventType()
-        {
-            Utility.eventType = @"Annual";
-            SetExtractedValue("CurrentEventGroupName", Utility.eventGroupName);
-        }
-        
-         
     }
 }
