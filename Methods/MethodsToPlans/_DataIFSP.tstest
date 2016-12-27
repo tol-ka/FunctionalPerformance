@@ -604,7 +604,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a2aab115-8321-45cd-9d0b-103be9b18ecb",
+            "Runtime ID": "b497b07d-9389-47b5-afad-bf17dc01962f",
             "Description": "Verify input 'PlanDurationDate' value 'Exact' ''.",
             "CustomDescription": null,
             "Step": {
@@ -918,7 +918,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9cd018de-b880-431e-bcb5-bf02f5c67ddf",
+            "Runtime ID": "fc936eeb-a978-4724-88ec-92e14a1d257d",
             "Description": "Verify input 'FormFieldValuesB60995d1D83146e3A5f30a2348bc9bdeValueDateStringText' value 'Exact' '11/20/2016'.",
             "CustomDescription": null,
             "Step": {
@@ -1140,46 +1140,6 @@
             "StepState": 0,
             "ContinueOnFailure": true,
             "StepImageKey": "_DataIFSPi0q1zkt2.jlk",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "fd6a1842-b8d6-45f4-8c1a-edba69e8959b",
-            "Description": "New Coded Step",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
-              "__value": {
-                "Code": "            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 10,
-            "Id": "_DataIFSP_CodedStep1",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "_DataIFSPkgz3okct.e0y",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
