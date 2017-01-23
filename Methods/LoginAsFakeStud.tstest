@@ -17,7 +17,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b0e6e22f-b6bd-496e-b19c-fbb613ae19f5",
+            "Runtime ID": "f521241d-585a-4c5b-868d-749f13db7f56",
             "Description": "Clear Browser Cache",
             "CustomDescription": null,
             "Step": {
@@ -53,7 +53,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorker50efylvf.jem",
+            "StepImageKey": "LoginAsFakeStudth3masc5.ji1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -62,14 +62,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "93e668b1-36f0-4dd5-9758-d50bd80bae3f",
-            "Description": "Navigate to : '/Login.aspx?ReturnUrl=%2fPLAN/Reports/ReportEventsByStudent'",
+            "Runtime ID": "83cfb3c0-8f44-480c-b9ca-20af78c12224",
+            "Description": "Navigate to : '/Login.aspx'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "/Login.aspx?ReturnUrl=%2fPLAN/Reports/ReportEventsByStudent",
+                "NavigateURL": "/Login.aspx",
                 "BaseUrl": "http://dade-pilot.acceliplan.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
@@ -98,7 +98,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorkerrlmm2yvh.q30",
+            "StepImageKey": "LoginAsFakeStudso4f1t42.k5k",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -107,13 +107,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "81a2a729-cfc8-4121-a1fe-3f2130cbe184",
-            "Description": "Enter text 'TAcceahcer' in 'UserNameField'",
+            "Runtime ID": "2f0a4154-96d9-4c45-a3e9-2a9d716c83a6",
+            "Description": "Enter text 'FAKEUSER9' in 'UserNameField'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "TAcceahcer",
+                "RawText": "FAKEUSER9",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -222,7 +222,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorkerkzv4hrkr.e1k",
+            "StepImageKey": "LoginAsFakeStudf1t1ok10.y3k",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -231,13 +231,13 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "216ada1d-0da3-45cc-992b-9ef661b0bfe9",
-            "Description": "Enter text '89!M40uX2@L' in 'PasswordField'",
+            "Runtime ID": "66fd5444-198b-46ef-ba52-c6e93591f7e2",
+            "Description": "Enter text 'MiamiDade9' in 'PasswordField'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "89!M40uX2@L",
+                "RawText": "MiamiDade9",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -346,7 +346,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorkerxuyxjekv.4bw",
+            "StepImageKey": "LoginAsFakeStudap5bm4jf.5qh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -355,7 +355,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8ba47a2b-2086-4437-9bd2-1dcfb9843129",
+            "Runtime ID": "a1f41c39-1aca-4ab3-8663-e704f13bb669",
             "Description": "Click 'LoginButton'",
             "CustomDescription": null,
             "Step": {
@@ -455,7 +455,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorkerld1b3bvf.rfb",
+            "StepImageKey": "LoginAsFakeStudjlbyyzud.y1l",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -464,7 +464,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "45fdbd0e-b9f4-49bb-9b63-d94b67eb010e",
+            "Runtime ID": "82ee8217-3a94-41b0-ac33-6acd0b20a116",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -564,7 +564,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "LoginAsWorker5dr5g0ce.cnu",
+            "StepImageKey": "LoginAsFakeStudjetkvhyy.5jt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -586,7 +586,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\LoginAsWorker.resx",
+    "ResourceFilePath": "Methods\\LoginAsFakeStud.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -616,13 +616,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "LoginAsWorker",
+    "Name": "LoginAsFakeStud",
     "Owner": "",
-    "Path": "Methods\\LoginAsWorker.tstest",
+    "Path": "Methods\\LoginAsFakeStud.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "30930afd-6a87-4356-919f-0cdf73c3a976",
-    "Id": "30930afd-6a87-4356-919f-0cdf73c3a976",
+    "UniqueId": "e8f458d9-1fc3-4210-b7da-7b30e4902977",
+    "Id": "e8f458d9-1fc3-4210-b7da-7b30e4902977",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

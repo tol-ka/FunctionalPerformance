@@ -61,6 +61,7 @@ namespace PerformanceTesting
         public static ArrayList expectedChecked = new ArrayList();
        public static ArrayList expectedAll = new ArrayList();
         public static List<string> resultsData = new List<string>();
+        public static List<int> perfData = new List<int>();
          
         public static void GetExAll(String text){
             
