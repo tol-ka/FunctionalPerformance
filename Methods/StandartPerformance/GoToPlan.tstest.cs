@@ -112,6 +112,17 @@ namespace PerformanceTesting
                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
             
         }
+        
+          [CodedStep(@"GoToStu")]
+        public void GoToStu()
+        {
+                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();
+                       
+                String address = ("/Plan/Students");
+                Console.Out.WriteLine(address); 
+                ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
+            
+        }
     
 }
 }
