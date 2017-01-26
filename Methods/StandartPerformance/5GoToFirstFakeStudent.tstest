@@ -18,7 +18,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a70f2087-844f-42d0-a01e-ca4708b3e083",
-            "Description": "Click 'BradyRedLink'",
+            "Description": "Click 'FirstStudentLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -69,7 +69,7 @@
                           "uniqueKey": "DIU50R+DZytrKmXD+cG+wWXrq60=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BradyRedLink",
+                          "Name": "FirstStudentLink",
                           "FindExpressions": [
                             {
                               "Key": 1,

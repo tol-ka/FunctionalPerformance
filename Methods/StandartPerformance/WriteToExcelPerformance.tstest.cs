@@ -101,6 +101,44 @@ System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
 excelApp.Quit();
 GC.Collect();
 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);}            
+        
+        [CodedStep(@"New Coded Step")]
+        public void WriteToExcelPerformance_CodedStep1()
+        {
+string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\domainResults.xlsx";
+string myPath = "C:\\domainResults.xlsx";
+
+if (!System.IO.File.Exists(myPath))
+{
+    System.IO.File.Copy(dataSourcePath, myPath);
+}
+
+Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
+
+System.Threading.Thread.Sleep(1000);
+ActiveBrowser.RefreshDomTree();
+
+if (ActiveBrowser.ContainsText("already been registered"))
+{
+    excelApp.Cells[Data.IterationIndex + 2 , 1] = "Registered";
+}
+if (ActiveBrowser.ContainsText("is still available"))
+{
+    excelApp.Cells[Data.IterationIndex + 2 , 1] = "Available";
+}
+
+excelApp.Visible = true;
+excelApp.ActiveWorkbook.Save();
+
+workbook.Close(false, Type.Missing, Type.Missing);
+excelApp.Workbooks.Close();
+System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+
+excelApp.Quit();
+GC.Collect();
+System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);            
         }
+    }
     
 }

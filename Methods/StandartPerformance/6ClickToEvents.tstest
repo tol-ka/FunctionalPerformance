@@ -17,9 +17,9 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "cfd29962-677f-492b-9a7c-4dc8cd959965",
+            "Runtime ID": "ca482989-c25b-47f3-9d7f-f58cea2cae0a",
             "Description": "KendoMenu 'Root option Events' action: Click",
-            "CustomDescription": null,
+            "CustomDescription": "Click To Events",
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.Menu.KendoMenuItemClick",
               "__value": {
@@ -67,7 +67,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "WxrNJeJwl+0yjJNvbJfD28qx2wE=",
+                          "uniqueKey": "ynHAaSjdGWzgIN/7Xd3ooR8vJMU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ListItem",
@@ -93,13 +93,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagName=li"
+                                        "Clause": "TagName=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=li:1"
+                                        "Clause": "TextContent=Events"
                                       }
                                     }
                                   ],
@@ -111,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "5GoToFirstFakeStudentgpvozeqh.vrg",
+            "StepImageKey": "6ClickToEventsbjy1s0w4.tea",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
