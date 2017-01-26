@@ -10,370 +10,25 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "73960b64-c122-4541-81b7-a2f610b8a78a",
-            "Description": "Click 'DistributionSpan'",
+            "Runtime ID": "d4b6ba49-22a4-4ef5-b515-8285e962b844",
+            "Description": "Verify 'InnerText' 'NotContain' 'Aunt' on 'PnlDistributeToDiv'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "L9o2O059+K791yl49SB97zzVXOE=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "DistributionManagerLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=pnlEventMenu"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagName=span"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Distribution Manager"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]/span[1]/a[1]/span[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 1,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticejfdgzdgi.qmm",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "9812e924-7e2d-4a1a-b9e2-a7466c1653f2",
-            "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
-              "__value": {
-                "ExistsNot": true,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Students",
-                          "Query": "",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Students",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents0"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "LoadingDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=^Loading"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNotice44l2jurs.hue",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "c0817a78-ecbb-4232-9116-cd96a231c3e0",
-            "Description": "Click 'BtnSelectStudentContactLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "OB7Dq7OWPgZ42PNkB3xX9oX1yCs=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnSelectStudentContactLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnSelectStudentContact"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "CreateLock5Annualucsd3cz3.lj5",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "9063bafe-0855-41e8-86a8-f26c0907b8bd",
-            "Description": "WHILE (Verify checked value is 'False' on 'CheckBox0')",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.WhileLoopLogicalDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
               "__value": {
                 "Verification": {
-                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckVerificationDescriptor",
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
                   "__value": {
-                    "Checked": false,
+                    "CompareType": 3,
+                    "SegmentType": 0,
+                    "ExpectedString": "Aunt",
                     "UseBackupSearch": true,
                     "DataBindVariableName": null,
                     "Timeout": 30000,
@@ -393,10 +48,10 @@
                       }
                     },
                     "Elements": {
-                      "check": {
+                      "textTarget": {
                         "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                         "__value": {
-                          "Name": "check",
+                          "Name": "textTarget",
                           "Region": null,
                           "Page": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -417,10 +72,10 @@
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
+                              "uniqueKey": "HGnp62+oKCCQQeGCLQrByZXLEN4=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
-                              "Name": "CheckBox0",
+                              "Name": "PnlDistributeToDiv",
                               "FindExpressions": [
                                 {
                                   "Key": 1,
@@ -431,29 +86,27 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "id=pnlStudentContacts"
+                                            "Clause": "id=pnlDistributeTo"
                                           }
                                         },
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "type=checkbox"
+                                            "Clause": "tagname=div"
                                           }
                                         }
                                       ],
                                       "Constraints": [],
-                                      "ChainStops": [
-                                        1
-                                      ]
+                                      "ChainStops": []
                                     }
                                   }
                                 }
                               ],
-                              "BackupSearchClause": "/html[1]/body[1]/div[16]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]/div[1]",
                               "DataBindingExpressions": {}
                             }
                           },
-                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                           "IsIndependent": false,
                           "DomStateKey": "",
                           "TechnologyType": 1,
@@ -468,7 +121,7 @@
                   }
                 },
                 "Branches": {
-                  "0": {
+                  "1": {
                     "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
                     "__value": {
                       "StepList": {
@@ -477,15 +130,13 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "3f4c9bc9-a2d3-447f-8f61-df0ae03d1faa",
-                              "Description": "Check 'CheckBox0' to be 'True'",
+                              "Runtime ID": "6dcc3b6d-bcf9-4c54-af52-46c2725bde14",
+                              "Description": "Click 'BtnSelectStudentContactLink'",
                               "CustomDescription": null,
                               "Step": {
-                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
                                 "__value": {
-                                  "CheckedState": true,
-                                  "InvokeOnClick": false,
-                                  "InvokeOnChange": false,
+                                  "SimulateRealClick": false,
                                   "UsejQuery": true,
                                   "UseBackupSearch": true,
                                   "ClosesBrowser": false,
@@ -504,10 +155,10 @@
                                     }
                                   },
                                   "Elements": {
-                                    "checkBox": {
+                                    "target": {
                                       "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                                       "__value": {
-                                        "Name": "checkBox",
+                                        "Name": "target",
                                         "Region": null,
                                         "Page": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -526,7 +177,340 @@
                                         "Frame": null,
                                         "FindInfo": null,
                                         "FindExpression": {
-                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "OB7Dq7OWPgZ42PNkB3xX9oX1yCs=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "BtnSelectStudentContactLink",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=btnSelectStudentContact"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=a"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "Distribution Managerj2fggdfc.tlz",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "3e583f50-254e-42fb-9edf-ac43dfb8b038",
+                              "Description": "WHILE (Verify checked value is 'False' on 'CheckBox0')",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.WhileLoopLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckVerificationDescriptor",
+                                    "__value": {
+                                      "Checked": false,
+                                      "UseBackupSearch": true,
+                                      "DataBindVariableName": null,
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": false,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {
+                                            "RunsAgainstVersion": ""
+                                          }
+                                        }
+                                      },
+                                      "Elements": {
+                                        "check": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "check",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "/Plan/Events/ViewEvent",
+                                                "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                                                "BaseUrl": "http://miami.acceliqc.com",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                                                "CompareMode": 4,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "AccelifyIFSPInitial1"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindInfo": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "CheckBox0",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "id=pnlStudentContacts"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "type=checkbox"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": [
+                                                          1
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[16]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 2,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {}
+                                    }
+                                  },
+                                  "Branches": {
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "50d9309a-6ec1-4107-afe2-759b77fff572",
+                                                "Description": "Check 'CheckBox0' to be 'True'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
+                                                  "__value": {
+                                                    "CheckedState": true,
+                                                    "InvokeOnClick": false,
+                                                    "InvokeOnChange": false,
+                                                    "UsejQuery": true,
+                                                    "UseBackupSearch": true,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {
+                                                          "RunsAgainstVersion": ""
+                                                        }
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "checkBox": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "checkBox",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "/Plan/Events/ViewEvent",
+                                                              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                                                              "BaseUrl": "http://miami.acceliqc.com",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                                                              "CompareMode": 4,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "AccelifyIFSPInitial1"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindInfo": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "CheckBox0",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=pnlStudentContacts"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "type=checkbox"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": [
+                                                                        1
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[16]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "CreateLock5Annualeub1kcrs.53t",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "WHILE ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "check": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "check",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "/Plan/Events/ViewEvent",
+                                            "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                                            "BaseUrl": "http://miami.acceliqc.com",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                                            "CompareMode": 4,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AccelifyIFSPInitial1"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
                                             "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
                                             "NodeKind": 4,
@@ -572,6 +556,119 @@
                                       }
                                     }
                                   },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "Distribution Managerk15lhr1d.ymf",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "cf2ae74c-bd04-4a26-a654-3cf747f08715",
+                              "Description": "Click 'BtnAddLink'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "UsejQuery": true,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "/Plan/Events/ViewEvent",
+                                            "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                                            "BaseUrl": "http://miami.acceliqc.com",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                                            "CompareMode": 4,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AccelifyIFSPInitial1"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "pLFJrFsMxCfam3e/VKFgwphhLUA=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "BtnAddLink",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=wndStudentContactSelector"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=btnAdd"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": [
+                                                      1
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[17]/div[2]/div[1]/div[1]/div[2]/a[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
                                   "StepType": 4,
                                   "LogMessageOnFailure": "",
                                   "EditorType": "",
@@ -579,11 +676,11 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 1,
+                              "Order": 3,
                               "Id": "",
                               "StepState": 0,
-                              "ContinueOnFailure": false,
-                              "StepImageKey": "CreateLock5Annualeub1kcrs.53t",
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "Distribution Manager1tizmb4u.wso",
                               "QcId": 0,
                               "QcVersionStamp": 0,
                               "Version": 200
@@ -591,9 +688,23 @@
                           }
                         ]
                       },
-                      "Description": "WHILE ({0})",
+                      "Description": "IF ({0})",
                       "CustomDescription": null,
                       "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
                       "Branch": 0,
                       "Visible": true
                     }
@@ -611,10 +722,10 @@
                   }
                 },
                 "Elements": {
-                  "check": {
+                  "textTarget": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "check",
+                      "Name": "textTarget",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -635,10 +746,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
+                          "uniqueKey": "HGnp62+oKCCQQeGCLQrByZXLEN4=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "CheckBox0",
+                          "Name": "PnlDistributeToDiv",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -649,29 +760,27 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlStudentContacts"
+                                        "Clause": "id=pnlDistributeTo"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "type=checkbox"
+                                        "Clause": "tagname=div"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[16]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]/div[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -686,11 +795,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 1,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticefxutch4b.gz2",
+            "StepImageKey": "Distribution Managerziq4tn3d.cjl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -699,120 +808,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "fc85ac6e-2b68-4162-a0cb-ba6bf4c481c5",
-            "Description": "Click 'BtnAddLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "pLFJrFsMxCfam3e/VKFgwphhLUA=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnAddLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=wndStudentContactSelector"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnAdd"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[17]/div[2]/div[1]/div[1]/div[2]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 5,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "CreateLock5Annualzxeqt05c.j03",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "22f37632-0d32-449e-a8f7-72072bd35819",
+            "Runtime ID": "780a6bb1-2264-4779-a7d9-924c5a38c5b2",
             "Description": "Verify checked value is 'False' on 'RecipientCheckBox'",
             "CustomDescription": null,
             "Step": {
@@ -925,7 +921,7 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "aad099f3-86e6-424c-98ff-892c49b40974",
+                              "Runtime ID": "e471e7fb-fc23-424a-b14e-a20c5d081057",
                               "Description": "Check 'RecipientCheckBox' to be 'True'",
                               "CustomDescription": null,
                               "Step": {
@@ -1132,11 +1128,11 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticefe0nirum.qiz",
+            "StepImageKey": "Distribution Managerybocdwuw.4aw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1145,7 +1141,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d85ee7ba-5896-4eb3-be50-3b2a32a8d129",
+            "Runtime ID": "fb32f111-2c47-43db-b3f0-bf45f077821c",
             "Description": "Check 'FirstFormCheckBox0' to be 'True'",
             "CustomDescription": null,
             "Step": {
@@ -1247,11 +1243,11 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNotice4zivmrn1.aur",
+            "StepImageKey": "Distribution Managervj11lqqp.jxt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1260,7 +1256,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ec1daa02-5636-4f62-8870-6af23f9d1f93",
+            "Runtime ID": "b3707197-80ae-4dd2-b32e-59303271332f",
             "Description": "Click 'BtnDistributeLink'",
             "CustomDescription": null,
             "Step": {
@@ -1358,11 +1354,11 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNotice4hm051wh.5jz",
+            "StepImageKey": "Distribution Managermiab5iun.kfw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1371,202 +1367,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a5421082-2cc3-4d85-90ee-73c67452722d",
-            "Description": "Handle 'Download' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DownloadDialogHandlerDescriptor",
-              "__value": {
-                "DownloadPath": "",
-                "HandlerTimeout": 25000,
-                "DialogType": 4,
-                "HandleButton": 1,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 9,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticed4x5u2xu.3lz",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a6524257-5d3e-4075-8499-0d411ec74676",
-            "Description": "Click 'BtnDistributeLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "Uo6r1fOF3YT1w5LEb5LXPouT2GU=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnDistributeLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnDistribute"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 10,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticea2qdyxfm.0ep",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "1ee9a2b2-8343-4314-a6e2-f9d80ab11f52",
-            "Description": "Handle 'Download' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DownloadDialogHandlerDescriptor",
-              "__value": {
-                "DownloadPath": "",
-                "HandlerTimeout": 25000,
-                "DialogType": 4,
-                "HandleButton": 1,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 11,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticenjumrz23.gyw",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "d7b88b6f-6ca5-4fdd-b89f-ef63e36ff916",
+            "Runtime ID": "c14fe4a4-5701-4af4-ae1c-33ae297c9d98",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -1662,11 +1463,11 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "DistributeAndLockNoticepk1yxr0n.2je",
+            "StepImageKey": "Distribution Managerdt4mhmao.pty",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1674,209 +1475,7 @@
         }
       ]
     },
-    "IndependentDescriptors": [
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "check",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-              "BaseUrl": "http://miami.acceliqc.com",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-              "CompareMode": 4,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPInitial1"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "bQNytF5LQEHtCFZYgdYs1ymicrs=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "CheckBox0",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=pnlStudentContacts"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "type=checkbox"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": [
-                        1
-                      ]
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[16]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-              "BaseUrl": "http://miami.acceliqc.com",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-              "CompareMode": 4,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPInitial1"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "rQzfRmqItssHZjSibELvx2sa1Po=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "SelectRecipTable",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=pnlDistributeTo"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagIndex=table:0"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": [
-                        1
-                      ]
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[2]/div[1]/table[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTable",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-              "BaseUrl": "http://miami.acceliqc.com",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-              "CompareMode": 4,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPInitial1"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "rQzfRmqItssHZjSibELvx2sa1Po=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "SelectRecipTable",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=pnlDistributeTo"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagIndex=table:0"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": [
-                        1
-                      ]
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[2]/div[1]/table[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTable",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      }
-    ],
+    "IndependentDescriptors": [],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -1888,9 +1487,9 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.DistributeAndLockNotice",
+    "TestClass": "PerformanceTesting.Distribution_Manager33",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\DistributeAndLockNotice.resx",
+    "ResourceFilePath": "Methods\\StandartPerformance\\Distribution Manager.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1920,13 +1519,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "DistributeAndLockNotice",
+    "Name": "Distribution Manager",
     "Owner": "",
-    "Path": "Methods\\DistributeAndLockNotice.tstest",
+    "Path": "Methods\\StandartPerformance\\Distribution Manager.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "e0e72652-72c7-4214-b49c-a7b63c3abb51",
-    "Id": "e0e72652-72c7-4214-b49c-a7b63c3abb51",
+    "UniqueId": "a4d7f793-be9c-489d-9dd0-21368543e504",
+    "Id": "a4d7f793-be9c-489d-9dd0-21368543e504",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

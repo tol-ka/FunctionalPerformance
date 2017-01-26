@@ -10,43 +10,104 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.3.928.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "88a804e2-87f5-481f-a3ee-b0c59e10fb5e",
-            "Description": "GoToPlan1",
+            "Runtime ID": "eb3a6782-a91e-4c73-95e2-029fe382469d",
+            "Description": "Click 'BtnDistributeLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                       \r\n                String address = (\"/Plan/?pt=PlanIEP\");\r\n                Console.Out.WriteLine(address); \r\n                ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
-                "Elements": {},
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Uo6r1fOF3YT1w5LEb5LXPouT2GU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BtnDistributeLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=btnDistribute"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[6]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -55,10 +116,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "GoToSPlan",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "GoToPlan4h3p2zmy.avk",
+            "StepImageKey": "Distribution Managermiab5iun.kfw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,7 +128,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3cdf67f9-43e2-4da1-85bd-6fa3d0d59c0a",
+            "Runtime ID": "d99dc267-636b-4f69-8d41-ca308e45a6d8",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -78,7 +139,7 @@
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
                 "DataBindVariableName": null,
-                "Timeout": 50000,
+                "Timeout": 120000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,
@@ -167,7 +228,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "GoToPlansla1qufs.cda",
+            "StepImageKey": "Distribution Managerdt4mhmao.pty",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -187,10 +248,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "PerformanceFunctionalTesting.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "PerformanceTesting.GoToPlan",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\StandartPerformance\\GoToPlan.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\StandartPerformance\\9ClickToDistribution.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -219,13 +280,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "GoToPlan",
+    "Name": "9ClickToDistribution",
     "Owner": "",
-    "Path": "Methods\\StandartPerformance\\GoToPlan.tstest",
+    "Path": "Methods\\StandartPerformance\\9ClickToDistribution.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "f1f0eb45-a2d5-4110-bf57-1cb421130f02",
-    "Id": "f1f0eb45-a2d5-4110-bf57-1cb421130f02",
+    "UniqueId": "bbdd2c7a-308b-47f3-9449-e1ec648e82ba",
+    "Id": "bbdd2c7a-308b-47f3-9449-e1ec648e82ba",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }

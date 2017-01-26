@@ -17,14 +17,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a70f2087-844f-42d0-a01e-ca4708b3e083",
-            "Description": "Click 'BradyRedLink'",
+            "Runtime ID": "4b16225f-fb0a-468f-84d0-9f59d5e7aa4e",
+            "Description": "Click 'DistributionSpan'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -36,9 +36,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -50,15 +48,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students",
-                          "Query": "",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - Students",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents"
+                          "FriendlyName": "AccelifyIFSPInitial1"
                         }
                       },
                       "Frame": null,
@@ -66,10 +64,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "DIU50R+DZytrKmXD+cG+wWXrq60=",
+                          "uniqueKey": "L9o2O059+K791yl49SB97zzVXOE=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BradyRedLink",
+                          "Name": "DistributionManagerLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -80,43 +78,35 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlStudentList"
+                                        "Clause": "id=pnlEventMenu"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=tr:1"
+                                        "Clause": "TagName=span"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=td:1"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagName=a"
+                                        "Clause": "TextContent=Distribution Manager"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1,
-                                    2,
-                                    3
+                                    1
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]/span[1]/a[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -135,7 +125,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "FilterFakeStudentjibikljl.udh",
+            "StepImageKey": "7GoToIEPInitialMeetinggqc5l3dl.ww1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -144,7 +134,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1e45fec5-b317-424b-a5fa-2e5e31b73490",
+            "Runtime ID": "2c5ebafe-ca3f-47b3-bdd4-895261d70eda",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -244,7 +234,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "GoToFirstFakeStudentteatce45.ilf",
+            "StepImageKey": "GoToDictributionManagerepfpi20o.as2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -253,8 +243,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "fad91501-724a-44d2-9b45-ddba8739e7a2",
-            "Description": "Wait for element 'PnlStudentTitleH4Tag' 'is' visible.",
+            "Runtime ID": "251dc360-3cf5-4a6d-8043-9f026d51dfa5",
+            "Description": "Wait for element 'PnlEventTitleH4Tag' 'is' visible.",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
@@ -287,26 +277,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - EDGAR ABADA",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyEDGARABADA"
+                          "FriendlyName": "AccelifyIFSPInitial1"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Rx9baGdRDZaq+oOjhzJnaXhCYdw=",
+                          "uniqueKey": "aPNxLzMTTK/X1Qk6ADb+iun8HcQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PnlStudentTitleH4Tag",
+                          "Name": "PnlEventTitleH4Tag",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -317,13 +307,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=h4"
+                                        "Clause": "id=pnlEventTitle"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlStudentTitle"
+                                        "Clause": "tagname=h4"
                                       }
                                     }
                                   ],
@@ -333,7 +323,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/h4[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/h4[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -356,48 +346,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "GoToFirstFakeStudentyhhsta3d.b2l",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "18bf8c60-7bdc-4aa2-8be2-87641615b159",
-            "Description": "Execute test 'TeamCreation'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "TeamCreation",
-                "TestPath": "Methods\\StandartPerformance\\TeamCreation.tstest",
-                "TestUniqueId": "4ef84b45-0b3d-4dcf-9cff-e1a642b4a27d",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 4,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "GoToFirstFakeStudentjnv2tg41.rlb",
+            "StepImageKey": "GoToDictributionManagerzr44y3hq.vyv",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -419,7 +368,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\StandartPerformance\\GoToFirstFakeStudent.resx",
+    "ResourceFilePath": "Methods\\StandartPerformance\\8GoToDictributionManager.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -449,13 +398,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "GoToFirstFakeStudent",
+    "Name": "8GoToDictributionManager",
     "Owner": "",
-    "Path": "Methods\\StandartPerformance\\GoToFirstFakeStudent.tstest",
+    "Path": "Methods\\StandartPerformance\\8GoToDictributionManager.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "b1057161-55c0-49b9-bc58-e1f08eb24bb9",
-    "Id": "b1057161-55c0-49b9-bc58-e1f08eb24bb9",
+    "UniqueId": "7a3fe71d-bec4-4afe-a434-31358fa68d02",
+    "Id": "7a3fe71d-bec4-4afe-a434-31358fa68d02",
     "ProjectId": "6f0c015b-5092-4985-9e2f-ffffda32d9a0",
     "Version": 200
   }
