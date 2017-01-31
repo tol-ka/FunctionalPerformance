@@ -166,7 +166,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "https://dade.acceliplan.com",
+    "RecorderBaseUrl": "https://dade-pilot.acceliplan.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
