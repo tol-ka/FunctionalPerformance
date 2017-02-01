@@ -52,7 +52,7 @@ namespace PerformanceTesting
  var testname = Data["formname"].ToString();    
             var filetestname = string.Format("Methods\\{0}_Action.tstest", testname);
             this.ExecuteTest(filetestname);
-             Pages.AccelifyStudents0.Get<ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv>(new ArtOfTest.WebAii.Core.HtmlFindExpression("tagname=div", "TextContent=^Loading"), false, 0).Wait.ForExistsNot(30000);
+             Pages.AccelifyStudents0.Get<ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv>(new ArtOfTest.WebAii.Core.HtmlFindExpression("tagname=div", "TextContent=^Loading"), false, 0).Wait.ForExistsNot(120000);
 watch.Stop();
             var time = watch.Elapsed.TotalSeconds;
             var result = Math.Round(time, 1, MidpointRounding.AwayFromZero);

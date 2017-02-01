@@ -57,7 +57,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "66258ec4-484a-4b4f-8a82-f0031c8c0814",
+            "Runtime ID": "95e09a5e-3001-4162-8206-1b629e0167cb",
             "Description": "Verify Exists 'GeneralFormName'",
             "CustomDescription": null,
             "Step": {
@@ -526,7 +526,7 @@
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
                 "DataBindVariableName": null,
-                "Timeout": 30000,
+                "Timeout": 120000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,
@@ -633,7 +633,7 @@
                 "IsVisible": true,
                 "UseBackupSearch": true,
                 "DataBindVariableName": null,
-                "Timeout": 30000,
+                "Timeout": 20000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,

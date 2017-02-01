@@ -1031,6 +1031,46 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "664025c8-5da8-48dd-b7df-b8f80b052dac",
+            "Description": "Close Excel",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            var excelprocesses = Process.GetProcesses().\r\n                                 Where(pr => pr.ProcessName == \"excel.exe\");\r\n\r\nforeach (var process in excelprocesses)\r\n{\r\n     process.Kill();\r\n}\r\n           ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 17,
+            "Id": "UnivTest_CloseExcelProc",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "UnivTesti3m5oz3i.0hn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "2be3091d-630b-48ac-adbc-4b809e02d293",
             "Description": "Start Checking Forms",
             "CustomDescription": null,
@@ -1058,7 +1098,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 18,
             "Id": "startForms",
             "StepState": 1,
             "ContinueOnFailure": true,
@@ -1098,7 +1138,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 19,
             "Id": "UnivTest_CloseExcelProc",
             "StepState": 1,
             "ContinueOnFailure": true,
