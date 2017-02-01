@@ -53,7 +53,9 @@ namespace PerformanceTesting
              var watch = System.Diagnostics.Stopwatch.StartNew();
 this.ExecuteTest("verify\\Open_Form.tstest");
 watch.Stop();
-Utility.opentime = watch.ElapsedMilliseconds;
+            var time = watch.Elapsed.TotalSeconds;
+            var result = Math.Round(time, 1, MidpointRounding.AwayFromZero);
+Utility.opentime = result;
             
         }
     }

@@ -54,7 +54,9 @@ namespace PerformanceTesting
             this.ExecuteTest(filetestname);
              Pages.AccelifyStudents0.Get<ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv>(new ArtOfTest.WebAii.Core.HtmlFindExpression("tagname=div", "TextContent=^Loading"), false, 0).Wait.ForExistsNot(30000);
 watch.Stop();
-Utility.savetime = watch.ElapsedMilliseconds;
+            var time = watch.Elapsed.TotalSeconds;
+            var result = Math.Round(time, 1, MidpointRounding.AwayFromZero);
+Utility.savetime = result;
             this.ExecuteTest("verify\\WriteToExcel.tstest");
             Utility.row = Utility.row + 1;
            // Utility.row = Data.IterationIndex + 2;

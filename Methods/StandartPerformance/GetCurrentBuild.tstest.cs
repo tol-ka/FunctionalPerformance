@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace PerformanceTesting
 {
 
-    public class SaveFormAndCount : BaseWebAiiTest
+    public class GetCurrentBuild : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -45,19 +45,16 @@ namespace PerformanceTesting
         #endregion
         
         // Add your test methods here...
-    
-         [CodedStep(@"Save Form And Count")]
-        public void SaveForm_Count()
+     [CodedStep(@"SaveCurrentBuild")]
+        public void SaveCurrentBuild1()
         {
-             var watch = System.Diagnostics.Stopwatch.StartNew();
-this.ExecuteTest("verify\\Save_Form.tstest");
-watch.Stop();
-            var time = watch.Elapsed.TotalSeconds;
-            var result = Math.Round(time, 1, MidpointRounding.AwayFromZero);
-Utility.savetime = result;
-            this.ExecuteTest("verify\\WriteToExcel.tstest");
-            Utility.row = Utility.row + 1;
-           // Utility.row = Data.IterationIndex + 2;
-    }
+                                                object myData = GetExtractedValue("currentBuild");
+                        var _build = myData.ToString();
+                        //removing all but numbers in build
+                       // String build = Regex.Replace(_build, @"\D+", String.Empty);
+                        String build = new String(_build.Where(Char.IsDigit).ToArray());
+                                                Utility.currentBuild = build;
+        }
+        
     }
 }

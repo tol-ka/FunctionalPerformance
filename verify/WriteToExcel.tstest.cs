@@ -72,7 +72,7 @@ ActiveBrowser.RefreshDomTree();
               Console.Out.WriteLine("______Func Comment is:  " + Utility.func_comment);
             Log.WriteLine("______Func Comment is:  " + Utility.func_comment);
     xlWorksheet.Cells[row , column] = Utility.opentime;
-            if (Utility.opentime > 12000) {
+            if (Utility.opentime > 7) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
         
             if (Utility.saveflag == "normal")
@@ -80,7 +80,7 @@ ActiveBrowser.RefreshDomTree();
                 column = 3;
     xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
      xlWorksheet.Cells[row , column] = Utility.savetime;
-            if (Utility.savetime > 15000) {
+            if (Utility.savetime > 10) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
 column = 5;  
              xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
@@ -107,7 +107,7 @@ column = 5;
                   column = 3;
     xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
      xlWorksheet.Cells[row , column] = Utility.savetime;
-            if (Utility.savetime > 15000) {
+            if (Utility.savetime > 10) {
    xlRange.Interior.Color = Excel.XlRgbColor.rgbRed; }
                  column = 4;
              xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];

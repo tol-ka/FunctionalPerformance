@@ -102,11 +102,14 @@ excelApp.Quit();
 GC.Collect();
 System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);}            
         
-        [CodedStep(@"New Coded Step")]
+        [CodedStep(@"WriteToExcelPerf")]
         public void WriteToExcelPerformance_CodedStep1()
         {
-string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\domainResults.xlsx";
-string myPath = "C:\\domainResults.xlsx";
+string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformData.xlsx";
+var todayDate = DateTime.Now.ToString("MMDD"); 
+            var todayDatetime = DateTime.Now.ToString("yyyy-MM-dd HH:mm"); 
+            var filename = todayDate+@"PerformData.xlsx";
+            string myPath = @"C:\\MatrixTestReport\\"+filename;
 
 if (!System.IO.File.Exists(myPath))
 {
@@ -119,15 +122,28 @@ Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPat
 System.Threading.Thread.Sleep(1000);
 ActiveBrowser.RefreshDomTree();
 
-if (ActiveBrowser.ContainsText("already been registered"))
-{
-    excelApp.Cells[Data.IterationIndex + 2 , 1] = "Registered";
-}
-if (ActiveBrowser.ContainsText("is still available"))
-{
-    excelApp.Cells[Data.IterationIndex + 2 , 1] = "Available";
-}
+            excelApp.Cells[Utility.row , 3] = todayDate;
+            excelApp.Cells[Utility.row , 4] = Utility.currentBuild;
+            excelApp.Cells[Utility.row , 5] = Utility.currentDomain;
+            excelApp.Cells[Utility.row , 6] = Utility.perfData[0];
+            excelApp.Cells[Utility.row , 7] = Utility.perfData[1];
+            excelApp.Cells[Utility.row , 8] = Utility.perfData[2];
+            excelApp.Cells[Utility.row , 9] = Utility.perfData[3];
+            excelApp.Cells[Utility.row , 10] = Utility.perfData[4];
+            excelApp.Cells[Utility.row , 11] = Utility.perfData[5];
+            excelApp.Cells[Utility.row , 12] = Utility.perfData[6];
+            excelApp.Cells[Utility.row , 13] = Utility.perfData[7];
+            excelApp.Cells[Utility.row , 14] = Utility.perfData[8];
+            excelApp.Cells[Utility.row , 15] = Utility.perfData[9];
+            excelApp.Cells[Utility.row , 16] = Utility.perfData[10];
+            excelApp.Cells[Utility.row , 17] = Utility.perfData[11];
+           
 
+ Utility.func_comment = "";
+  Utility.error_flag = false;           
+  Utility.saveflag = "normal";
+Utility.perfData.Clear();
+Utility.row ++;
 excelApp.Visible = true;
 excelApp.ActiveWorkbook.Save();
 

@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"verify\\\\Save_Form.tstest\");\r\nwatch.Stop();\r\nUtility.savetime = watch.ElapsedMilliseconds;\r\n            this.ExecuteTest(\"verify\\\\WriteToExcel.tstest\");\r\n            Utility.row = Utility.row + 1;\r\n           // Utility.row = Data.IterationIndex + 2;",
+                "Code": "             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"verify\\\\Save_Form.tstest\");\r\nwatch.Stop();\r\n            var time = watch.Elapsed.TotalSeconds;\r\n            var result = Math.Round(time, 1, MidpointRounding.AwayFromZero);\r\nUtility.savetime = result;\r\n            this.ExecuteTest(\"verify\\\\WriteToExcel.tstest\");\r\n            Utility.row = Utility.row + 1;\r\n           // Utility.row = Data.IterationIndex + 2;",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

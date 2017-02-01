@@ -93,6 +93,10 @@ namespace PerformanceTesting
              else if(Utility.plan == @"IEP" && Utility.eventType == @"Interim"){
                 Utility.sheetIndex = 3;
             }
+             
+              else if(Utility.plan == @"IEP" && Utility.eventType == @"Reconvened"){
+                Utility.sheetIndex = 4;
+            }
              else if(Utility.plan == @"504" && Utility.eventType == @"Initial"){
                 Utility.sheetIndex = 1;
             }

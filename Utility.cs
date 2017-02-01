@@ -27,8 +27,8 @@ namespace PerformanceTesting
         public static String datasource = "";
         public static int column = 1;
         public static int row = 2;
-        public static long opentime = 000;
-        public static long savetime = 000;
+        public static double opentime = 0;
+        public static double savetime = 0;
         //may be normal, nosaveNoOther, nosaveButOther
         public static String saveflag = "normal";
         public static String comment = "save";

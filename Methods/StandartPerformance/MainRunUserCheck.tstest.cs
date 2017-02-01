@@ -53,7 +53,7 @@ namespace PerformanceTesting
             Log.WriteLine("______results are:  " + Utility.func_comment);
               System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\\MatrixTestReport\\report.txt");
            
-            file.WriteLine("");
+            file.WriteLine("Current build is:  "+ Utility.currentBuild+ " | " + Utility.func_comment);
             file.WriteLine("-----------------"); 
         }
     }
