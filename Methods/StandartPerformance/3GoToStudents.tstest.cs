@@ -50,7 +50,50 @@ namespace PerformanceTesting
         public void GoToStu()
         {
                                     String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();
-                                   
+                          if ((bbaseUrl.Contains("dade.acceliqc.com")))
+                {
+                    Utility.currentDomain = "qc";
+                    
+                }
+                else if (bbaseUrl.Contains("miami-demo.accelidemo.com"))
+                {
+                    Utility.currentDomain = "demo";
+                    
+                   
+                }
+                else if (bbaseUrl.Contains("dade-pilot.acceliplan.com"))
+                {
+                    Utility.currentDomain = "pilot";
+                    
+                   
+                }
+                
+                 else if (bbaseUrl.Contains("dade-training.acceliplan.com"))
+                {
+                    Utility.currentDomain = "training";
+                    
+                   
+                }
+                  else if (bbaseUrl.Contains("dadematrix.acceliplan.com"))
+                {
+                    Utility.currentDomain = "dade_matrix";
+                    
+                   
+                }
+                
+                else if (bbaseUrl.Contains("daderesearch.acceliplan.com"))
+                {
+                    Utility.currentDomain = "research";
+                    
+                   
+                }
+                
+                 else if (bbaseUrl.Contains("dade.acceliplan.com"))
+                {
+                    Utility.currentDomain = "prod";
+                    
+                   
+                }           
                             String address = ("/Plan/Students");
                             Console.Out.WriteLine(address); 
                             ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);

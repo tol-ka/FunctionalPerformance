@@ -28,12 +28,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6e478061-2567-4a2c-b77b-fba2cc16e10d",
-            "Description": "Enter text 'Fakeac9' in 'UniqueIdText'",
+            "Description": "Enter text '' in 'UniqueIdText' - DataDriven: [$(Student)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "Fakeac9",
+                "RawText": "",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -134,7 +134,9 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(Student)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
@@ -766,7 +768,7 @@
     "DeploymentItems": [],
     "IsTestFragment": false,
     "StopTestListOnFailure": false,
-    "InheritParentDataSource": false,
+    "InheritParentDataSource": true,
     "BrowserType": 0,
     "QcId": 0,
     "QcFilePath": null,

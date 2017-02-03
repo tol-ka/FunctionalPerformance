@@ -46,69 +46,18 @@ namespace PerformanceTesting
         
         // Add your test methods here...
     
-        [CodedStep(@"New Coded Step")]
-        public void WriteToExcelPerformance_CodedStep()
-        {
-var todayDate = DateTime.Now.ToString("MMDD"); 
-
-String myPath = Utility.filepath;
-
-
-var buildnum = Utility.currentBuild;
-//var row = Utility.row;
-//var row = Data.IterationIndex + 2;
-//var column = 2; 
-var sheetName = Utility.plan+"_"+Utility.eventType+"_"+buildnum+"_"+Utility.currentDomain; 
-Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
-Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(@"C:\\MatrixTestReport\\PerformData.xlsx");
-Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[0];
-//Microsoft.Office.Interop.Excel.Range xlRange = (Microsoft.Office.Interop.Excel.Range)xlWorksheet.Cells[row , column];
-
-
-
-System.Threading.Thread.Sleep(1000);
-ActiveBrowser.RefreshDomTree();
- Utility.func_comment = string.Join("\t", Utility.perfData);
-              Console.Out.WriteLine("______results are:  " + Utility.func_comment);
-            Log.WriteLine("______results are:  " + Utility.func_comment);
-    xlWorksheet.Cells[2 , 6] = Utility.perfData[0];
-            xlWorksheet.Cells[2 , 7] = Utility.perfData[1];
-            xlWorksheet.Cells[2 , 8] = Utility.perfData[2];
-            xlWorksheet.Cells[2 , 9] = Utility.perfData[3];
-            xlWorksheet.Cells[2 , 10] = Utility.perfData[4];
-            xlWorksheet.Cells[2 , 11] = Utility.perfData[5];
-            xlWorksheet.Cells[2 , 12] = Utility.perfData[6];
-            xlWorksheet.Cells[2 , 13] = Utility.perfData[7];
-            xlWorksheet.Cells[2 , 14] = Utility.perfData[8];
-            xlWorksheet.Cells[2 , 15] = Utility.perfData[9];
-            xlWorksheet.Cells[2 , 16] = Utility.perfData[10];
-            xlWorksheet.Cells[2 , 17] = Utility.perfData[11];
-           
-
- Utility.func_comment = "";
-  Utility.error_flag = false;           
-  Utility.saveflag = "normal";
-Utility.perfData.Clear();
-
-
-excelApp.Visible = true;
-excelApp.ActiveWorkbook.Save();
-
-workbook.Close(false, Type.Missing, Type.Missing);
-excelApp.Workbooks.Close();
-System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
-
-excelApp.Quit();
-GC.Collect();
-System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);}            
+             
         
         [CodedStep(@"WriteToExcelPerf")]
         public void WriteToExcelPerformance_CodedStep1()
         {
-string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformData.xlsx";
+string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformData.xls";
 var todayDate = DateTime.Now.ToString("MMDD"); 
-            var todayDatetime = DateTime.Now.ToString("yyyy-MM-dd HH:mm"); 
-            var filename = todayDate+@"PerformData.xlsx";
+            var timeToConvert = DateTime.Now;             
+var est = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
+var todayDatetime1 = TimeZoneInfo.ConvertTime(timeToConvert, est);
+            var todayDatetime = todayDatetime1.ToString("yyyy-MM-dd hh:mm tt");
+            var filename = todayDate+@"PerformData.xls";
             string myPath = @"C:\\MatrixTestReport\\"+filename;
 
 if (!System.IO.File.Exists(myPath))
@@ -122,39 +71,48 @@ Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPat
 System.Threading.Thread.Sleep(1000);
 ActiveBrowser.RefreshDomTree();
 
-            excelApp.Cells[Utility.row , 3] = todayDate;
-            excelApp.Cells[Utility.row , 4] = Utility.currentBuild;
-            excelApp.Cells[Utility.row , 5] = Utility.currentDomain;
-            excelApp.Cells[Utility.row , 6] = Utility.perfData[0];
-            excelApp.Cells[Utility.row , 7] = Utility.perfData[1];
-            excelApp.Cells[Utility.row , 8] = Utility.perfData[2];
-            excelApp.Cells[Utility.row , 9] = Utility.perfData[3];
-            excelApp.Cells[Utility.row , 10] = Utility.perfData[4];
-            excelApp.Cells[Utility.row , 11] = Utility.perfData[5];
-            excelApp.Cells[Utility.row , 12] = Utility.perfData[6];
-            excelApp.Cells[Utility.row , 13] = Utility.perfData[7];
-            excelApp.Cells[Utility.row , 14] = Utility.perfData[8];
-            excelApp.Cells[Utility.row , 15] = Utility.perfData[9];
-            excelApp.Cells[Utility.row , 16] = Utility.perfData[10];
-            excelApp.Cells[Utility.row , 17] = Utility.perfData[11];
+Utility.row = Convert.ToInt32(Data["Row1"]);
+
+            excelApp.Cells[Utility.row , 2] = Data["Student"].ToString();
+            excelApp.Cells[Utility.row , 4] = todayDatetime;
+            excelApp.Cells[Utility.row , 6] = Utility.currentBuild;
+            excelApp.Cells[Utility.row , 7] = Utility.perfData[0];
+            excelApp.Cells[Utility.row , 8] = Utility.perfData[1];
+            excelApp.Cells[Utility.row , 9] = Utility.perfData[2];
+            excelApp.Cells[Utility.row , 10] = Utility.perfData[3];
+            excelApp.Cells[Utility.row , 11] = Utility.perfData[4];
+            excelApp.Cells[Utility.row , 12] = Utility.perfData[5];
+            excelApp.Cells[Utility.row , 13] = Utility.perfData[6];
+            excelApp.Cells[Utility.row , 14] = Utility.perfData[7];
+            excelApp.Cells[Utility.row , 15] = Utility.perfData[8];
+            excelApp.Cells[Utility.row , 16] = Utility.perfData[9];
+            excelApp.Cells[Utility.row , 17] = Utility.perfData[10];
+            
            
 
  Utility.func_comment = "";
   Utility.error_flag = false;           
   Utility.saveflag = "normal";
 Utility.perfData.Clear();
-Utility.row ++;
+//Utility.row ++;
 excelApp.Visible = true;
 excelApp.ActiveWorkbook.Save();
 
 workbook.Close(false, Type.Missing, Type.Missing);
 excelApp.Workbooks.Close();
 System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+workbook = null;
 
 excelApp.Quit();
+
 GC.Collect();
-System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);            
+System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);       
+excelApp = null;
+GC.Collect();
+        GC.WaitForPendingFinalizers();
         }
+        
+        
     }
     
 }

@@ -50,42 +50,7 @@ namespace PerformanceTesting
         {
          Utility.plan = @"IEP";
         }
-        [CodedStep(@"CreateNewSheet")]
-        public void CreateNewSheet()
-        {
-             var todayDate = DateTime.Now.ToString("MMDD"); 
-string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataIEP.xls";
-            var buildnum = Utility.currentBuild;
-var filename = todayDate+"_PerformanceTestData1007.xls";
-String myPath = "C:\\MatrixTestReport\\"+filename;
-            Utility.filepath = myPath;
-var column = Utility.column;
-var row = Utility.row;            
-if (!System.IO.File.Exists(myPath))
-{
-    System.IO.File.Copy(dataSourcePath, myPath);
-}
-
-            
-        todayDate = DateTime.Now.ToString("MMdd");
- var sheetName = buildnum+"_"+Utility.currentDomain+"_"+todayDate;           
-Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
-Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
-workbook.Sheets.Copy(Before: workbook.Sheets[1]); 
-Microsoft.Office.Interop.Excel._Worksheet xlWorksheet =  (Microsoft.Office.Interop.Excel.Worksheet)workbook.Sheets[1];
-xlWorksheet.Name = sheetName;
-            
-excelApp.Visible = true;
-excelApp.ActiveWorkbook.Save();
-
-workbook.Close(false, Type.Missing, Type.Missing);
-excelApp.Workbooks.Close();
-System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
-
-excelApp.Quit();
-GC.Collect();
-System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-        }
+        
     
         [CodedStep(@"SaveCurrentBuild")]
         public void SaveCurrentBuild1()

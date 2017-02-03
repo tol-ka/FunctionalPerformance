@@ -19,7 +19,7 @@ using System.Diagnostics;
 namespace PerformanceTesting
 {
 
-    public class MainRunUserCheck : BaseWebAiiTest
+    public class MainRunUserCheckQC : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 

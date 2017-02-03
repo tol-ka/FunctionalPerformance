@@ -108,12 +108,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2f0a4154-96d9-4c45-a3e9-2a9d716c83a6",
-            "Description": "Enter text 'FAKEUSER9' in 'UserNameField'",
+            "Description": "Enter text '' in 'UserNameField' - DataDriven: [$(Username)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "FAKEUSER9",
+                "RawText": "",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -212,7 +212,9 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(Username)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
@@ -232,12 +234,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "66fd5444-198b-46ef-ba52-c6e93591f7e2",
-            "Description": "Enter text 'MiamiDade9' in 'PasswordField'",
+            "Description": "Enter text '' in 'PasswordField' - DataDriven: [$(Password)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "MiamiDade9",
+                "RawText": "",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -336,7 +338,9 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
+                "DataBindingExpressions": {
+                  "Text": "$(Password)"
+                },
                 "_canEncrypt": false,
                 "_cipher": null
               }
@@ -609,7 +613,7 @@
     "DeploymentItems": [],
     "IsTestFragment": false,
     "StopTestListOnFailure": false,
-    "InheritParentDataSource": false,
+    "InheritParentDataSource": true,
     "BrowserType": 0,
     "QcId": 0,
     "QcFilePath": null,

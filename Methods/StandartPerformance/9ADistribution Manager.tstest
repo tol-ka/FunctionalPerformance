@@ -17,7 +17,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "31e09b56-3d2a-4e0f-bf51-e45de305c957",
+            "Runtime ID": "f5a97835-07da-424b-8dfd-1ddedf715725",
             "Description": "Verify 'InnerText' 'NotContain' 'Aunt' on 'PnlDistributeToDiv'",
             "CustomDescription": null,
             "Step": {
@@ -28,7 +28,7 @@
                   "__value": {
                     "CompareType": 3,
                     "SegmentType": 0,
-                    "ExpectedString": "Father",
+                    "ExpectedString": "Father || Mother",
                     "UseBackupSearch": true,
                     "DataBindVariableName": null,
                     "Timeout": 30000,
@@ -227,7 +227,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 1,
                               "Id": "",
                               "StepState": 0,
@@ -455,7 +455,7 @@
                                                     "DataBindingExpressions": {}
                                                   }
                                                 },
-                                                "Enabled": true,
+                                                "Enabled": false,
                                                 "Order": 1,
                                                 "Id": "",
                                                 "StepState": 0,
@@ -562,7 +562,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 2,
                               "Id": "",
                               "StepState": 0,
@@ -675,7 +675,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 3,
                               "Id": "",
                               "StepState": 0,
@@ -794,7 +794,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 1,
             "Id": "",
             "StepState": 0,
