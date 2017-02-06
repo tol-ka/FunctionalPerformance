@@ -50,6 +50,7 @@ namespace PerformanceTesting
         public void SetPlantoIFSP()
         {
                      Utility.plan = @"IFSP";
+            Utility.row = 2;
         }
     
         [CodedStep(@"SaveCurrentBuild")]

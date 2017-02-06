@@ -49,6 +49,7 @@ namespace PerformanceTesting
         public void SetPlantoPSSP()
         {
          Utility.plan = @"PSSP";
+            Utility.row = 2;
         }
         [CodedStep(@"CreateNewSheet")]
         public void CreateNewSheet()

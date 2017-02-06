@@ -33,7 +33,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "         Utility.plan = @\"IEP\";",
+                "Code": "         Utility.plan = @\"IEP\";\r\n            Utility.row = 2;",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

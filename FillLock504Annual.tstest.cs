@@ -51,6 +51,7 @@ namespace PerformanceTesting
         {
             Utility.plan = @"504";
 SetExtractedValue("CurrentPlan", Utility.plan);
+            Utility.row = 2;
         }
     
         [CodedStep(@"Set event Name")]

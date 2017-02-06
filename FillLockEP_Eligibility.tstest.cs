@@ -50,6 +50,7 @@ namespace PerformanceTesting
         public void SetPlantoEP()
         {
                      Utility.plan = @"EP";
+            Utility.row = 2;
         }
     
         [CodedStep(@"SaveCurrentBuild")]

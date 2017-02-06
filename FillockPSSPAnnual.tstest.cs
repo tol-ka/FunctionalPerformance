@@ -50,6 +50,7 @@ namespace PerformanceTesting
         public void SetPlantoPSSP()
         {
                      Utility.plan = @"PSSP";
+            Utility.row = 2;
         }
     
         [CodedStep(@"Set event Name")]

@@ -49,6 +49,7 @@ namespace PerformanceTesting
         public void SetPlantoIEP()
         {
          Utility.plan = @"IEP";
+            Utility.row = 2;
         }
         [CodedStep(@"CreateNewSheet")]
         public void CreateNewSheet()

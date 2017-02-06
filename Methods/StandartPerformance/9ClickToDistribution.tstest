@@ -139,7 +139,7 @@
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
                 "DataBindVariableName": null,
-                "Timeout": 120000,
+                "Timeout": 180000,
                 "CheckInterval": 500,
                 "EnsureStateIsCurrent": false,
                 "Pause": 0,
