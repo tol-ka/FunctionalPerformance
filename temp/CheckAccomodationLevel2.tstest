@@ -1476,7 +1476,7 @@
                                   "WaitOnElementsTimeout": 0,
                                   "UseStepWaitOnElementsTimout": false,
                                   "WaitOnElements": false,
-                                  "TestName": "WriteToExcel.tstest",
+                                  "TestName": "WriteToExcel",
                                   "TestPath": "verify\\WriteToExcel.tstest",
                                   "TestUniqueId": "017eff8a-0e51-4279-ab24-e45050175e08",
                                   "Pause": 0,

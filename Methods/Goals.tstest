@@ -36,7 +36,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "_Create5Goals.tstest",
+                "TestName": "_Create5Goals",
                 "TestPath": "Methods\\MethodsToPlans\\_Create5Goals.tstest",
                 "TestUniqueId": "a9137f36-ad23-43e1-b5ce-7670f71d14ea",
                 "Pause": 0,

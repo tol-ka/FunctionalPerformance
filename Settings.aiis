@@ -166,7 +166,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "https://dade-pilot.acceliplan.com",
+    "RecorderBaseUrl": "http://dade.acceliqc.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
@@ -223,7 +223,7 @@
     ],
     "ScheduleServerUrl": "http://volf:8009/",
     "IsScheduleServerRemote": true,
-    "ProjectVersion": "2016.3.919.0",
+    "ProjectVersion": "2017.1.116.0",
     "Namespace": "PerformanceTesting",
     "AssemblyName": "PerformanceFunctionalTesting",
     "OutputFolder": "bin",

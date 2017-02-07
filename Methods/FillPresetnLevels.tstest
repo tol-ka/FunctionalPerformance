@@ -540,7 +540,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Communication.tstest",
+                "TestName": "Communication",
                 "TestPath": "Methods\\Communication.tstest",
                 "TestUniqueId": "c4618b26-a3e0-4182-96dd-0fbc9f426ab1",
                 "Pause": 0,
