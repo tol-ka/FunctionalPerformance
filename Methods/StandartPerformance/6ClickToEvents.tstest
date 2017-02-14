@@ -262,7 +262,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b445d17f-f4a4-4962-bf65-d982babfc67f",
-            "Description": "Click 'ListItem0'",
+            "Description": "Click 'ListItem00'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -308,10 +308,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "VZt7L4sElnjIIE/NztvxTG6bl48=",
+                          "uniqueKey": "yubq466ktC6Ou5eJUre1OhRZ388=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ListItem0",
+                          "Name": "ListItem00",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -322,37 +322,37 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "data-role=menu"
+                                        "Clause": "id=pnlStudentMiamiIepMenu"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=1"
+                                        "Clause": "TagName=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagName=li"
+                                        "Clause": "href=~studentViewType=Events"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=li:1"
+                                        "Clause": "TextContent=Events"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    2
+                                    1
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -370,7 +370,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
+            "Enabled": true,
             "Order": 3,
             "Id": "",
             "StepState": 0,
@@ -490,7 +490,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 4,
             "Id": "",
             "StepState": 0,
