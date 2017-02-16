@@ -87,6 +87,10 @@ Utility.row = Convert.ToInt32(Data["Row1"]);
             excelApp.Cells[Utility.row , 15] = Utility.perfData[8];
             excelApp.Cells[Utility.row , 16] = Utility.perfData[9];
             excelApp.Cells[Utility.row , 17] = Utility.perfData[10];
+            excelApp.Cells[Utility.row , 18] = Utility.perfData[11];
+            excelApp.Cells[Utility.row , 19] = Utility.perfData[12];
+            excelApp.Cells[Utility.row , 20] = Utility.perfData[13];
+            excelApp.Cells[Utility.row , 21] = Utility.perfData[14];
             
            
 
